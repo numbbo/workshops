@@ -4,12 +4,12 @@ GECCO Workshop on Real-Parameter Black-Box Optimization Benchmarking (BBOB 2016)
 ==========================================================================================================================
 
 
-Welcome to the web page of the upcoming Workshop on Real-Parameter Black-Box Optimization Benchmarking (BBOB 2016)
-with focus on multi-objective problems with two objective functions which is going to take place during GECCO 2016.
+Welcome to the web page of the 6th GECCO Workshop on Real-Parameter Black-Box Optimization Benchmarking (BBOB 2016)
+with focus on multi-objective problems with two objective functions which took place during GECCO 2016.
 
     **WORKSHOP ON REAL-PARAMETER BLACK-BOX OPTIMIZATION BENCHMARKING (BBOB 2016) - with a new focus on multi-objective problems**
 
-    | to be held as part of the
+    | hold as part of the
     |
     | **2016 Genetic and Evolutionary Computation Conference (GECCO-2016)**
     | July 20-24, Denver, CO, USA
@@ -31,30 +31,32 @@ platform has provided tools to ease this process for *single-objective
 problems* by: (1) an implemented, well-motivated benchmark function
 testbed, (2) a simple and sound experimental set-up, (3) the generation
 of output data and (4) the post-processing and presentation of the
-results in graphs and tables. For the first time, this year, we provide
+results in graphs and tables. For the first time, this year, we provide(d)
 an extension of the Coco platform towards a *multi-objective testbed*
 (with two objective functions) and with nearly the same procedure as in
 previous BBOB workshops.
 
-The remaining tasks for participants are therefore: run your favorite
+The remaining tasks for participants were therefore: run your favorite
 multi-objective black-box optimizer (old or new) by using the wrappers
 provided and run the post-processing procedure (provided as well) that
 will generate automatically all the material for a workshop paper
 (LaTeX templates are provided). A description of the algorithm and the
 discussion of the results completes the paper writing.
 
-We encourage particularly submissions related to multi-objective algorithms
+We encourage(d) particularly submissions related to multi-objective algorithms
 for *expensive optimization* (with a limited budget) and also *algorithms
 from outside the evolutionary computation community*. Please note that
 submissions related to the existing *single-objective BBOB testbeds*
-(noiseless and noisy) are still welcome although the focus will be on
+(noiseless and noisy) were still welcome although the focus was on
 the new bi-objective testbed.
 
-During the workshop, algorithms and results will be presented by
-the participants. An overall analysis and comparison will be
-accomplished by the organizers and the overall process will be
-critically reviewed. A plenary discussion on future improvements will,
-among others, address the question, of how the testbeds should evolve.
+During the workshop, algorithms and results were presented by
+the participants. An overall analysis and comparison was
+accomplished by the organizers and the overall process was
+critically reviewed.
+
+.. A plenary discussion on future improvements will,
+   among others, address the question, of how the testbeds should evolve.
 
 
 Updates and News
@@ -88,7 +90,7 @@ being if you want to compare your algorithm on the noisy testbed.
 Submissions
 -----------
 Submissions of benchmarking results of new or existing numerical optimization algorithms in terms
-of bi-objective or single-objective optimization are welcome and should be done through the
+of bi-objective or single-objective optimization were welcome and should have been done through the
 following form at http://numbbo.github.io/submit.
 
 Eventually, the following papers have been accepted:
