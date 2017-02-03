@@ -72,7 +72,7 @@ critically reviewed.
 Updates and News
 ----------------
 Get updated about the latest news regarding the workshop and
-releases and bugfixes of the supporting NumBBO/Coco plateform, by
+releases and bugfixes of the supporting NumBBO/Coco platform, by
 registering at http://numbbo.github.io/register.
 
 
@@ -89,7 +89,7 @@ The latest (hopefully) stable release of the Coco software can be downloaded as 
 `here <https://github.com/numbbo/coco/releases/>`_. Please use at least version v2.0 for
 running your benchmarking experiments.
 
-Documentation of the functions used in the ``bbob-biobj`` and ``bbob-bobj-ext`` suites 
+Documentation of the functions used in the ``bbob-biobj`` and ``bbob-biobj-ext`` suites 
 for BBOB 2017 are provided at http://numbbo.github.io/coco-doc/bbob-biobj/functions/ .
 
 Note that the current release of the new Coco platform does not contain the original noisy BBOB testbed,
