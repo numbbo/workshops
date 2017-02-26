@@ -28,19 +28,20 @@ with a continued focus on bi-objective problems and which will take place during
 Quantifying and comparing the performance of optimization algorithms
 is a difficult and tedious task to achieve. The Coco
 platform provides tools to ease this process for *single-objective*
-noiseless and noisy problems and for *bi-objective* noiseless problems
-by: (1) an implemented, well-motivated benchmark function
-testbed, (2) a simple and sound experimental set-up, (3) the generation
-of output data and (4) the post-processing and presentation of the
-results in graphs and tables.
+noiseless and noisy problems and for *bi-objective* noiseless
+problems by: (1) an implemented, well-motivated benchmark function
+testbed, (2) a simple and sound experimental set-up, (3) the 
+generation of output data and (4) the post-processing and presentation
+of the results in graphs and tables.
 
-In 2017, we provide a new extension of the 2016 bi-objective test suite
-to 92 problems overall---addressing certain issues raised at last year's
-BBOB workshop---and continue to support all previously known ones.
-Overall, we now provide the following test suites:
+
+In 2017, we provide a new extension of the 2016 bi-objective test
+suite to 92 problems overall---addressing certain issues raised at
+last year's BBOB workshop---and continue to support all previously
+known ones. Overall, we now provide the following test suites:
 
 * ``bbob`` containing 24 noiseless functions,
-* ``bbob-noisy`` containing 30 noisy functions,
+* ``bbob-noisy`` containing 30 noisy functions [^1],
 * ``bbob-biobj`` containing 55 noiseless, bi-objective functions, and
 * ``bbob-biobj-ext`` containing 92 noiseless, bi-objective functions
 
@@ -60,10 +61,15 @@ from outside the evolutionary computation community*. Submissions related to
 the previously available ``bbob``, ``bbob-noisy``, and ``bbob-biobj`` testbeds
 are more than welcome.
 
-During the workshop, algorithms and results will be presented by
-the participants. An overall analysis and comparison is going to be
-accomplished by the organizers and the overall process will be
-critically reviewed.
+Please note that any other submission, related to black-box
+optimization benchmarking of continuous optimizers will be welcome
+as well. The submission section below gives a few examples of 
+subjects of interest.
+
+During the workshop, algorithms, results, and discussions will be presented by
+the participants. An overall analysis and comparison of all submitted
+algorithm data is going to be accomplished by the organizers and the overall 
+process will be critically reviewed.
 
 .. A plenary discussion on future improvements will,
    among others, address the question, of how the testbeds should evolve.
@@ -78,6 +84,11 @@ registering at http://numbbo.github.io/register.
 
 Supporting material
 -------------------
+Basis of the workshop is the Comparing Continuous Optimizer platform
+(https://github.com/numbbo/coco), now rewritten fully in ANSI C with
+other languages calling the C code. Languages currently available are
+C, Java, MATLAB/Octave, and Python.
+
 Most likely, you want to read the `Coco quick start <https://github.com/numbbo/coco>`_
 (scroll down a bit). This page also provides the code for the benchmark functions, for running the
 experiments in C, Java, Matlab, Octave, and Python, and for postprocessing the experiment data
@@ -87,31 +98,51 @@ for more details on the general experimental set-up for black-box optimization b
 
 The latest (hopefully) stable release of the Coco software can be downloaded as a whole
 `here <https://github.com/numbbo/coco/releases/>`_. Please use at least version v2.0 for
-running your benchmarking experiments.
+running your benchmarking experiments in 2017.
 
 Documentation of the functions used in the ``bbob-biobj`` and ``bbob-biobj-ext`` suites 
 for BBOB 2017 are provided at http://numbbo.github.io/coco-doc/bbob-biobj/functions/ .
 
-Note that the current release of the new Coco platform does not contain the original noisy BBOB testbed,
-such that you must use the old code at http://coco.gforge.inria.fr/doku.php?id=downloads for the time
+[^1] Note that the current release of the new Coco platform does not contain the 
+original noisy BBOB testbed yet, such that you must use the old code at 
+http://coco.gforge.inria.fr/doku.php?id=downloads for the time
 being if you want to compare your algorithm on the noisy testbed.
+
+
+
 
 
 Submissions
 -----------
-Submissions of benchmarking results of new or existing numerical optimization algorithms in terms
-of single- or bi-objective optimization are welcome and should be done through the
-following form at http://numbbo.github.io/submit. To upload your data, you might want to use
-https://zenodo.org/ which offers uploads of data sets up to 50GB in size or any other provider
-of online data storage.
+We encourage any submission that is concerned with black-box optimization 
+benchmarking of continuous optimizers, for example papers that:
 
+* describe and benchmark new or not-so-new algorithms on one of the
+  above testbeds,
+* compare new or existing algorithms from the COCO/BBOB database, 
+* analyze the data obtained in previous editions of BBOB, or
+* discuss, compare, and improve upon any benchmarking methodology
+  for continuous optimizers such as design of experiments,
+  performance measures, presentation methods, benchmarking frameworks,
+  test functions, ...
+
+    
+Submissions are expected to be done through the submission form at:
+http://numbbo.github.io/submit.
+
+To upload your data, you might want to use https://zenodo.org/ which 
+offers uploads of data sets up to 50GB in size or any other provider
+of online data storage.
+Please let us know briefly in the mandatory ``Data`` field, why you do
+not provide any data in case you submit a paper unrelated to the above
+BBOB test suites.
 
 
 Important Dates
 ---------------
 
-* **01/27/2017** release 2.0 of the Coco platform available: `<https://github.com/numbbo/coco/releases/>`_
-* **02/28/2017** expected release of the Coco software with the final functionality to run experiments
+* **01/28/2017** release 2.0 of the Coco platform for first tests: `<https://github.com/numbbo/coco/releases/>`_
+* **03/07/2017** expected release of the Coco software with the final functionality to run experiments
 * **03/31/2017** *paper and data submission deadline*
 * **04/17/2017** decision notification
 * **04/24/2017** deadline camera-ready papers
