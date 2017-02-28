@@ -110,6 +110,11 @@ Eventually, the following papers have been accepted:
 - Anne Auger, Dimo Brockhoff, Nikolaus Hansen, Dejan Tušar, Tea Tušar, and Tobias Wagner: **The Impact of Search Volume on the Performance of RANDOMSEARCH on the Bi-objective BBOB-2016 Test Suite**
 
 
+Data
+----
+The data sets of all submitted algorithms can be found at http://coco.gforge.inria.fr/doku.php?id=algorithms for the ``bbob-biobj`` test suite and at http://coco.gforge.inria.fr/doku.php?id=algorithms for the ``bbob`` and ``bbob-noisy`` test suites.
+
+
 Workshop Schedule
 -----------------
 All BBOB-2016 sessions took place on the first day of GECCO (July 20, 2016) in the Wind Star B room. Speakers are highlighted with a star behind the name.
