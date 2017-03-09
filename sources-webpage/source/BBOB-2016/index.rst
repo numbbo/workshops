@@ -112,7 +112,7 @@ Eventually, the following papers have been accepted:
 
 Data
 ----
-The data sets of all submitted algorithms can be found at http://coco.gforge.inria.fr/doku.php?id=algorithms for the ``bbob-biobj`` test suite and at http://coco.gforge.inria.fr/doku.php?id=algorithms for the ``bbob`` and ``bbob-noisy`` test suites.
+The data sets of all submitted algorithms can be found at http://coco.gforge.inria.fr/doku.php?id=algorithms-biobj for the ``bbob-biobj`` test suite and at http://coco.gforge.inria.fr/doku.php?id=algorithms for the ``bbob`` and ``bbob-noisy`` test suites.
 
 
 Workshop Schedule
