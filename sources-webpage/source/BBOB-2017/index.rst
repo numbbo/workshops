@@ -16,7 +16,7 @@ with a continued focus on bi-objective problems and which will take place during
     | http://gecco-2017.sigevo.org
 
 
-| Submission Deadline: Tuesday, March 31, 2017
+| Submission Deadline: extended to Tuesday, April 11, 2017 (from Friday, March 31, 2017)
 |
 
 
@@ -35,18 +35,24 @@ generation of output data and (4) the post-processing and presentation
 of the results in graphs and tables.
 
 
-In 2017, we provide a new extension of the 2016 bi-objective test
-suite to 92 problems overall---addressing certain issues raised at
-last year's BBOB workshop---and continue to support all previously
-known ones. Overall, we now provide the following test suites:
+.. In 2017, we provide a new extension of the 2016 bi-objective test
+   suite to 92 problems overall---addressing certain issues raised at
+   last year's BBOB workshop---and continue to support all previously
+   known ones. 
+   
+Overall, we provide the following test suites:
 
 * ``bbob`` containing 24 noiseless functions,
 * ``bbob-noisy`` containing 30 noisy functions [^1],
 * ``bbob-biobj`` containing 55 noiseless, bi-objective functions, and
-* ``bbob-biobj-ext`` containing 92 noiseless, bi-objective functions
 
-.. * ``bbob-largescale`` containing 24 noiseless functions in dimension 20 to 640.
+.. * ``bbob-biobj-ext`` containing 92 noiseless, bi-objective functions
+   * ``bbob-largescale`` containing 24 noiseless functions in dimension 20 to 640.
 
+Note that the previously announced extended version of the ``bbob-biobj``
+test suite has unfortunately not been fully supported early enough in 2017
+but that we will make it available later on this summer.
+   
 The tasks for participants are as usual: run your favorite
 single- or multiobjective black-box optimizer (old or new) by using the wrappers
 provided (in C/C++, Python, Java, and Matlab/Octave) and run the
@@ -55,16 +61,17 @@ will generate automatically all the material for a workshop paper
 (ACM compliant LaTeX templates available). A description of the algorithm and the
 discussion of the results completes the paper writing.
 
-We encourage particularly submissions related to the new ``bbob-biobj-ext`` testbed
-and algorithms for handling bi-objective problems including also *algorithms
-from outside the evolutionary computation community*. Submissions related to
-the previously available ``bbob``, ``bbob-noisy``, and ``bbob-biobj`` testbeds
-are more than welcome.
-
+We encourage particularly submissions 
+on *algorithms from outside the evolutionary computation community*. 
 Please note that any other submission, related to black-box
 optimization benchmarking of continuous optimizers will be welcome
 as well. The submission section below gives a few examples of 
 subjects of interest.
+
+.. Submissions related to
+   the previously available ``bbob``, ``bbob-noisy``, and ``bbob-biobj`` testbeds
+   are more than welcome.
+
 
 During the workshop, algorithms, results, and discussions will be presented by
 the participants. An overall analysis and comparison of all submitted
@@ -101,7 +108,7 @@ The latest (hopefully) stable release of the Coco software can be downloaded as 
 running your benchmarking experiments in 2017.
 
 Documentation of the functions used in the ``bbob-biobj`` and ``bbob-biobj-ext`` suites 
-for BBOB 2017 are provided at http://numbbo.github.io/coco-doc/bbob-biobj/functions/ .
+are provided at http://numbbo.github.io/coco-doc/bbob-biobj/functions/ .
 
 [^1] Note that the current release of the new Coco platform does not contain the 
 original noisy BBOB testbed yet, such that you must use the old code at 
@@ -149,9 +156,9 @@ Important Dates
 
 * **01/28/2017** release 2.0 of the Coco platform for first tests: `<https://github.com/numbbo/coco/releases/>`_
 * **03/07/2017** expected release of the Coco software with the final functionality to run experiments
-* **03/31/2017** *paper and data submission deadline*
+* **04/11/2017** *paper and data submission deadline* (extended from 03/31/2017)
 * **04/17/2017** decision notification
-* **04/24/2017** deadline camera-ready papers
+* **04/27/2017** deadline camera-ready papers (extended from 04/24/2017)
 * **07/15/2017** workshop
 
 
