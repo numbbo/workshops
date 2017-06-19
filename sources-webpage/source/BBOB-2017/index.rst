@@ -159,6 +159,11 @@ Accepted Papers
 - Dogan Aydin and Gurcan Yavuz: **Self-adaptive Search Equation-Based Artificial Bee Colony Algorithm with CMA-ES on the Noiseless BBOB Testbed**
 
 
+Links to Algorithm Data
+-----------------------
+The data of Simon's self-adaptive SMS-EMOA can be found already in the
+`list of biobjective data sets <http://coco.gforge.inria.fr/doku.php?id=algorithms-biobj>`_.
+The other single-objective data sets will be made available in the coming weeks.
 
 
 Preliminary Schedule
@@ -179,10 +184,10 @@ Speakers are highlighted with a star behind the name if known.
 | 09:05 - 09:30 | Simon Wessing*:                                                                                                   |
 |               | Benchmarking the SMS-EMOA with Self-adaptation on the bbob-biobj Test Suite                                       |
 +---------------+-------------------------------------------------------------------------------------------------------------------+
-| 09:30 - 09:55 | Mario García-Valdez and Juan-J. Merelo:                                                                           |
+| 09:30 - 09:55 | Mario García-Valdez* and Juan-J. Merelo:                                                                          |
 |               | Benchmarking a Pool-Based Execution with GA and PSO Workers on the BBOB Noiseless Testbed                         |
 +---------------+-------------------------------------------------------------------------------------------------------------------+
-| 09:55 - 10:20 | Zbynek Pitra, Lukas Bajer, Jakub Repicky, and Martin Holena:                                                      |
+| 09:55 - 10:20 | Zbynek Pitra*, Lukas Bajer, Jakub Repicky, and Martin Holena:                                                     |
 |               | Comparison of Ordinal and Metric Gaussian Process Regression as Surrogate Models for CMA Evolution Strategy       |
 +---------------+-------------------------------------------------------------------------------------------------------------------+
 | **Session II**                                                                                                                    |
@@ -192,7 +197,7 @@ Speakers are highlighted with a star behind the name if known.
 | 10:50 - 11:15 | Dogan Aydin and Gurcan Yavuz:                                                                                     |
 |               | Self-adaptive Search Equation-Based Artificial Bee Colony Algorithm with CMA-ES on the Noiseless BBOB Testbed     |
 +---------------+-------------------------------------------------------------------------------------------------------------------+
-| 11:15 - 11:40 | Duc Manh Nguyen and Nikolaus Hansen:                                                                              |
+| 11:15 - 11:40 | Duc Manh Nguyen and Nikolaus Hansen*:                                                                             |
 |               | Benchmarking CMAES-APOP on the BBOB Noiseless Testbed                                                             |
 +---------------+-------------------------------------------------------------------------------------------------------------------+
 | 11:40 - 12:05 | Takahiro Yamaguchi and Youhei Akimoto:                                                                            |
