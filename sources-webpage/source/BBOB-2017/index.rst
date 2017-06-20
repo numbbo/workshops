@@ -194,13 +194,13 @@ Speakers are highlighted with a star behind the name if known.
 +---------------+-------------------------------------------------------------------------------------------------------------------+
 | 10:40 - 10:50 | The BBOBies: Session Introduction                                                                                 |
 +---------------+-------------------------------------------------------------------------------------------------------------------+
-| 10:50 - 11:15 | Dogan Aydin and Gurcan Yavuz:                                                                                     |
+| 10:50 - 11:15 | Dogan Aydin* and Gurcan Yavuz:                                                                                    |
 |               | Self-adaptive Search Equation-Based Artificial Bee Colony Algorithm with CMA-ES on the Noiseless BBOB Testbed     |
 +---------------+-------------------------------------------------------------------------------------------------------------------+
 | 11:15 - 11:40 | Duc Manh Nguyen and Nikolaus Hansen*:                                                                             |
 |               | Benchmarking CMAES-APOP on the BBOB Noiseless Testbed                                                             |
 +---------------+-------------------------------------------------------------------------------------------------------------------+
-| 11:40 - 12:05 | Takahiro Yamaguchi and Youhei Akimoto:                                                                            |
+| 11:40 - 12:05 | Takahiro Yamaguchi and Youhei Akimoto*:                                                                           |
 |               | Benchmarking the Novel CMA-ES Restart Strategy Using the Search History on the BBOB Noiseless Testbed             |
 +---------------+-------------------------------------------------------------------------------------------------------------------+
 | 12:05 - 12:30 | The BBOBies: Wrap-up and Open Discussion                                                                          |
