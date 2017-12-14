@@ -9,18 +9,18 @@ the performance of numerical black-box optimization algorithms. The former is re
 Optimizers platform (Coco).
 
 So far, eight workshops have been held (in 2009, 2010, 2012, 2013, 2015, 2016, and 2017 at GECCO and in 2015 at CEC). The next workshop,
-`BBOB 2018 <BBOB-2018/index.html>`_, is expected to take place in 2017 with a new focus on constrained optimization.
+`BBOB 2018 <BBOB-2018/index.html>`_, is expected to take place at GECCO'2018.
 
 ..  with a `new focus on large-scale problems <BBOB-2017/index.html>`_
 
 
-Generally, four benchmark suites are available:
+Generally, three benchmark suites are available:
 
 * ``bbob`` containing 24 noiseless functions
 * ``bbob-noisy`` containing 30 noisy functions
 * ``bbob-biobj`` containing 55 noiseless, bi-objective functions, generated from the ``bbob`` suite
-* ``bbob-biobj-ext`` containing 92 noiseless, bi-objective functions, as an extension of ``bbob-biobj``
 
+.. * ``bbob-biobj-ext`` containing 92 noiseless, bi-objective functions, as an extension of ``bbob-biobj``
 .. * ``bbob-largescale`` containing 24 noiseless functions in dimension 20 to 640.
 
 Note that due to the rewriting of the Coco platform, the ``bbob-noisy`` test suite is not yet available in the new code from http://github.com/numbbo/coco . Please use the old code at http://coco.gforge.inria.fr/doku.php?id=downloads instead for running experiments on ``bbob-noisy``.
@@ -31,6 +31,7 @@ Table of Contents:
 .. toctree::
    :maxdepth: 2
 
+   BBOB-2018/index
    BBOB-2017/index
    BBOB-2016/index
    bbobbefore2016
