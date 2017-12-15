@@ -34,10 +34,10 @@ achievements in (blackbox) optimization benchmarking as well as at
 gathering and sharing data of extensive numerical benchmarking results.
 
 Open to all topics around blackbox optimization benchmarking, 
-a substantial portion of the workshops' success in the past can be attributed
+a substantial portion of the workshops' past success can be attributed
 to the Comparing Continuous Optimization benchmarking platform
 (COCO, https://github.com/numbbo/coco) ) that
-builds the basis for all BBOB workshops and that automatically allows 
+builds the basis for all BBOB workshops and that allows 
 algorithms to be benchmarked and performance data to be visualized
 effortlessly.
 Up to now, the BBOB workshops have covered
@@ -49,14 +49,14 @@ Like for the previous editions of the workshop, we provide source code in
 various languages (C/C++, Matlab/Octave, Java, and Python) to benchmark
 algorithms on three different test suites (single-objective with and without
 noise a well as a noiseless bi-objective suite). Postprocessing data and comparing
-algorithm performance will be equally automatized with COCO (up to
+algorithm performance is equally automatized with COCO (up to
 already prepared LaTeX templates for writing papers). As a new feature
-for the 2018 edition, we will provide significantly easier access to the already 
+for the 2018 edition, we provide significantly easier access to the already 
 benchmarked data sets such that the analysis of already available COCO data
 becomes simple(r).
 
 Analyzing the vast amount of available benchmarking data (from 200+ experiments
-collected throughout the years) will be therefore a special focus of BBOB-2018.
+collected throughout the years) will be therefore one special focus of BBOB-2018.
 Given that the field of (multiobjective) Bayesian optimization received 
 renewed interest in the recent past, we would also like to re-focus our
 efforts towards benchmarking algorithms for expensive problems (aka
@@ -74,7 +74,7 @@ around the topic of (blackbox) optimization benchmarking. These contributions
 might or might not use the provided
 LaTeX templates to visualize the performance of unconstrained single- or
 multiobjective black-box optimization algorithms of their choice on any of
-the provided testbeds. We encourage particularly submissions about
+the provided testbeds. We particularly encourage submissions about
 algorithms from outside the evolutionary computation community as well as
 any papers related to topics around optimization algorithm benchmarking.
 
@@ -163,8 +163,8 @@ https://zenodo.org/ which
 offers uploads of data sets up to 50GB in size or any other provider
 of online data storage.
 Please let us know briefly in the mandatory ``Data`` field, why you do
-not provide any data in case you submit a paper unrelated to the above
-BBOB test suites.
+not provide any data for example in case you submit a paper unrelated
+to the above BBOB test suites.
 
 
 .. [2] The data of previously compared algorithms can be found at 
