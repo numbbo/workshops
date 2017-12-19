@@ -239,6 +239,6 @@ Organizers
 * Nikolaus Hansen, Inria Saclay - Ile-de-France, France
 * Rodolphe Le Riche, Ecole Nationale Supérieure des Mines de Saint–Etienne, France
 * Victor Picheny, INRA Occitanie-Toulouse, France
-* Tea Tušar, Jožef Stefan Institute, Ljublana, Slovenia
+* Tea Tušar, Jožef Stefan Institute, Ljubljana, Slovenia
 
 
