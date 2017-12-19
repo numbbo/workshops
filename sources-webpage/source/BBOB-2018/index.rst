@@ -21,7 +21,7 @@ taking place during GECCO 2018 in Kyoto, Japan.
 
 
 =======================================================  ========================================================================  =======================================================================================
-`register for news <http://numbbo.github.io/register>`_  `Coco quick start (scroll down a bit) <https://github.com/numbbo/coco>`_  `latest Coco release <https://github.com/numbbo/coco/releases/>`_
+`register for news <http://numbbo.github.io/register>`_  `COCO quick start (scroll down a bit) <https://github.com/numbbo/coco>`_  `latest COCO release <https://github.com/numbbo/coco/releases/>`_
 =======================================================  ========================================================================  =======================================================================================
 
 
@@ -104,7 +104,7 @@ process will be critically reviewed.
 Updates and News
 ----------------
 Get updated about the latest news regarding the workshop and
-releases and bugfixes of the supporting NumBBO/Coco platform, by
+releases and bugfixes of the supporting NumBBO/COCO platform, by
 registering at http://numbbo.github.io/register.
 
 
@@ -115,21 +115,21 @@ Basis of the workshop is the Comparing Continuous Optimizer platform
 other languages calling the C code. Languages currently available are
 C, Java, MATLAB/Octave, and Python.
 
-Most likely, you want to read the `Coco quick start <https://github.com/numbbo/coco>`_
+Most likely, you want to read the `COCO quick start <https://github.com/numbbo/coco>`_
 (scroll down a bit). This page also provides the code for the benchmark functions [1]_, for running the
 experiments in C, Java, Matlab, Octave, and Python, and for postprocessing the experiment data
 into plots, tables, html pages, and publisher-conform PDFs via provided LaTeX templates.
 Please refer to http://numbbo.github.io/coco-doc/experimental-setup/
 for more details on the general experimental set-up for black-box optimization benchmarking.
 
-The latest (hopefully) stable release of the Coco software can be downloaded as a whole
+The latest (hopefully) stable release of the COCO software can be downloaded as a whole
 `here <https://github.com/numbbo/coco/releases/>`_. Please use at least version v2.2 for
 running your benchmarking experiments in 2018.
 
 Documentation of the functions used in the ``bbob-biobj`` suite
 is provided at http://numbbo.github.io/coco-doc/bbob-biobj/functions/ .
 
-.. [1] Note that the current release of the new Coco platform does not contain the 
+.. [1] Note that the current release of the new COCO platform does not contain the 
    original noisy BBOB testbed yet, such that you must use the old code at 
    http://coco.gforge.inria.fr/doku.php?id=downloads for the time
    being if you want to compare your algorithm on the noisy testbed.
@@ -222,7 +222,7 @@ to the above BBOB test suites.
 Important Dates
 ---------------
 
-* **01/05/2018** release 2.2 of the Coco platform: `<https://github.com/numbbo/coco/releases/>`_
+* **01/05/2018** release 2.2 of the COCO platform: `<https://github.com/numbbo/coco/releases/>`_
 * **02/27/2018** paper submission system opens
 * **03/27/2018** *paper and data submission deadline*
 * **04/10/2018** decision notification
@@ -239,6 +239,6 @@ Organizers
 * Nikolaus Hansen, Inria Saclay - Ile-de-France, France
 * Rodolphe Le Riche, Ecole Nationale Supérieure des Mines de Saint–Etienne, France
 * Victor Picheny, INRA Occitanie-Toulouse, France
-* Tea Tušar, Jozef Stefan Institute, Ljublana, Slovenia
+* Tea Tušar, Jožef Stefan Institute, Ljublana, Slovenia
 
 
