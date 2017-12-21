@@ -36,7 +36,7 @@ gathering and sharing data of extensive numerical benchmarking results.
 Open to all topics around blackbox optimization benchmarking, 
 a substantial portion of the workshops' past success can be attributed
 to the Comparing Continuous Optimization benchmarking platform
-(COCO, https://github.com/numbbo/coco) ) that
+(COCO, https://github.com/numbbo/coco ) that
 builds the basis for all BBOB workshops and that allows 
 algorithms to be benchmarked and performance data to be visualized
 effortlessly.
@@ -155,9 +155,9 @@ Paper submissions are expected to be done through the official GECCO
 submission system (details will follow around the time the submission
 window opens on February 27, 2018).
 
-In order to finalize your submission, we kindly ask you to fill outside
-the form at http://numbbo.github.io/submit where you are supposed
-to provide a link to your data as well if this applies.
+In order to finalize your submission, we kindly ask you to fill in
+addition the form at http://numbbo.github.io/submit where you are 
+supposed to provide a link to your data as well if this applies.
 To upload your data to the web, you might want to use
 https://zenodo.org/ which 
 offers uploads of data sets up to 50GB in size or any other provider
@@ -220,15 +220,16 @@ to the above BBOB test suites.
 
 
 Important Dates
----------------
+----------------
 
-* **01/05/2018** release 2.2 of the COCO platform: `<https://github.com/numbbo/coco/releases/>`_
-* **02/27/2018** paper submission system opens
-* **03/27/2018** *paper and data submission deadline*
-* **04/10/2018** decision notification
-* **04/24/2018** deadline camera-ready papers
-* **07/15/2018** or **07/16/2018** workshop
+* **2018-01-05** release 2.2 of the COCO platform: `<https://github.com/numbbo/coco/releases/>`_
+* **2018-02-27** paper submission system opens
+* **2018-03-27** *paper and data submission deadline*
+* **2018-04-10** decision notification
+* **2018-04-24** deadline camera-ready papers
+* **2018-07-15** or **2018-07-16** workshop
 
+All dates are given in ISO 8601 format (yyyy-mm-dd).
 
 
 Organizers
