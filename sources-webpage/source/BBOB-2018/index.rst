@@ -153,8 +153,7 @@ benchmarking of continuous optimizers, for example papers that:
     
 Paper submissions are expected to be done through the official GECCO
 submission system at  https://ssl.linklings.net/conferences/gecco/ 
-(details will follow around the time the submission
-window opens on February 27, 2018).
+until the deadline on February 27, 2018.
 
 In order to finalize your submission, we kindly ask you to fill in
 addition the form at http://numbbo.github.io/submit where you are 
@@ -223,8 +222,8 @@ to the above BBOB test suites.
 Important Dates
 ----------------
 
-* **2018-01-05** release 2.2 of the COCO platform: `<https://github.com/numbbo/coco/releases/>`_
 * **2018-02-27** paper submission system opens
+* **2018-03-01** release 2.2 of the COCO platform: `<https://github.com/numbbo/coco/releases/>`_ (originally planned on **2018-01-05**)
 * **2018-03-27** *paper and data submission deadline* (not extendable!)
 * **2018-04-10** decision notification
 * **2018-04-24** deadline camera-ready papers
