@@ -222,7 +222,7 @@ to the above BBOB test suites.
 Important Dates
 ----------------
 
-* **2018-02-27** paper submission system opens
+* **2018-02-27** paper submission system opened
 * **2018-03-01** release 2.2 of the COCO platform: `<https://github.com/numbbo/coco/releases/>`_ (originally planned on **2018-01-05**)
 * **2018-03-27** *paper and data submission deadline* (not extendable!)
 * **2018-04-10** decision notification
