@@ -173,50 +173,60 @@ to the above BBOB test suites.
    sub-module.
 
 
+Accepted Papers
+---------------
+Out of six submissions, the following four papers have been accepted after peer-review:
 
-.. Preliminary Schedule
-   --------------------
-   Both BBOB-2017 sessions took place on the second day of GECCO (Sunday July 16, 2017) in the Amethyst room. 
-   Speakers are highlighted with a star behind the name if known. Please click on the provided links to download the slides.
+* Kouhei Nishida and Youhei Akimoto: "Benchmarking the PSA-CMA-ES on the BBOB Noiseless Testbed"
+* Duc Manh Nguyen: "Benchmarking a Variant of the CMAES-APOP on the BBOB Noiseless Testbed"
+* Aurore Blelly, Matheus Felipe-Gomes, Anne Auger, and Dimo Brockhoff*: "Stopping Criteria, Initialization, and Implementations of BFGS and their Effect on the BBOB Test Suite"
+* Aljoša Vodopija, Tea Tušar, Bogdan Filipič: "Comparing Black-Box Differential Evolution and Classic Differential Evolution"
 
-   .. tabularcolumns:: |l|p{5cm}|
 
-   +---------------+-------------------------------------------------------------------------------------------------------------------+
-   | **Session I**                                                                                                                     |
-   +---------------+-------------------------------------------------------------------------------------------------------------------+
-   | 08:30 - 09:05 | The BBOBies: Introduction to Blackbox Optimization Benchmarking                                                   |
-   |               |                                                                                                                   |
-   +---------------+-------------------------------------------------------------------------------------------------------------------+
-   | 09:05 - 09:30 | Simon Wessing*:                                                                                                   |
-   |               | Benchmarking the SMS-EMOA with Self-adaptation on the bbob-biobj Test Suite                                       |
-   |               | (`slides <http://coco.gforge.inria.fr/presentation-archive/2017-GECCO/02-Wessing-SMS-EMOA-SA.pdf>`__)             |
-   +---------------+-------------------------------------------------------------------------------------------------------------------+
-   | 09:30 - 09:55 | Mario García-Valdez* and Juan-J. Merelo:                                                                          |
-   |               | Benchmarking a Pool-Based Execution with GA and PSO Workers on the BBOB Noiseless Testbed                         |
-   +---------------+-------------------------------------------------------------------------------------------------------------------+
-   | 09:55 - 10:20 | Zbynek Pitra*, Lukas Bajer, Jakub Repicky, and Martin Holena:                                                     |
-   |               | Comparison of Ordinal and Metric Gaussian Process Regression as Surrogate Models for CMA Evolution Strategy       |
-   |               | (`slides <http://coco.gforge.inria.fr/presentation-archive/2017-GECCO/04-Pitra-DTS-CMA.pdf>`__)                   |
-   +---------------+-------------------------------------------------------------------------------------------------------------------+
-   | **Session II**                                                                                                                    |
-   +---------------+-------------------------------------------------------------------------------------------------------------------+
-   | 10:40 - 10:50 | The BBOBies: Session Introduction                                                                                 |
-   +---------------+-------------------------------------------------------------------------------------------------------------------+
-   | 10:50 - 11:15 | Dogan Aydin* and Gurcan Yavuz:                                                                                    |
-   |               | Self-adaptive Search Equation-Based Artificial Bee Colony Algorithm with CMA-ES on the Noiseless BBOB Testbed     |
-   |               | (`slides <http://coco.gforge.inria.fr/presentation-archive/2017-GECCO/06-Aydin-SSEABC.pdf>`__)                    |
-   +---------------+-------------------------------------------------------------------------------------------------------------------+
-   | 11:15 - 11:40 | Duc Manh Nguyen and Nikolaus Hansen*:                                                                             |
-   |               | Benchmarking CMAES-APOP on the BBOB Noiseless Testbed                                                             |
-   +---------------+-------------------------------------------------------------------------------------------------------------------+
-   | 11:40 - 12:05 | Takahiro Yamaguchi and Youhei Akimoto*:                                                                           |
-   |               | Benchmarking the Novel CMA-ES Restart Strategy Using the Search History on the BBOB Noiseless Testbed             |
-   |               | (`slides <http://coco.gforge.inria.fr/presentation-archive/2017-GECCO/08-Akimoto-KL-CMA.pdf>`__)                  |
-   +---------------+-------------------------------------------------------------------------------------------------------------------+
-   | 12:05 - 12:30 | The BBOBies: Wrap-up and Open Discussion                                                                          |
-   +---------------+-------------------------------------------------------------------------------------------------------------------+
    
-   .. |               | (`slides <http://coco.gforge.inria.fr/presentation-archive/2016-GECCO/05_Cheryl_MO-DIRECT.pdf>`__)                |
+Links to Algorithm Data
+-----------------------
+The data of all submitted experiments can be found in the
+`list of data sets <http://coco.gforge.inria.fr/doku.php?id=algorithms>`_.
+
+   
+   
+
+Schedule
+--------------------
+This year, the BBOB-2018 workshop got assigned a single session at GECCO in which the talks are scheduled according
+to the below table. Speakers are highlighted with a star behind the name if known. 
+Please click on the provided links to download the slides.
+
+.. tabularcolumns:: |l|p{5cm}|
+
++---------------+-------------------------------------------------------------------------------------------------------------------+
+| **BBOB-2018**                                                                                                                     |
++---------------+-------------------------------------------------------------------------------------------------------------------+
+| 09:30 - 09:45 | The BBOBies: Introduction to Blackbox Optimization Benchmarking                                                   |
+|               | (`slides <http://coco.gforge.inria.fr/presentation-archive/2018-GECCO/01_Dimo_bbob-2018-intro.pdf>`__)            |
++---------------+-------------------------------------------------------------------------------------------------------------------+
+| 09:45 - 10:05 | Kouhei Nishida* and Youhei Akimoto:                                                                               |
+|               | Benchmarking the PSA-CMA-ES on the BBOB Noiseless Testbed                                                         |
+|               | (`slides <http://coco.gforge.inria.fr/presentation-archive/2018-GECCO/02_Kohei_psa.pdf>`__)                       |
++---------------+-------------------------------------------------------------------------------------------------------------------+
+| 10:05 - 10:25 | Duc Manh Nguyen*:                                                                                                 |
+|               | Benchmarking a Variant of the CMAES-APOP on the BBOB Noiseless Testbed                                            |
+|               | (`slides <http://coco.gforge.inria.fr/presentation-archive/2018-GECCO/03_Manh_cmaesapop.pdf>`__)                  |
++---------------+-------------------------------------------------------------------------------------------------------------------+
+| 10:25 – 10:40 | Aurore Blelly, Matheus Felipe-Gomes, Anne Auger, and Dimo Brockhoff*:                                             |
+|               | Stopping Criteria, Initialization, and Implementations of BFGS and their Effect on the BBOB Test Suite            |
+|               | (`slides <http://coco.gforge.inria.fr/presentation-archive/2018-GECCO/04_bfgs.pdf>`__)                            |
++---------------+-------------------------------------------------------------------------------------------------------------------+
+| 10:40 - 11:00 | Aljoša Vodopija, Tea Tušar*, Bogdan Filipič:                                                                      |
+|               | Comparing Black-Box Differential Evolution and Classic Differential Evolution                                     |
+|               | (`slides <http://coco.gforge.inria.fr/presentation-archive/2018-GECCO/05_tea_de.pdf>`__)                          |
++---------------+-------------------------------------------------------------------------------------------------------------------+
+| 11:00 - 11:10 | The BBOBies: Wrap-up and Discussion                                                                               |
+|               | (`slides <http://coco.gforge.inria.fr/presentation-archive/2018-GECCO/06_Dimo_bbob-2018-wrapup.pdf>`__)           |
++---------------+-------------------------------------------------------------------------------------------------------------------+
+   
+
 
 
 Important Dates
@@ -227,7 +237,7 @@ Important Dates
 * **2018-03-27** *paper and data submission deadline* (not extendable!)
 * **2018-04-10** decision notification
 * **2018-04-24** deadline camera-ready papers
-* **2018-07-15** or **2018-07-16** workshop
+* **2018-07-15** workshop
 
 All dates are given in ISO 8601 format (yyyy-mm-dd).
 

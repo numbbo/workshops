@@ -161,12 +161,13 @@ Accepted Papers
 
 Links to Algorithm Data
 -----------------------
-The data of Simon's self-adaptive SMS-EMOA can be found already in the
-`list of biobjective data sets <http://coco.gforge.inria.fr/doku.php?id=algorithms-biobj>`_.
-The other single-objective data sets will be made available in the coming weeks.
+The data of Simon's self-adaptive SMS-EMOA can be found in the
+`list of biobjective data sets <http://coco.gforge.inria.fr/doku.php?id=algorithms-biobj>`_
+and all other single-objective data sets at the 
+`list of bbob data sets <http://coco.gforge.inria.fr/doku.php?id=algorithms>`_.
 
 
-Preliminary Schedule
+Schedule
 --------------------
 Both BBOB-2017 sessions took place on the second day of GECCO (Sunday July 16, 2017) in the Amethyst room. 
 Speakers are highlighted with a star behind the name if known. Please click on the provided links to download the slides.
