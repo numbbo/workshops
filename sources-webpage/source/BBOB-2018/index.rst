@@ -208,7 +208,7 @@ Please click on the provided links to download the slides.
 +---------------+-------------------------------------------------------------------------------------------------------------------+
 | 09:45 - 10:05 | Kouhei Nishida* and Youhei Akimoto:                                                                               |
 |               | Benchmarking the PSA-CMA-ES on the BBOB Noiseless Testbed                                                         |
-|               | (`slides <http://coco.gforge.inria.fr/presentation-archive/2018-GECCO/02_Kohei_PSA.pdf>`__)                       |
+|               | (`slides <http://coco.gforge.inria.fr/presentation-archive/2018-GECCO/02_Kouhei_PSA.pdf>`__)                      |
 +---------------+-------------------------------------------------------------------------------------------------------------------+
 | 10:05 - 10:25 | Duc Manh Nguyen*:                                                                                                 |
 |               | Benchmarking a Variant of the CMAES-APOP on the BBOB Noiseless Testbed                                            |
