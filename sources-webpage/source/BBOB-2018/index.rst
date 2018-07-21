@@ -179,7 +179,7 @@ Out of six submissions, the following four papers have been accepted after peer-
 
 * Kouhei Nishida and Youhei Akimoto: "Benchmarking the PSA-CMA-ES on the BBOB Noiseless Testbed"
 * Duc Manh Nguyen: "Benchmarking a Variant of the CMAES-APOP on the BBOB Noiseless Testbed"
-* Aurore Blelly, Matheus Felipe-Gomes, Anne Auger, and Dimo Brockhoff*: "Stopping Criteria, Initialization, and Implementations of BFGS and their Effect on the BBOB Test Suite"
+* Aurore Blelly, Matheus Felipe-Gomes, Anne Auger, and Dimo Brockhoff: "Stopping Criteria, Initialization, and Implementations of BFGS and their Effect on the BBOB Test Suite"
 * Aljoša Vodopija, Tea Tušar, Bogdan Filipič: "Comparing Black-Box Differential Evolution and Classic Differential Evolution"
 
 
@@ -194,8 +194,8 @@ The data of all submitted experiments can be found in the
 
 Schedule
 --------------------
-This year, the BBOB-2018 workshop got assigned a single session at GECCO in which the talks are scheduled according
-to the below table. Speakers are highlighted with a star behind the name if known. 
+This year, the BBOB-2018 workshop got assigned a single session at GECCO in which the talks were scheduled according
+to the table below. Speakers are highlighted with a star behind the name. 
 Please click on the provided links to download the slides.
 
 .. tabularcolumns:: |l|p{5cm}|
@@ -208,19 +208,18 @@ Please click on the provided links to download the slides.
 +---------------+-------------------------------------------------------------------------------------------------------------------+
 | 09:45 - 10:05 | Kouhei Nishida* and Youhei Akimoto:                                                                               |
 |               | Benchmarking the PSA-CMA-ES on the BBOB Noiseless Testbed                                                         |
-|               | (`slides <http://coco.gforge.inria.fr/presentation-archive/2018-GECCO/02_Kohei_psa.pdf>`__)                       |
+|               | (`slides <http://coco.gforge.inria.fr/presentation-archive/2018-GECCO/02_Kohei_PSA.pdf>`__)                       |
 +---------------+-------------------------------------------------------------------------------------------------------------------+
 | 10:05 - 10:25 | Duc Manh Nguyen*:                                                                                                 |
 |               | Benchmarking a Variant of the CMAES-APOP on the BBOB Noiseless Testbed                                            |
-|               | (`slides <http://coco.gforge.inria.fr/presentation-archive/2018-GECCO/03_Manh_cmaesapop.pdf>`__)                  |
+|               | (`slides <http://coco.gforge.inria.fr/presentation-archive/2018-GECCO/03_Manh_APOP.pdf>`__)                       |
 +---------------+-------------------------------------------------------------------------------------------------------------------+
 | 10:25 – 10:40 | Aurore Blelly, Matheus Felipe-Gomes, Anne Auger, and Dimo Brockhoff*:                                             |
 |               | Stopping Criteria, Initialization, and Implementations of BFGS and their Effect on the BBOB Test Suite            |
-|               | (`slides <http://coco.gforge.inria.fr/presentation-archive/2018-GECCO/04_bfgs.pdf>`__)                            |
+|               | (`slides <http://coco.gforge.inria.fr/presentation-archive/2018-GECCO/04_Dimo_BFGS.pdf>`__)                       |
 +---------------+-------------------------------------------------------------------------------------------------------------------+
 | 10:40 - 11:00 | Aljoša Vodopija, Tea Tušar*, Bogdan Filipič:                                                                      |
 |               | Comparing Black-Box Differential Evolution and Classic Differential Evolution                                     |
-|               | (`slides <http://coco.gforge.inria.fr/presentation-archive/2018-GECCO/05_tea_de.pdf>`__)                          |
 +---------------+-------------------------------------------------------------------------------------------------------------------+
 | 11:00 - 11:10 | The BBOBies: Wrap-up and Discussion                                                                               |
 |               | (`slides <http://coco.gforge.inria.fr/presentation-archive/2018-GECCO/06_Dimo_bbob-2018-wrapup.pdf>`__)           |

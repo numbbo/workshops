@@ -8,7 +8,7 @@ benchmarking black-box optimization algorithms for continuous domains and a plac
 the performance of numerical black-box optimization algorithms. The former is realized through the Comparing Continuous
 Optimizers platform (Coco).
 
-So far, nine workshops have been held (in `2009`_, `2010`_, `2012`_, `2013`_, `2015`_, `2016`_, `2017`_, and `2018` at GECCO and in `2015 at CEC`_). 
+So far, nine workshops have been held (in `2009`_, `2010`_, `2012`_, `2013`_, `2015`_, `2016`_, `2017`_, and `2018`_ at GECCO and in `2015 at CEC`_). 
 
 .. The next workshop, `BBOB 2018 <BBOB-2018/index.html>`_, is expected to take place at GECCO'2018.
 
