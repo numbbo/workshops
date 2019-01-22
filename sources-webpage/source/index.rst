@@ -10,8 +10,9 @@ Optimizers platform (Coco).
 
 So far, nine workshops have been held (in `2009`_, `2010`_, `2012`_, `2013`_, `2015`_, `2016`_, `2017`_, and `2018`_ at GECCO and in `2015 at CEC`_). 
 
-.. The next workshop, `BBOB 2018 <BBOB-2018/index.html>`_, is expected to take place at GECCO'2018.
+The next workshop, `BBOB 2019 <BBOB-2019/index.html>`_, celebrating the workshop series' 10th anniversary, will take place at GECCO'2019.
 
+.. _`2019`: BBOB-2019/index.html
 .. _`2018`: BBOB-2018/index.html
 .. _`2017`: BBOB-2017/index.html
 .. _`2016`: BBOB-2016/index.html
@@ -44,6 +45,7 @@ Table of Contents:
 .. toctree::
    :maxdepth: 2
 
+   BBOB-2019/index
    BBOB-2018/index
    BBOB-2017/index
    BBOB-2016/index
