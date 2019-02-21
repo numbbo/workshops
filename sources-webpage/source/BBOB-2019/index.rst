@@ -185,9 +185,8 @@ to the above BBOB test suites.
 Important Dates
 ----------------
 
-* **2019-02-27** paper submission system opened
-* **2019-02-15** planned release 2.3 of the COCO platform with the new large-scale suite: `<https://github.com/numbbo/coco/releases/>`_ 
-* **2019-02-30** planned release 2.4 of the COCO platform with the new mixed-inter suites: `<https://github.com/numbbo/coco/releases/>`_
+* **2019-02-27** paper submission system opens
+* **2019-03-06** planned release of the COCO platform with the new large-scale and mixed integer suites: `<https://github.com/numbbo/coco/releases/>`_ 
 * **2019-04-03** *paper and data submission deadline* (not extendable!)
 * **2019-04-17** decision notification
 * **2019-04-24** deadline camera-ready papers
