@@ -26,7 +26,7 @@ taking place during GECCO 2019 in Prague.
 
 
 Quantifying and comparing the performance of optimization algorithms
-is a difficult and tedious task to achieve. Yet, it is highly
+is a difficult and tedious task. Yet, it is highly
 crucial in order to recommend algorithms performing well in practice.
 The Black-box Optimization Benchmarking workshop series aims at bringing
 together researchers from the optimization field to discuss the latest
@@ -116,7 +116,7 @@ registering at http://numbbo.github.io/register.
 
 Supporting material
 -------------------
-Basis of the workshop is the Comparing Continuous Optimizer platform
+The basis of the workshop is the Comparing Continuous Optimizer platform
 (https://github.com/numbbo/coco), now rewritten fully in ANSI C with
 other languages calling the C code. Languages currently available are
 C, Java, MATLAB/Octave, and Python.
