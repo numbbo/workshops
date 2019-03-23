@@ -1,4 +1,4 @@
-.. _bbob2018page:
+.. _bbob2019page:
 
 GECCO Workshop on Real-Parameter Black-Box Optimization Benchmarking (BBOB 2019)
 ================================================================================
