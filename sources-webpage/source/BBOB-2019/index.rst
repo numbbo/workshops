@@ -1,4 +1,4 @@
-.. _bbob2018page:
+.. _bbob2019page:
 
 GECCO Workshop on Real-Parameter Black-Box Optimization Benchmarking (BBOB 2019)
 ================================================================================
@@ -70,6 +70,7 @@ Analyzing the vast amount of available benchmarking data (from 200+ experiments
 collected throughout the years) will be again a special focus of BBOB-2019.
 As always, we encourage contributions on all kinds of benchmarking aspects,
 in particular:
+
 * benchmarking expensive/Bayesian/surrogate-assisted optimization
 * comparisons between deterministic and stochastic approaches
 * benchmarking of multiobjective optimization algorithms
