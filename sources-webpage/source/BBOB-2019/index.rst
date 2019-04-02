@@ -16,7 +16,7 @@ taking place during GECCO 2019 in Prague.
     | http://gecco-2019.sigevo.org
 
 
-| Submission Deadline: Wednesday, April 3, 2019
+| Submission Deadline: extended to Wednesday, April 10, 2019 (was: April 3, 2019)
 |
 
 
@@ -159,7 +159,7 @@ benchmarking of continuous optimizers, for example papers that:
     
 Paper submissions are expected to be done through the official GECCO
 submission system at  https://ssl.linklings.net/conferences/gecco/ 
-until the deadline on April 3, 2019.
+until the (extended) deadline on April 10, 2019.
 
 In order to finalize your submission, we kindly ask you to fill in
 addition the form at http://numbbo.github.io/submit where you are 
@@ -187,7 +187,7 @@ Important Dates
 
 * **2019-02-27** paper submission system opens
 * **2019-03-15** release 2.3 of the COCO platform with the new large-scale and mixed integer suites: `<https://github.com/numbbo/coco/releases/>`_ (originally planned on **2019-03-06**)
-* **2019-04-03** *paper and data submission deadline* (not extendable!)
+* **2019-04-10** *paper and data submission deadline* (not extendable, was: April 3)
 * **2019-04-17** decision notification
 * **2019-04-24** deadline camera-ready papers
 * **2019-04-24** deadline author registration
