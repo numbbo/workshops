@@ -203,5 +203,5 @@ Organizers
 * Dimo Brockhoff, Inria Saclay - Ile-de-France, France
 * Nikolaus Hansen, Inria Saclay - Ile-de-France, France
 * Tea Tušar, Jožef Stefan Institute, Ljubljana, Slovenia
-* Konstantinos Varelas, Inria Saclay - Ile-de-France, France
+* Konstantinos Varelas, Thales LAS France SAS - Limours and Inria Saclay - Ile-de-France, France
 
