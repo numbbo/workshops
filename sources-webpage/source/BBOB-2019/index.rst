@@ -160,7 +160,9 @@ benchmarking of continuous optimizers, for example papers that:
     
 Paper submissions are expected to be done through the official GECCO
 submission system at  https://ssl.linklings.net/conferences/gecco/ 
-until the (extended) deadline on April 10, 2019.
+until the (extended) deadline on April 10, 2019. ACM-compliant
+LaTeX templates are available in the github repository under
+`code-postprocessing/latex-templates/ <https://github.com/numbbo/coco/tree/master/code-postprocessing/latex-templates>`_.
 
 In order to finalize your submission, we kindly ask you to fill in
 addition the form at http://numbbo.github.io/submit where you are 
