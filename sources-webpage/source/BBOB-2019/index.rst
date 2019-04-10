@@ -177,9 +177,9 @@ to the above BBOB test suites.
 
 
 .. [2] The data of previously compared algorithms can be found at 
-   http://coco.gforge.inria.fr/doku.php?id=algorithms and is easily
-   accessible from the python ``cocopp`` module via its ``data_archive``
-   sub-module.
+   http://coco.gforge.inria.fr/doku.php?id=algorithms and are easily
+   accessible by name in the ``cocopp`` post-processing and from the python
+   ``cocopp.archives`` module.
 
 
 
