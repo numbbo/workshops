@@ -115,6 +115,83 @@ releases and bugfixes of the supporting NumBBO/COCO platform, by
 registering at http://numbbo.github.io/register.
 
 
+
+Accepted Papers
+---------------
+Out of nice submissions, the following seven papers have been accepted after peer-review:
+
+* Benjamin Bodner: "Benchmarking the ATM Algorithm on the BBOB 2009 Noiseless Function Testbed"
+* Louis Faury, Clément Calauzènes, and Olivier Fercoq: "Benchmarking GNN-CMA-ES on the BBOB noiseless testbed"
+* Konstantinos Varelas and Marie-Ange Dahito: "Benchmarking Multivariate Solvers of SciPy on the Noiseless Testbed"
+* Paul Dufossé and Cheikh Touré: "Benchmarking MO-CMA-ES and COMO-CMA-ES on the Bi-objective bbob-biobj Testbed"
+* Konstantinos Varelas: "Benchmarking Large Scale Variants of CMA-ES and L-BFGS-B on the bbob-largescale Testbed"
+* Dimo Brockhoff and Nikolaus Hansen: "The Impact of Sample Volume in Random Search on the bbob Test Suite"
+* Dimo Brockhoff and Tea Tušar: "Benchmarking Algorithms from the platypus Framework on the Biobjective bbob-biobj Testbed"
+
+
+
+Schedule
+--------------------
+This year, the BBOB-2019 workshop got assigned the very first two sessions at GECCO (on July 13, 2019) 
+in which the talks are scheduled according
+to the table below. 
+The room is called "Club A".
+Speakers are highlighted with a star behind the name. 
+Please click on the provided links to download the slides if available.
+
+.. tabularcolumns:: |l|p{5cm}|
+
++---------------+-------------------------------------------------------------------------------------------------------------------+
+| **BBOB-2019 Session I**: Introduction, large-scale and multiobjective optimization                                                |
++---------------+-------------------------------------------------------------------------------------------------------------------+
+| 08:30 - 09:15 | The BBOBies: Introduction to Blackbox Optimization Benchmarking                                                   |
++---------------+-------------------------------------------------------------------------------------------------------------------+
+| 09:15 - 09:40 | | Konstantinos Varelas*:                                                                                          |
+|               | | Benchmarking Large Scale Variants of CMA-ES and L-BFGS-B on the bbob-largescale Testbed                         |
++---------------+-------------------------------------------------------------------------------------------------------------------+
+| 09:40 - 10:05 | | Paul Dufossé* and Cheikh Touré:                                                                                 |
+|               | | Benchmarking MO-CMA-ES and COMO-CMA-ES on the Bi-objective bbob-biobj Testbed                                   |
++---------------+-------------------------------------------------------------------------------------------------------------------+
+| 10:05 – 10:20 | | Dimo Brockhoff* and Tea Tušar:                                                                                  |
+|               | | Benchmarking Algorithms from the platypus Framework on the Biobjective bbob-biobj Testbed                       |
++---------------+-------------------------------------------------------------------------------------------------------------------+
+
+
+
++---------------+-------------------------------------------------------------------------------------------------------------------+
+| **BBOB-2019 Session II**: noiseless, unconstrained optimization                                                                   |
++---------------+-------------------------------------------------------------------------------------------------------------------+
+| 10:40 - 10:45 | The BBOBies: Introduction to Blackbox Optimization Benchmarking                                                   |
++---------------+-------------------------------------------------------------------------------------------------------------------+
+| 10:45 - 10:55 | | Dimo Brockhoff* and Nikolaus Hansen:                                                                            |
+|               | | The Impact of Sample Volume in Random Search on the bbob Test Suite                                             |
++---------------+-------------------------------------------------------------------------------------------------------------------+
+| 10:55 - 11:20 | | Benjamin Bodner*:                                                                                               |
+|               | | Benchmarking the ATM Algorithm on the BBOB 2009 Noiseless Function Testbed                                      |
++---------------+-------------------------------------------------------------------------------------------------------------------+
+| 11:20 – 11:45 | | Louis Faury, Clément Calauzènes, and Olivier Fercoq:                                                            |
+|               | | Benchmarking GNN-CMA-ES on the BBOB noiseless testbed                                                           |
++---------------+-------------------------------------------------------------------------------------------------------------------+
+| 11:45 - 12:10 | | Konstantinos Varelas and Marie-Ange Dahito:                                                                     |
+|               | | Benchmarking Multivariate Solvers of SciPy on the Noiseless Testbed                                             |
++---------------+-------------------------------------------------------------------------------------------------------------------+
+| 12:10 - 12:20 | | Nikolaus Hansen*:                                                                                               |
+|               | | The COCO data archive and This Year's Results                                                                   |
++---------------+-------------------------------------------------------------------------------------------------------------------+
+| 12:20 - 12:30 | The BBOBies: Wrap-up and Open Discussion                                                                          |
++---------------+-------------------------------------------------------------------------------------------------------------------+
+
+   
+
+..
+  Links to Algorithm Data
+  -----------------------
+  The data of all submitted experiments can be found in the
+  `list of data sets <http://coco.gforge.inria.fr/doku.php?id=algorithms>`_.
+
+   
+
+
 Supporting material
 -------------------
 The basis of the workshop is the Comparing Continuous Optimizer platform
@@ -194,16 +271,16 @@ Important Dates
 * **2019-04-17** decision notification
 * **2019-04-24** deadline camera-ready papers
 * **2019-04-24** deadline author registration
-* **2019-07-13** or **2019-07-14** workshop
+* **2019-07-13** workshop
 
 All dates are given in ISO 8601 format (yyyy-mm-dd).
 
 
 Organizers
 ----------
-* Anne Auger, Inria Saclay - Ile-de-France, France
-* Dimo Brockhoff, Inria Saclay - Ile-de-France, France
-* Nikolaus Hansen, Inria Saclay - Ile-de-France, France
+* Anne Auger, Inria and CMAP, Ecole Polytechnique, Institut Polytechnique de Paris, France
+* Dimo Brockhoff, Inria and CMAP, Ecole Polytechnique, Institut Polytechnique de Paris, France
+* Nikolaus Hansen, Inria and CMAP, Ecole Polytechnique, Institut Polytechnique de Paris, France
 * Tea Tušar, Jožef Stefan Institute, Ljubljana, Slovenia
-* Konstantinos Varelas, Thales LAS France SAS - Limours and Inria Saclay - Ile-de-France, France
+* Konstantinos Varelas, Thales LAS France SAS - Limours and Inria and CMAP, Ecole Polytechnique, Institut Polytechnique de Paris
 
