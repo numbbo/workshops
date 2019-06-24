@@ -169,10 +169,10 @@ Please click on the provided links to download the slides if available.
 | 10:55 - 11:20 | | Benjamin Bodner*:                                                                                               |
 |               | | Benchmarking the ATM Algorithm on the BBOB 2009 Noiseless Function Testbed                                      |
 +---------------+-------------------------------------------------------------------------------------------------------------------+
-| 11:20 – 11:45 | | Louis Faury, Clément Calauzènes, and Olivier Fercoq:                                                            |
+| 11:20 – 11:45 | | Louis Faury*, Clément Calauzènes, and Olivier Fercoq:                                                           |
 |               | | Benchmarking GNN-CMA-ES on the BBOB noiseless testbed                                                           |
 +---------------+-------------------------------------------------------------------------------------------------------------------+
-| 11:45 - 12:10 | | Konstantinos Varelas and Marie-Ange Dahito:                                                                     |
+| 11:45 - 12:10 | | Konstantinos Varelas and Marie-Ange Dahito*:                                                                    |
 |               | | Benchmarking Multivariate Solvers of SciPy on the Noiseless Testbed                                             |
 +---------------+-------------------------------------------------------------------------------------------------------------------+
 | 12:10 - 12:20 | | Nikolaus Hansen*:                                                                                               |
