@@ -145,8 +145,10 @@ Please click on the provided links to download the slides if available.
 | **BBOB-2019 Session I**: Introduction, large-scale and multiobjective optimization                                                |
 +---------------+-------------------------------------------------------------------------------------------------------------------+
 | 08:30 - 09:15 | The BBOBies: Introduction to Blackbox Optimization Benchmarking                                                   |
+|               | (`slides <http://coco.gforge.inria.fr/presentation-archive/2019-GECCO/01_Dimo_bbob-2019-intro.pdf>`__)            |
 +---------------+-------------------------------------------------------------------------------------------------------------------+
-| 09:15 - 09:40 | | Konstantinos Varelas*:                                                                                          |
+| 09:15 - 09:40 | |                                                                                                                 |
+|               | | Konstantinos Varelas*:                                                                                          |
 |               | | Benchmarking Large Scale Variants of CMA-ES and L-BFGS-B on the bbob-largescale Testbed                         |
 +---------------+-------------------------------------------------------------------------------------------------------------------+
 | 09:40 - 10:05 | | Paul Dufossé* and Cheikh Touré:                                                                                 |
@@ -154,6 +156,7 @@ Please click on the provided links to download the slides if available.
 +---------------+-------------------------------------------------------------------------------------------------------------------+
 | 10:05 – 10:20 | | Dimo Brockhoff* and Tea Tušar:                                                                                  |
 |               | | Benchmarking Algorithms from the platypus Framework on the Biobjective bbob-biobj Testbed                       |
+|               | | (`slides <http://coco.gforge.inria.fr/presentation-archive/2019-GECCO/04_Dimo_playtpus.pdf>`__)                 |
 +---------------+-------------------------------------------------------------------------------------------------------------------+
 
 
@@ -162,12 +165,15 @@ Please click on the provided links to download the slides if available.
 | **BBOB-2019 Session II**: noiseless, unconstrained optimization                                                                   |
 +---------------+-------------------------------------------------------------------------------------------------------------------+
 | 10:40 - 10:45 | The BBOBies: Introduction to Blackbox Optimization Benchmarking                                                   |
+|               | (`slides <http://coco.gforge.inria.fr/presentation-archive/2019-GECCO/05_Dimo_bbob-2019-miniintroAndRS.pdf>`__)   |
 +---------------+-------------------------------------------------------------------------------------------------------------------+
 | 10:45 - 10:55 | | Dimo Brockhoff* and Nikolaus Hansen:                                                                            |
 |               | | The Impact of Sample Volume in Random Search on the bbob Test Suite                                             |
+|               | | (`slides <http://coco.gforge.inria.fr/presentation-archive/2019-GECCO/05_Dimo_bbob-2019-miniintroAndRS.pdf>`__) |
 +---------------+-------------------------------------------------------------------------------------------------------------------+
 | 10:55 - 11:20 | | Benjamin Bodner*:                                                                                               |
-|               | | Benchmarking the ATM Algorithm on the BBOB 2009 Noiseless Function Testbed                                      |
+|               | | Benchmarking the ATM Algorithm on the BBOB 2009 Noiseless Function Testbed                                      |                           
+|               | | (`slides <http://coco.gforge.inria.fr/presentation-archive/2019-GECCO/07_Bodner_ATM.pdf>`__)                    |
 +---------------+-------------------------------------------------------------------------------------------------------------------+
 | 11:20 – 11:45 | | Louis Faury*, Clément Calauzènes, and Olivier Fercoq:                                                           |
 |               | | Benchmarking GNN-CMA-ES on the BBOB noiseless testbed                                                           |
