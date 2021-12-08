@@ -182,9 +182,9 @@ Organizers
 * Anne Auger, Inria and CMAP, Ecole Polytechnique, Institut Polytechnique de Paris, France
 * Dimo Brockhoff, Inria and CMAP, Ecole Polytechnique, Institut Polytechnique de Paris, France
 * Konstantin Dietrich, TU Köln, Germany
-* Paul Dufoss&eacute;, Inria and Thales, France
+* Paul Dufossé, Inria and Thales Defense Mission Systems, France
 * Tobias Glasmachers, Ruhr-Universität Bochum, Germany
 * Nikolaus Hansen, Inria and CMAP, Ecole Polytechnique, Institut Polytechnique de Paris, France
-* Olaf Mersmann, , TU Köln, Germany
+* Olaf Mersmann, TU Köln, Germany
 * Petr Pošík, Czech Technical University, Czech Republic
 * Tea Tušar, Jozef Stefan Institute (JSI), Slovenia
