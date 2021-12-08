@@ -112,7 +112,7 @@ are provided at http://numbbo.github.io/coco-doc/bbob-biobj/functions/ .
 
 [^1] Note that the current release of the new Coco platform does not contain the 
 original noisy BBOB testbed yet, such that you must use the old code at 
-http://coco.gforge.inria.fr/doku.php?id=downloads for the time
+https://numbbo.github.io/coco/oldcode/bboball15.03.tar.gz for the time
 being if you want to compare your algorithm on the noisy testbed.
 
 
@@ -144,9 +144,10 @@ BBOB test suites.
 
 
 [^2] The data of previously compared algorithms can be found at 
-http://coco.gforge.inria.fr/doku.php?id=algorithms-biobj for the
-``bbob-biobj`` test suite and at http://coco.gforge.inria.fr/doku.php?id=algorithms
-for the ``bbob`` and ``bbob-noisy`` test suites.
+https://numbbo.github.io/data-archive/bbob-biobj/ for the
+``bbob-biobj`` test suite and at https://numbbo.github.io/data-archive/bbob/
+and https://numbbo.github.io/data-archive/bbob-noisy/
+for the ``bbob`` and ``bbob-noisy`` test suites respectively.
 
 
 Accepted Papers
@@ -162,9 +163,9 @@ Accepted Papers
 Links to Algorithm Data
 -----------------------
 The data of Simon's self-adaptive SMS-EMOA can be found in the
-`list of biobjective data sets <http://coco.gforge.inria.fr/doku.php?id=algorithms-biobj>`_
+`list of biobjective data sets <https://numbbo.github.io/data-archive/bbob-biobj>`_
 and all other single-objective data sets at the 
-`list of bbob data sets <http://coco.gforge.inria.fr/doku.php?id=algorithms>`_.
+`list of bbob data sets <https://numbbo.github.io/data-archive/bbob/>`_.
 
 
 Schedule
@@ -174,42 +175,42 @@ Speakers are highlighted with a star behind the name if known. Please click on t
 
 .. tabularcolumns:: |l|p{5cm}|
 
-+---------------+-------------------------------------------------------------------------------------------------------------------+
-| **Session I**                                                                                                                     |
-+---------------+-------------------------------------------------------------------------------------------------------------------+
-| 08:30 - 09:05 | The BBOBies: Introduction to Blackbox Optimization Benchmarking                                                   |
-|               |                                                                                                                   |
-+---------------+-------------------------------------------------------------------------------------------------------------------+
-| 09:05 - 09:30 | Simon Wessing*:                                                                                                   |
-|               | Benchmarking the SMS-EMOA with Self-adaptation on the bbob-biobj Test Suite                                       |
-|               | (`slides <http://coco.gforge.inria.fr/presentation-archive/2017-GECCO/02-Wessing-SMS-EMOA-SA.pdf>`__)             |
-+---------------+-------------------------------------------------------------------------------------------------------------------+
-| 09:30 - 09:55 | Mario García-Valdez* and Juan-J. Merelo:                                                                          |
-|               | Benchmarking a Pool-Based Execution with GA and PSO Workers on the BBOB Noiseless Testbed                         |
-+---------------+-------------------------------------------------------------------------------------------------------------------+
-| 09:55 - 10:20 | Zbynek Pitra*, Lukas Bajer, Jakub Repicky, and Martin Holena:                                                     |
-|               | Comparison of Ordinal and Metric Gaussian Process Regression as Surrogate Models for CMA Evolution Strategy       |
-|               | (`slides <http://coco.gforge.inria.fr/presentation-archive/2017-GECCO/04-Pitra-DTS-CMA.pdf>`__)                   |
-+---------------+-------------------------------------------------------------------------------------------------------------------+
-| **Session II**                                                                                                                    |
-+---------------+-------------------------------------------------------------------------------------------------------------------+
-| 10:40 - 10:50 | The BBOBies: Session Introduction                                                                                 |
-+---------------+-------------------------------------------------------------------------------------------------------------------+
-| 10:50 - 11:15 | Dogan Aydin* and Gurcan Yavuz:                                                                                    |
-|               | Self-adaptive Search Equation-Based Artificial Bee Colony Algorithm with CMA-ES on the Noiseless BBOB Testbed     |
-|               | (`slides <http://coco.gforge.inria.fr/presentation-archive/2017-GECCO/06-Aydin-SSEABC.pdf>`__)                    |
-+---------------+-------------------------------------------------------------------------------------------------------------------+
-| 11:15 - 11:40 | Duc Manh Nguyen and Nikolaus Hansen*:                                                                             |
-|               | Benchmarking CMAES-APOP on the BBOB Noiseless Testbed                                                             |
-+---------------+-------------------------------------------------------------------------------------------------------------------+
-| 11:40 - 12:05 | Takahiro Yamaguchi and Youhei Akimoto*:                                                                           |
-|               | Benchmarking the Novel CMA-ES Restart Strategy Using the Search History on the BBOB Noiseless Testbed             |
-|               | (`slides <http://coco.gforge.inria.fr/presentation-archive/2017-GECCO/08-Akimoto-KL-CMA.pdf>`__)                  |
-+---------------+-------------------------------------------------------------------------------------------------------------------+
-| 12:05 - 12:30 | The BBOBies: Wrap-up and Open Discussion                                                                          |
-+---------------+-------------------------------------------------------------------------------------------------------------------+
++---------------+-----------------------------------------------------------------------------------------------------------------------+
+| **Session I**                                                                                                                         |
++---------------+-----------------------------------------------------------------------------------------------------------------------+
+| 08:30 - 09:05 | The BBOBies: Introduction to Blackbox Optimization Benchmarking                                                       |
+|               |                                                                                                                       |
++---------------+-----------------------------------------------------------------------------------------------------------------------+
+| 09:05 - 09:30 | Simon Wessing*:                                                                                                       |
+|               | Benchmarking the SMS-EMOA with Self-adaptation on the bbob-biobj Test Suite                                           |
+|               | (`slides <https://numbbo.github.io/gforge/presentation-archive/2017-GECCO/02-Wessing-SMS-EMOA-SA.pdf>`__)             |
++---------------+-----------------------------------------------------------------------------------------------------------------------+
+| 09:30 - 09:55 | Mario García-Valdez* and Juan-J. Merelo:                                                                              |
+|               | Benchmarking a Pool-Based Execution with GA and PSO Workers on the BBOB Noiseless Testbed                             |
++---------------+-----------------------------------------------------------------------------------------------------------------------+
+| 09:55 - 10:20 | Zbynek Pitra*, Lukas Bajer, Jakub Repicky, and Martin Holena:                                                         |
+|               | Comparison of Ordinal and Metric Gaussian Process Regression as Surrogate Models for CMA Evolution Strategy           |
+|               | (`slides <https://numbbo.github.io/gforge/presentation-archive/2017-GECCO/04-Pitra-DTS-CMA.pdf>`__)                   |
++---------------+-----------------------------------------------------------------------------------------------------------------------+
+| **Session II**                                                                                                                        |
++---------------+-----------------------------------------------------------------------------------------------------------------------+
+| 10:40 - 10:50 | The BBOBies: Session Introduction                                                                                     |
++---------------+-----------------------------------------------------------------------------------------------------------------------+
+| 10:50 - 11:15 | Dogan Aydin* and Gurcan Yavuz:                                                                                        |
+|               | Self-adaptive Search Equation-Based Artificial Bee Colony Algorithm with CMA-ES on the Noiseless BBOB Testbed         |
+|               | (`slides <https://numbbo.github.io/gforge/presentation-archive/2017-GECCO/06-Aydin-SSEABC.pdf>`__)                    |
++---------------+-----------------------------------------------------------------------------------------------------------------------+
+| 11:15 - 11:40 | Duc Manh Nguyen and Nikolaus Hansen*:                                                                                 |
+|               | Benchmarking CMAES-APOP on the BBOB Noiseless Testbed                                                                 |
++---------------+-----------------------------------------------------------------------------------------------------------------------+
+| 11:40 - 12:05 | Takahiro Yamaguchi and Youhei Akimoto*:                                                                               |
+|               | Benchmarking the Novel CMA-ES Restart Strategy Using the Search History on the BBOB Noiseless Testbed                 |
+|               | (`slides <https://numbbo.github.io/gforge/presentation-archive/2017-GECCO/08-Akimoto-KL-CMA.pdf>`__)                  |
++---------------+-----------------------------------------------------------------------------------------------------------------------+
+| 12:05 - 12:30 | The BBOBies: Wrap-up and Open Discussion                                                                              |
++---------------+-----------------------------------------------------------------------------------------------------------------------+
 
-.. |               | (`slides <http://coco.gforge.inria.fr/presentation-archive/2016-GECCO/05_Cheryl_MO-DIRECT.pdf>`__)                |
+.. |               | (`slides <https://numbbo.github.io/gforge/presentation-archive/2016-GECCO/05_Cheryl_MO-DIRECT.pdf>`__)                |
 
 
 Important Dates

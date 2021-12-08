@@ -8,10 +8,11 @@ benchmarking black-box optimization algorithms for continuous and mixed-integer 
 the performance of numerical black-box optimization algorithms. The former is realized through the Comparing Continuous
 Optimizers platform (Coco).
 
-So far, ten workshops have been held (in `2009`_, `2010`_, `2012`_, `2013`_, `2015`_, `2016`_, `2017`_, `2018`_, and `2019`_ at GECCO and in `2015 at CEC`_). 
+So far, eleven workshops have been held (in `2009`_, `2010`_, `2012`_, `2013`_, `2015`_, `2016`_, `2017`_, `2018`_, `2019`_, and `2021`_ at GECCO and in `2015 at CEC`_). 
 
-The next workshop, `BBOB 2021 <BBOB-2021/index.html>`_, celebrating the workshop series' 10th edition at GECCO, will take place at GECCO'2021.
+The next workshop, `BBOB 2022 <BBOB-2022/index.html>`_, will take place at GECCO'2022.
 
+.. _`2022`: BBOB-2021/index.html
 .. _`2021`: BBOB-2021/index.html
 .. _`2019`: BBOB-2019/index.html
 .. _`2018`: BBOB-2018/index.html
@@ -42,7 +43,7 @@ Generally, six benchmark suites are available:
 
 .. * ``bbob-biobj-ext`` containing 92 noiseless, bi-objective functions, as an extension of ``bbob-biobj``
 
-Note that due to the rewriting of the Coco platform, the ``bbob-noisy`` test suite is not yet available in the new code from http://github.com/numbbo/coco . Please use the old code at http://coco.gforge.inria.fr/doku.php?id=downloads instead for running experiments on ``bbob-noisy``.
+Note that due to the rewriting of the Coco platform, the ``bbob-noisy`` test suite is not yet available in the new code from http://github.com/numbbo/coco . Please use the old code at https://numbbo.github.io/coco/oldcode/bboball15.03.tar.gz instead for running experiments on ``bbob-noisy``.
 
 
 
@@ -57,6 +58,7 @@ Table of Contents:
 .. toctree::
    :maxdepth: 2
 
+   BBOB-2022/index
    BBOB-2021/index
    BBOB-2019/index
    BBOB-2018/index

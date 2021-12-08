@@ -83,7 +83,7 @@ Documentation of the functions used in the `bbob-biobj` suite for BBOB 2016 are 
 http://numbbo.github.io/coco-doc/bbob-biobj/functions/ .
 
 Note that the current release of the new Coco platform does not contain the original noisy BBOB testbed,
-such that you must use the old code at http://coco.gforge.inria.fr/doku.php?id=downloads for the time
+such that you must use the old code at https://numbbo.github.io/coco/oldcode/bboball15.03.tar.gz for the time
 being if you want to compare your algorithm on the noisy testbed.
 
 
@@ -112,7 +112,9 @@ Eventually, the following papers have been accepted:
 
 Data
 ----
-The data sets of all submitted algorithms can be found at http://coco.gforge.inria.fr/doku.php?id=algorithms-biobj for the ``bbob-biobj`` test suite and at http://coco.gforge.inria.fr/doku.php?id=algorithms for the ``bbob`` and ``bbob-noisy`` test suites.
+The data sets of all submitted algorithms can be found at https://numbbo.github.io/data-archive/bbob-biobj/ for the ``bbob-biobj`` 
+test suite and at https://numbbo.github.io/data-archive/bbob and https://numbbo.github.io/data-archive/bbob-noisy/ for the ``bbob`` 
+and ``bbob-noisy`` test suites respectively.
 
 
 Workshop Schedule
@@ -122,53 +124,53 @@ Please click on the provided links to download the slides.
 
 .. tabularcolumns:: |l|p{5cm}|
 
-+---------------+-------------------------------------------------------------------------------------------------------------------+
-| **Session I**                                                                                                                     |
-+---------------+-------------------------------------------------------------------------------------------------------------------+
-| 08:30 - 09:30 | The BBOBies: Introduction to Blackbox Optimization Benchmarking                                                   |
-|               | (`slides <http://coco.gforge.inria.fr/presentation-archive/2016-GECCO/01_Dimo_bbob-2016-intro.pdf>`__)            |
-+---------------+-------------------------------------------------------------------------------------------------------------------+
-| 09:30 - 09:55 | Tea Tušar*, Bogdan Filipič:                                                                                       |
-|               | Performance of the DEMO algorithm on the bi-objective BBOB test suite                                             |
-|               | (`slides <http://coco.gforge.inria.fr/presentation-archive/2016-GECCO/02_Tea_DEMO_handouts.pdf>`__)               |
-+---------------+-------------------------------------------------------------------------------------------------------------------+
-| 09:55 - 10:20 | |longtext|                                                                                                        |
-|               | (`slides <http://coco.gforge.inria.fr/presentation-archive/2016-GECCO/03_Tobias_hmocmaes.pdf>`__)                 |
-+---------------+-------------------------------------------------------------------------------------------------------------------+
-| **Session II**                                                                                                                    |
-+---------------+-------------------------------------------------------------------------------------------------------------------+
-| 10:40 - 10:55 | The BBOBies: Session Introduction                                                                                 |
-|               | (`slides <http://coco.gforge.inria.fr/presentation-archive/2016-GECCO/04_Dimo_bbob-2016-turbointro.pdf>`__)       |
-+---------------+-------------------------------------------------------------------------------------------------------------------+
-| 10:55 - 11:20 | Cheryl Wong*, Abdullah Al-Dujaili, and Suresh Sundaram: Hypervolume-based DIRECT for Multi-Objective Optimisation |
-|               | (`slides <http://coco.gforge.inria.fr/presentation-archive/2016-GECCO/05_Cheryl_MO-DIRECT.pdf>`__)                |
-+---------------+-------------------------------------------------------------------------------------------------------------------+
-|               | Abdullah Al-Dujaili and Suresh Sundaram (speaker: Cheryl Wong):                                                   |
-| 11:20 - 11:45 | A MATLAB Toolbox for Surrogate-Assisted Multi-Objective Optimization: A Preliminary Study                         |
-|               | (`slides <http://coco.gforge.inria.fr/presentation-archive/2016-GECCO/06_Cheryl_MO-MATSuMoTo.pdf>`__)             |
-+---------------+-------------------------------------------------------------------------------------------------------------------+
-| 11:45 - 12:10 | Oswin Krause*, Tobias Glasmachers, Nikolaus Hansen, and Christian Igel:                                           |
-|               | Unbounded Population MO-CMA-ES for the Bi-Objective BBOB Test Suite                                               |
-|               | (`slides <http://coco.gforge.inria.fr/presentation-archive/2016-GECCO/07_Oswin_UP-MO-CMA-ES.pdf>`__)              |
-+---------------+-------------------------------------------------------------------------------------------------------------------+
-| 12:10 - 12:30 | The BBOBies: Session Wrap-up                                                                                      |
-|               | (`slides <http://coco.gforge.inria.fr/presentation-archive/2016-GECCO/08_Dimo_session2-wrapup.pdf>`__)            |
-+---------------+-------------------------------------------------------------------------------------------------------------------+
-| **Session III**                                                                                                                   |
-+---------------+-------------------------------------------------------------------------------------------------------------------+
-| 14:00 - 14:15 | The BBOBies: Session Introduction                                                                                 |
-|               | (`slides <http://coco.gforge.inria.fr/presentation-archive/2016-GECCO/09_Anne_bbob-2016-turbointro.pdf>`__)       |
-+---------------+-------------------------------------------------------------------------------------------------------------------+
-| 14:15 - 14:40 | Kouhei Nishida* and Youhei Akimoto: Evaluating the Population Size Adaptation Mechanism for CMA-ES                |
-|               | (`slides <http://coco.gforge.inria.fr/presentation-archive/2016-GECCO/10_Kouhei_PSA.pdf>`__)                      |
-+---------------+-------------------------------------------------------------------------------------------------------------------+
-| 14:40 - 15:05 | The BBOBies: Wrap-up of all BBOB-2016 Results                                                                     |
-|               | (`slides <http://coco.gforge.inria.fr/presentation-archive/2016-GECCO/11_Anne_bbob-2016-wrap-up.pdf>`__)          |
-+---------------+-------------------------------------------------------------------------------------------------------------------+
-| 15:05 - 15:30 | Thomas Weise*: optimizationBenchmarking.org: An Introduction (slides at github_)                                  |
-+---------------+-------------------------------------------------------------------------------------------------------------------+
-| 15:30 - 15:50 | Open Discussion                                                                                                   |
-+---------------+-------------------------------------------------------------------------------------------------------------------+
++---------------+-----------------------------------------------------------------------------------------------------------------------+
+| **Session I**                                                                                                                         |
++---------------+-----------------------------------------------------------------------------------------------------------------------+
+| 08:30 - 09:30 | The BBOBies: Introduction to Blackbox Optimization Benchmarking                                                       |
+|               | (`slides <https://numbbo.github.io/gforge/presentation-archive/2016-GECCO/01_Dimo_bbob-2016-intro.pdf>`__)            |
++---------------+-----------------------------------------------------------------------------------------------------------------------+
+| 09:30 - 09:55 | Tea Tušar*, Bogdan Filipič:                                                                                           |
+|               | Performance of the DEMO algorithm on the bi-objective BBOB test suite                                                 |
+|               | (`slides <https://numbbo.github.io/gforge/presentation-archive/2016-GECCO/02_Tea_DEMO_handouts.pdf>`__)               |
++---------------+-----------------------------------------------------------------------------------------------------------------------+
+| 09:55 - 10:20 | |longtext|                                                                                                            |
+|               | (`slides <https://numbbo.github.io/gforge/presentation-archive/2016-GECCO/03_Tobias_hmocmaes.pdf>`__)                 |
++---------------+-----------------------------------------------------------------------------------------------------------------------+
+| **Session II**                                                                                                                        |
++---------------+-----------------------------------------------------------------------------------------------------------------------+
+| 10:40 - 10:55 | The BBOBies: Session Introduction                                                                                     |
+|               | (`slides <https://numbbo.github.io/gforge/presentation-archive/2016-GECCO/04_Dimo_bbob-2016-turbointro.pdf>`__)       |
++---------------+-----------------------------------------------------------------------------------------------------------------------+
+| 10:55 - 11:20 | Cheryl Wong*, Abdullah Al-Dujaili, and Suresh Sundaram: Hypervolume-based DIRECT for Multi-Objective Optimisation     |
+|               | (`slides <https://numbbo.github.io/gforge/presentation-archive/2016-GECCO/05_Cheryl_MO-DIRECT.pdf>`__)                |
++---------------+-----------------------------------------------------------------------------------------------------------------------+
+|               | Abdullah Al-Dujaili and Suresh Sundaram (speaker: Cheryl Wong):                                                       |
+| 11:20 - 11:45 | A MATLAB Toolbox for Surrogate-Assisted Multi-Objective Optimization: A Preliminary Study                             |
+|               | (`slides <https://numbbo.github.io/gforge/presentation-archive/2016-GECCO/06_Cheryl_MO-MATSuMoTo.pdf>`__)             |
++---------------+-----------------------------------------------------------------------------------------------------------------------+
+| 11:45 - 12:10 | Oswin Krause*, Tobias Glasmachers, Nikolaus Hansen, and Christian Igel:                                               |
+|               | Unbounded Population MO-CMA-ES for the Bi-Objective BBOB Test Suite                                                   |
+|               | (`slides <https://numbbo.github.io/gforge/presentation-archive/2016-GECCO/07_Oswin_UP-MO-CMA-ES.pdf>`__)              |
++---------------+-----------------------------------------------------------------------------------------------------------------------+
+| 12:10 - 12:30 | The BBOBies: Session Wrap-up                                                                                          |
+|               | (`slides <https://numbbo.github.io/gforge/presentation-archive/2016-GECCO/08_Dimo_session2-wrapup.pdf>`__)            |
++---------------+-----------------------------------------------------------------------------------------------------------------------+
+| **Session III**                                                                                                                       |
++---------------+-----------------------------------------------------------------------------------------------------------------------+
+| 14:00 - 14:15 | The BBOBies: Session Introduction                                                                                     |
+|               | (`slides <https://numbbo.github.io/gforge/presentation-archive/2016-GECCO/09_Anne_bbob-2016-turbointro.pdf>`__)       |
++---------------+-----------------------------------------------------------------------------------------------------------------------+
+| 14:15 - 14:40 | Kouhei Nishida* and Youhei Akimoto: Evaluating the Population Size Adaptation Mechanism for CMA-ES                    |
+|               | (`slides <https://numbbo.github.io/gforge/presentation-archive/2016-GECCO/10_Kouhei_PSA.pdf>`__)                      |
++---------------+-----------------------------------------------------------------------------------------------------------------------+
+| 14:40 - 15:05 | The BBOBies: Wrap-up of all BBOB-2016 Results                                                                         |
+|               | (`slides <https://numbbo.github.io/gforge/presentation-archive/2016-GECCO/11_Anne_bbob-2016-wrap-up.pdf>`__)          |
++---------------+-----------------------------------------------------------------------------------------------------------------------+
+| 15:05 - 15:30 | Thomas Weise*: optimizationBenchmarking.org: An Introduction (slides at github_)                                      |
++---------------+-----------------------------------------------------------------------------------------------------------------------+
+| 15:30 - 15:50 | Open Discussion                                                                                                       |
++---------------+-----------------------------------------------------------------------------------------------------------------------+
  
  .. _github:  https://github.com/optimizationBenchmarking/documentation-technical-intro-slides/releases/tag/2016-07-20/_
  

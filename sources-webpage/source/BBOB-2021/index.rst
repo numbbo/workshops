@@ -27,13 +27,13 @@ taking place online during GECCO 2021.
 =======================================================  ========================================================================  =======================================================================================
 
 
-Benchmarking optimization algorithms is a crucial part in the design and
-application of them in practice. The Comparing Continuous Optimizers
-platform (COCO, https://github.com/numbbo/coco) has been developed in
-the past decade to support algorithm developers and practitioners alike 
-by automating benchmarking experiments for blackbox optimization algorithms
-in single- and bi-objective, unconstrained continuous problems in exact and
-noisy, as well as expensive and non-expensive scenarios.
+Benchmarking of optimization algorithms is a crucial part in their design and
+application in practice. The Comparing Continuous Optimizers platform (COCO, 
+https://github.com/numbbo/coco) has been developed in the past decade to
+support algorithm developers and practitioners alike by automating
+benchmarking experiments for blackbox optimization algorithms in single- and 
+bi-objective, unconstrained continuous problems in exact and noisy, as well as
+expensive and non-expensive scenarios.
 
 For the 11th Blackbox Optimization Benchmarking workshop 
 (BBOB 2021) and the 10th edition at GECCO (1 workshop was held at CEC), 
@@ -44,11 +44,11 @@ bbob-mixint and the bi-objective bbob-biobj-mixint suites previously released
 at GECCO-2019.
 
 Any other submission discussing other aspects of (blackbox) benchmarking, 
-especially on the other available bbob, bbob-noisy, bbob-biobj, and bbob-largescale 
-test suites are welcome as well. We encourage particularly submissions about 
-algorithms from outside the evolutionary computation community and papers 
-analyzing the large amount of already publicly available algorithm data of COCO 
-(see https://coco.gforge.inria.fr/doku.php?id=algorithms).
+especially on the other available bbob, bbob-noisy, bbob-biobj, and
+bbob-largescale test suites are welcome as well. We encourage particularly
+submissions about algorithms from outside the evolutionary computation
+community and papers analyzing the large amount of already publicly available
+algorithm data of COCO (see https://numbbo.github.io/data-archive/).
 
 Like for the previous editions of the workshop, we will provide source code in 
 various languages (C/C++, Matlab/Octave, Java, and Python) to benchmark 
@@ -99,7 +99,7 @@ of online data storage.
 
 
 .. [2] The data of previously compared algorithms can be found at 
-   http://coco.gforge.inria.fr/doku.php?id=algorithms and are easily
+   https://numbbo.github.io/data-archive/ and are easily
    accessible by name in the ``cocopp`` post-processing and from the python
    ``cocopp.archives`` module.
 
@@ -127,7 +127,7 @@ of online data storage.
   | **BBOB-2019 Session I**: Introduction, large-scale and multiobjective optimization                                                |
   +---------------+-------------------------------------------------------------------------------------------------------------------+
   | 08:30 - 09:15 | The BBOBies: Introduction to Blackbox Optimization Benchmarking                                                   |
-  |               | (`slides <http://coco.gforge.inria.fr/presentation-archive/2019-GECCO/01_Dimo_bbob-2019-intro.pdf>`__)            |
+  |               | (`slides <https://numbbo.github.io/gforge/presentation-archive/2019-GECCO/01_Dimo_bbob-2019-intro.pdf>`__)        |
   +---------------+-------------------------------------------------------------------------------------------------------------------+
   | 09:15 - 09:40 | |                                                                                                                 |
   |               | | Konstantinos Varelas*:                                                                                          |
@@ -138,36 +138,36 @@ of online data storage.
   +---------------+-------------------------------------------------------------------------------------------------------------------+
   | 10:05 – 10:20 | | Dimo Brockhoff* and Tea Tušar:                                                                                  |
   |               | | Benchmarking Algorithms from the platypus Framework on the Biobjective bbob-biobj Testbed                       |
-  |               | | (`slides <http://coco.gforge.inria.fr/presentation-archive/2019-GECCO/04_Dimo_playtpus.pdf>`__)                 |
+  |               | | (`slides <https://numbbo.github.io/gforge/presentation-archive/2019-GECCO/04_Dimo_playtpus.pdf>`__)             |
   +---------------+-------------------------------------------------------------------------------------------------------------------+
 
 
 
-  +---------------+-------------------------------------------------------------------------------------------------------------------+
-  | **BBOB-2019 Session II**: noiseless, unconstrained optimization                                                                   |
-  +---------------+-------------------------------------------------------------------------------------------------------------------+
-  | 10:40 - 10:45 | The BBOBies: Introduction to Blackbox Optimization Benchmarking                                                   |
-  |               | (`slides <http://coco.gforge.inria.fr/presentation-archive/2019-GECCO/05_Dimo_bbob-2019-miniintroAndRS.pdf>`__)   |
-  +---------------+-------------------------------------------------------------------------------------------------------------------+
-  | 10:45 - 10:55 | | Dimo Brockhoff* and Nikolaus Hansen:                                                                            |
-  |               | | The Impact of Sample Volume in Random Search on the bbob Test Suite                                             |
-  |               | | (`slides <http://coco.gforge.inria.fr/presentation-archive/2019-GECCO/05_Dimo_bbob-2019-miniintroAndRS.pdf>`__) |
-  +---------------+-------------------------------------------------------------------------------------------------------------------+
-  | 10:55 - 11:20 | | Benjamin Bodner*:                                                                                               |
-  |               | | Benchmarking the ATM Algorithm on the BBOB 2009 Noiseless Function Testbed                                      |                           
-  |               | | (`slides <http://coco.gforge.inria.fr/presentation-archive/2019-GECCO/07_Bodner_ATM.pdf>`__)                    |
-  +---------------+-------------------------------------------------------------------------------------------------------------------+
-  | 11:20 – 11:45 | | Louis Faury*, Clément Calauzènes, and Olivier Fercoq:                                                           |
-  |               | | Benchmarking GNN-CMA-ES on the BBOB noiseless testbed                                                           |
-  +---------------+-------------------------------------------------------------------------------------------------------------------+
-  | 11:45 - 12:10 | | Konstantinos Varelas and Marie-Ange Dahito*:                                                                    |
-  |               | | Benchmarking Multivariate Solvers of SciPy on the Noiseless Testbed                                             |
-  +---------------+-------------------------------------------------------------------------------------------------------------------+
-  | 12:10 - 12:20 | | Nikolaus Hansen*:                                                                                               |
-  |               | | The COCO data archive and This Year's Results                                                                   |
-  +---------------+-------------------------------------------------------------------------------------------------------------------+
-  | 12:20 - 12:30 | The BBOBies: Wrap-up and Open Discussion                                                                          |
-  +---------------+-------------------------------------------------------------------------------------------------------------------+
+  +---------------+-----------------------------------------------------------------------------------------------------------------------+
+  | **BBOB-2019 Session II**: noiseless, unconstrained optimization                                                                       |
+  +---------------+-----------------------------------------------------------------------------------------------------------------------+
+  | 10:40 - 10:45 | The BBOBies: Introduction to Blackbox Optimization Benchmarking                                                       |
+  |               | (`slides <https://numbbo.github.io/gforge/presentation-archive/2019-GECCO/05_Dimo_bbob-2019-miniintroAndRS.pdf>`__)   |
+  +---------------+-----------------------------------------------------------------------------------------------------------------------+
+  | 10:45 - 10:55 | | Dimo Brockhoff* and Nikolaus Hansen:                                                                                |
+  |               | | The Impact of Sample Volume in Random Search on the bbob Test Suite                                                 |
+  |               | | (`slides <https://numbbo.github.io/gforge/presentation-archive/2019-GECCO/05_Dimo_bbob-2019-miniintroAndRS.pdf>`__) |
+  +---------------+-----------------------------------------------------------------------------------------------------------------------+
+  | 10:55 - 11:20 | | Benjamin Bodner*:                                                                                                   |
+  |               | | Benchmarking the ATM Algorithm on the BBOB 2009 Noiseless Function Testbed                                          |                           
+  |               | | (`slides <https://numbbo.github.io/gforge/presentation-archive/2019-GECCO/07_Bodner_ATM.pdf>`__)                    |
+  +---------------+-----------------------------------------------------------------------------------------------------------------------+
+  | 11:20 – 11:45 | | Louis Faury*, Clément Calauzènes, and Olivier Fercoq:                                                               |
+  |               | | Benchmarking GNN-CMA-ES on the BBOB noiseless testbed                                                               |
+  +---------------+-----------------------------------------------------------------------------------------------------------------------+
+  | 11:45 - 12:10 | | Konstantinos Varelas and Marie-Ange Dahito*:                                                                        |
+  |               | | Benchmarking Multivariate Solvers of SciPy on the Noiseless Testbed                                                 |
+  +---------------+-----------------------------------------------------------------------------------------------------------------------+
+  | 12:10 - 12:20 | | Nikolaus Hansen*:                                                                                                   |
+  |               | | The COCO data archive and This Year's Results                                                                       |
+  +---------------+-----------------------------------------------------------------------------------------------------------------------+
+  | 12:20 - 12:30 | The BBOBies: Wrap-up and Open Discussion                                                                              |
+  +---------------+-----------------------------------------------------------------------------------------------------------------------+
 
    
 
@@ -175,7 +175,7 @@ of online data storage.
   Links to Algorithm Data
   -----------------------
   The data of all submitted experiments can be found in the
-  `list of data sets <http://coco.gforge.inria.fr/doku.php?id=algorithms>`_.
+  `list of data sets <https://numbbo.github.io/data-archive/>`_.
 
    
 
@@ -200,17 +200,17 @@ running your benchmarking experiments in 2021.
 
 Documentation of the functions used in the different test suites can be found here:
 
-* ``bbob`` suite at https://coco.gforge.inria.fr/downloads/download16.00/bbobdocfunctions.pdf
+* ``bbob`` suite at https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf
 * ``bbob-noisy`` suite at http://coco.lri.fr/downloads/download15.03/bbobdocnoisyfunctions.pdf
 * ``bbob-biobj`` suite at http://numbbo.github.io/coco-doc/bbob-biobj/functions/
 * ``bbob-largescale`` suite at http://numbbo.github.io/coco-doc/bbob-largescale/functions/
-* ``bbob-mixint`` and ``bbob-biobj-mixint`` suites at https://hal.inria.fr/hal-02067932/document and at http://coco.gforge.inria.fr/preliminary-bbob-mixint-documentation/bbob-mixint-doc.pdf
+* ``bbob-mixint`` and ``bbob-biobj-mixint`` suites at https://hal.inria.fr/hal-02067932/document and at https://numbbo.github.io/gforge/preliminary-bbob-mixint-documentation/bbob-mixint-doc.pdf
 
 
 
 .. [1] Note that the current release of the new COCO platform does not contain the 
    original noisy BBOB testbed yet, such that you must use the old code at 
-   http://coco.gforge.inria.fr/doku.php?id=downloads for the time
+   https://numbbo.github.io/coco/oldcode/bboball15.03.tar.gz for the time
    being if you want to compare your algorithm on the noisy testbed.
 
 
