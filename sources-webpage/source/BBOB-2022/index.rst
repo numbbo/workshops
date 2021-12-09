@@ -5,7 +5,7 @@ GECCO Workshop on Black-Box Optimization Benchmarking (BBOB 2022)
 
 
 Welcome to the web page of the 11th GECCO Workshop on Black-Box Optimization Benchmarking (BBOB 2022)
-taking place online during GECCO 2022.
+taking place during GECCO 2022.
 
     **WORKSHOP ON BLACK-BOX OPTIMIZATION BENCHMARKING (BBOB 2022)**
 
