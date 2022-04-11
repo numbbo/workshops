@@ -150,7 +150,7 @@ Documentation of the functions used in the different test suites can be found he
 * ``bbob-biobj`` suite at https://numbbo.github.io/bbob-biobj/
 * ``bbob-largescale`` suite at https://arxiv.org/pdf/1903.06396.pdf
 * ``bbob-mixint`` and ``bbob-biobj-mixint`` suites at https://hal.inria.fr/hal-02067932/document and at https://numbbo.github.io/gforge/preliminary-bbob-mixint-documentation/bbob-mixint-doc.pdf
-* ``bbob-constrained`` (in progress): http://numbbo.github.io/coco-doc/bbob-constrained/functions/
+* ``bbob-constrained`` suite at: http://numbbo.github.io/coco-doc/bbob-constrained/
 
 
 
