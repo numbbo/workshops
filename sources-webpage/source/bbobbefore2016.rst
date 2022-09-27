@@ -3,7 +3,7 @@ BBOB workshops before 2016
 
 The Black-Box-Optimization-Benchmarking (BBOB) workshop series goes back to the first edition at GECCO 2009 and has been taking place subsequently during the GECCO conference in 2010, 2012, 2013, 2015 and later years. There has been also a special session on the same topic at the IEEE Congress on Evolutionary Computation (CEC'2015) in Sendai, Japan. 
 
-We will try to bring back those webpages from previous editions which are currently offline due to the shutdown of Inria's GForge servers.
+To access the webpages from those previous editions we refer to the `Internet Archive <https://web.archive.org/web/20200710055742/https://coco.gforge.inria.fr/>`_.
 
 
 .. Below, you find the direct links to the previous editions at http://coco.gforge.inria.fr from where you can find details about the experimental setup, the benchmarked algorithms, and the benchmark results:
