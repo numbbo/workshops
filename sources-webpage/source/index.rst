@@ -8,11 +8,12 @@ benchmarking black-box optimization algorithms for continuous and mixed-integer 
 the performance of numerical black-box optimization algorithms. The former is realized through the Comparing Continuous
 Optimizers platform (Coco).
 
-So far, eleven workshops have been held (in `2009`_, `2010`_, `2012`_, `2013`_, `2015`_, `2016`_, `2017`_, `2018`_, `2019`_, and `2021`_ at GECCO and in `2015 at CEC`_). 
+So far, twelve workshops have been held (in `2009`_, `2010`_, `2012`_, `2013`_, `2015`_, `2016`_, `2017`_, `2018`_, `2019`_, `2021`_, and in `2022` at GECCO and in `2015 at CEC`_). 
 
-The next workshop, `BBOB 2022 <BBOB-2022/index.html>`_, will take place at GECCO'2022.
+The next workshop, `BBOB 2023 <BBOB-2023/index.html>`_, will take place at GECCO'2023.
 
-.. _`2022`: BBOB-2021/index.html
+.. _`2023`: BBOB-2023/index.html
+.. _`2022`: BBOB-2022/index.html
 .. _`2021`: BBOB-2021/index.html
 .. _`2019`: BBOB-2019/index.html
 .. _`2018`: BBOB-2018/index.html
@@ -30,14 +31,15 @@ The next workshop, `BBOB 2022 <BBOB-2022/index.html>`_, will take place at GECCO
 ..  with a `new focus on large-scale problems <BBOB-2017/index.html>`_
 
 
-Generally, six benchmark suites are available:
+Generally, seven benchmark suites are available:
 
 * ``bbob`` containing 24 noiseless functions
 * ``bbob-noisy`` containing 30 noisy functions
 * ``bbob-biobj`` containing 55 noiseless, bi-objective functions, generated from the ``bbob`` suite
 * ``bbob-largescale`` containing 24 noiseless functions in dimension 20 to 640
 * ``bbob-mixint`` containing 24 noiseless mixed-integer functions
-* ``bbob-biobj-mixint`` containing 92 noiseless, bi-objective, mixed-integer functions.
+* ``bbob-biobj-mixint`` containing 92 noiseless, bi-objective, mixed-integer functions
+* ``bbob-constrained`` containing 10 noiseless functions with varying number of constraints.
 
 
 
@@ -58,6 +60,7 @@ Table of Contents:
 .. toctree::
    :maxdepth: 2
 
+   BBOB-2023/index
    BBOB-2022/index
    BBOB-2021/index
    BBOB-2019/index
