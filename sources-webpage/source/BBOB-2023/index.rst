@@ -17,7 +17,7 @@ taking place during GECCO 2023.
 
 
 | Submission opening: February 13, 2023
-| Submission deadline: April 14, 2023
+| Submission deadline: April 17, 2023 AoE  (not extendable, was: April 14)
 | Notification: May 3, 2023
 | Camera-ready: May 10, 2023
 | Presenter mandatory registration: May 10, 2023
@@ -166,8 +166,7 @@ Documentation of the functions used in the different test suites can be found he
 
 Important Dates
 ----------------
-
-* **2023-04-14** *paper and data submission deadline*
+* **2023-04-17** *paper and data submission deadline*  (not extendable, was: April 14)
 * **2023-05-03** decision notification
 * **2023-05-10** deadline camera-ready papers
 * **2023-05-10** deadline author registration
