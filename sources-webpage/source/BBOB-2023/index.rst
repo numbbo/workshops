@@ -77,10 +77,13 @@ For more details, please see below.
 Accepted papers
 ---------------
 * Dimo Brockhoff, Pascal Capetillo, Jonathan Hornewall, Raphael Walker: Benchmarking the Borg algorithm on the Biobjective bbob-biobj Testbed
+* Óscar Espinoza, Katya Rodríguez-Vázquez, Carlos Ignacio Hernández-Castellanos, Suemi Rodriguez-Romo: Comparison Of Three Versions Of Whale Optimization Algorithm (WOA) On The Bbob Test Suite
 * Armand Gissler: Evaluation of the impact of various modifications on CMA-ES for a theoretical perspective
 * Victoria Johnson, João Duro, Visakan Kadirkamanathan, Robin Purshouse: A distributed multi-disciplinary design optimization benchmark test suite with constraints and multiple conflicting objectives
 * Jakub Kudela: Benchmarking State-of-the-art DIRECT-type Methods on the BBOB Noiseless Testbed
 * Tristan Marty, Yann Semet, Anne Auger, Sébastien Héron, Nikolaus Hansen: Benchmarking CMA-ES with Basic Integer Handling on a Mixed-Integer Test Problem Suite
+
+
 
 
 
