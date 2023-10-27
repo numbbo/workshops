@@ -5,21 +5,3 @@ The Black-Box-Optimization-Benchmarking (BBOB) workshop series goes back to the 
 
 To access the webpages from those previous editions we refer to the `Internet Archive <https://web.archive.org/web/20200710055742/https://coco.gforge.inria.fr/>`_.
 
-
-.. Below, you find the direct links to the previous editions at http://coco.gforge.inria.fr from where you can find details about the experimental setup, the benchmarked algorithms, and the benchmark results:
-
-.. * `Black-Box Optimization Benchmarking (BBOB) 2015`_
-.. * `CEC'2015 special session on Black-Box Optimization Benchmarking (CEC-BBOB 2013)`_
-.. * `Black-Box Optimization Benchmarking (BBOB) 2013`_
-.. * `Black-Box Optimization Benchmarking (BBOB) 2012`_
-.. * `Black-Box Optimization Benchmarking (BBOB) 2010`_
-.. * `Black-Box Optimization Benchmarking (BBOB) 2009`_
-
-
-
-.. _`Black-Box Optimization Benchmarking (BBOB) 2015`: http://coco.gforge.inria.fr/doku.php?id=bbob-2015
-.. _`CEC'2015 special session on Black-Box Optimization Benchmarking (CEC-BBOB 2013)`: http://coco.gforge.inria.fr/doku.php?id=cec-bbob-2015
-.. _`Black-Box Optimization Benchmarking (BBOB) 2013`: http://coco.gforge.inria.fr/doku.php?id=bbob-2013
-.. _`Black-Box Optimization Benchmarking (BBOB) 2012`: http://coco.gforge.inria.fr/doku.php?id=bbob-2012
-.. _`Black-Box Optimization Benchmarking (BBOB) 2010`: http://coco.gforge.inria.fr/doku.php?id=bbob-2010
-.. _`Black-Box Optimization Benchmarking (BBOB) 2009`: http://coco.gforge.inria.fr/doku.php?id=bbob-2009
