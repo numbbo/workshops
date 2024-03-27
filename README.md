@@ -1,4 +1,13 @@
-Documentation of the BBOB workshop series.
+# BBOB Workshop Series Webpage  #
+---
+This is the source code for creating the [website of the BBOB workshop series](https://numbbo.github.io/workshops/).
 
-Automatically created via Sphinx from sources in the `sources-webpage/source` folder. For
-details on how to edit and publish the web page, please read the file `webpage-update-howto.md`.
+## Local preview
+
+To preview the site on your local machine, run
+
+```sh
+quarto preview
+```
+
+on your machine and open [http://localhost:4204](http://localhost:4204) in your browser.
