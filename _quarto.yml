@@ -1,0 +1,80 @@
+project:
+  type: website
+  output-dir: docs
+  preview:
+    port: 4204
+    browser: false
+  resources: 
+    - env.yaml
+    - "*.ipynb"
+  render:
+    - "*.qmd"
+    - "*.ipynb"
+    - "!scripts/"
+    - "!README.md"
+    - "env.yaml"
+
+bibliography: references.bib
+
+lang: en
+
+website:
+  title: "BBOB Workshop Series"
+  open-graph: true
+  favicon: "images/favicon.png"
+  navbar:
+    title: false
+    background: primary
+    logo: images/favicon.png
+    left:
+    - text: "Home"
+      href: index.qmd
+    - text: "COCO code"
+      href: https://github.com/numbbo/coco
+    - text: "Data archive"
+      href: https://numbbo.github.io/data-archive/
+    - text: "Postprocessed data"
+      href: https://numbbo.github.io/ppdata-archive/
+    - text: "COCO home"
+      href: http://numbbo.github.io/coco/
+  sidebar:
+    style: "docked"
+    contents:
+      - text: "Home"
+        href: index.qmd
+      - text: "BBOB-2023"
+        href: bbob2023.qmd
+      - text: "BBOB-2022"
+        href: bbob2022.qmd
+      - text: "BBOB-2021 (mixed-integer)"
+        href: bbob2021.qmd
+      - text: "BBOB-2019"
+        href: bbob2019.qmd
+      - text: "BBOB-2018"
+        href: bbob2018.qmd
+      - text: "BBOB-2017"
+        href: bbob2017.qmd
+      - text: "BBOB-2016 (bi-objective)"
+        href: bbob2016.qmd
+      - text: "BBOB before 2016"
+        href: before2016.qmd
+  search: 
+    location: navbar
+    type: overlay
+
+format:
+  html:
+    toc: true
+    theme: coco.scss
+    css: "assets/css/custom.css"
+    html-math-method: katex
+    code-copy: true
+    code-overflow: wrap
+    link-external-icon: true
+    link-external-newwindow: true
+    grid:
+      sidebar-width: 260px
+      body-width: 1500px
+      margin-width: 260px
+      gutter-width: 1.5rem
+

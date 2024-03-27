@@ -1,0 +1,42 @@
+# Welcome to the BBOB workshop series!
+
+The Black-box Optimization Benchmarking (BBOB) workshop series provides
+an easy-to-use toolchain for benchmarking black-box optimization
+algorithms for continuous and mixed-integer domains and a place to
+present, compare, and discuss the performance of numerical black-box
+optimization algorithms. The former is realized through the Comparing
+Continuous Optimizers platform (Coco).
+
+So far, twelve workshops have been held (in 2009, 2010, 2012, 2013,
+2015, [2016](BBOB-2016/index.html), [2017](BBOB-2017/index.html),
+[2018](BBOB-2018/index.html), [2019](BBOB-2019/index.html),
+[2021](BBOB-2021/index.html), [2022](BBOB-2022/index.html), and in
+[2023](BBOB-2023/index.html) at GECCO and in 2015 at CEC).
+
+
+Generally, seven benchmark suites are available:
+
+-   `bbob` containing 24 noiseless functions
+-   `bbob-noisy` containing 30 noisy functions
+-   `bbob-biobj` containing 55 noiseless, bi-objective functions,
+    generated from the `bbob` suite
+-   `bbob-largescale` containing 24 noiseless functions in dimension 20
+    to 640
+-   `bbob-mixint` containing 24 noiseless mixed-integer functions
+-   `bbob-biobj-mixint` containing 92 noiseless, bi-objective,
+    mixed-integer functions
+-   `bbob-constrained` containing 10 noiseless functions with varying
+    number of constraints.
+
+Note that due to the rewriting of the Coco platform, the `bbob-noisy`
+test suite is not yet available in the new code from
+<http://github.com/numbbo/coco> . Please use the old code at
+<https://numbbo.github.io/coco/oldcode/bboball15.03.tar.gz> instead for
+running experiments on `bbob-noisy`.
+
+## Continuous Submission of Benchmarking Data
+
+Since 2020, we also welcome submissions of data from benchmarking
+experiments on the above test suites throughout the year. Please open a
+submission issue at <https://github.com/numbbo/coco/issues/new/choose> .
+
