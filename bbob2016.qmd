@@ -152,8 +152,8 @@ slides.
   09:30 -     Tea Tušar\*, Bogdan Filipič: Performance of the DEMO algorithm on the bi-objective BBOB test suite
   09:55       ([slides](./presentations/2016-GECCO/02_Tea_DEMO_handouts.pdf))
 
-  09:55 -     ([slides](./presentations/2016-GECCO/03_Tobias_hmocmaes.pdf))
-  10:20       
+  09:55 -     Ilya Loshchilov, Tobias Glasmachers*: Anytime Bi-Objective Optimization with a Hybrid Multi-Objective CMA-ES (HMO-CMA-ES)
+  10:20       ([slides](./presentations/2016-GECCO/03_Tobias_hmocmaes.pdf))
 
   **Session   
   II**        
