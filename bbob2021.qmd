@@ -63,6 +63,20 @@ Get updated about the latest news regarding the workshop and releases
 and bugfixes of the supporting NumBBO/COCO platform, by registering at
 <http://numbbo.github.io/register>.
 
+## Accepted papers
+
+- Dimo Brockhoff, Baptiste Plaquevent-Jourdain, Anne Auger, and
+  Nikolaus Hansen: DMS and MultiGLODS: black-box optimization 
+  benchmarking of two direct search methods on the bbob-biobj test 
+  suite ([paper](https://doi.org/10.1145/3449726.3463207))
+- Michał Okulewicz,Author PictureMateusz Zaborski: 
+  Benchmarking SHADE algorithm enhanced with model based optimization 
+  on the BBOB noiseless testbed
+  ([paper](https://doi.org/10.1145/3449726.3463290))
+  
+  
+	
+
 ## Submissions
 
 We encourage any submission that is concerned with black-box
