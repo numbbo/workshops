@@ -8,10 +8,10 @@ optimization algorithms. The former is realized through the Comparing
 Continuous Optimizers platform (Coco).
 
 So far, twelve workshops have been held (in 2009, 2010, 2012, 2013,
-2015, [2016](BBOB-2016/index.html), [2017](BBOB-2017/index.html),
-[2018](BBOB-2018/index.html), [2019](BBOB-2019/index.html),
-[2021](BBOB-2021/index.html), [2022](BBOB-2022/index.html), and in
-[2023](BBOB-2023/index.html) at GECCO and in 2015 at CEC).
+2015, [2016](bbob2016.html), [2017](bbob2017.html),
+[2018](bbob2018.html), [2019](bbob2019.html),
+[2021](bbob2021.html), [2022](bbob2022.html), and in
+[2023](bbob2023.html) at GECCO and in 2015 at CEC).
 
 
 Generally, seven benchmark suites are available:
