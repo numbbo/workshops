@@ -87,6 +87,56 @@ For more details, please see below.
     Hansen: Benchmarking CMA-ES with Basic Integer Handling on a
     Mixed-Integer Test Problem Suite
 
+
+## Schedule
+
+The BBOB-2023 workshop got assigned the two middle slots on Saturday,
+July 15, 2024 at GECCO in which the talks were scheduled
+according to the tables below. For both slots, the room was Porto (F13).
+Speakers are highlighted with a star behind the name. Please click on the
+provided links to download the slides if available.
+
+
+<div style="margin-left: auto;
+            margin-right: auto;
+            width: 100%">
+
++-------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|   **Session I**   |                                                                                                                                                                                                                 |
++-------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|   10:40 - 11:15   | The BBOBies: Introduction to Blackbox Optimization Benchmarking ([slides](./presentations/2023-GECCO/101_Dimo_bbob-2023-intro.pdf))                                                                             |
++-------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|   11:15 - 11:40   | Tristan Marty\*, Yann Semet, Anne Auger, Sébastien Héron, Nikolaus Hansen: Benchmarking CMA-ES with Basic Integer Handling on a Mixed-Integer Test Problem Suite                                                |
++-------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|   11:40 - 12:05   | Dimo Brockhoff, Pascal Capetillo, Jonathan Hornewall\*, Raphael Walker: Benchmarking the Borg algorithm on the Biobjective bbob-biobj Testbed                                                                   |
++-------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|   12:05 - 12:30   | Victoria Johnson\*, João Duro, Visakan Kadirkamanathan, Robin Purshouse: A Distributed Multi-Disciplinary Design Optimization Benchmark Test Suite with Constraints and Multiple Conflicting Objectives         |
++-------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+<div>
+<div style="margin-left: auto;
+            margin-right: auto;
+            width: 100%">
+
++----------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **Session II** |                                                                                                                                                                                                                           |
++----------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| 14:00 - 14:05  | The BBOBies: Introduction to Blackbox Optimization Benchmarking ([slides](./presentations/2023-GECCO/201_Dimo_bbob-2023-introveryshort.pdf))                                                                              |
++----------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| 14:05 - 14:30  | Óscar Espinoza, Katya Rodríguez-Vázquez, Carlos Hernández-Castellanos, Suemi Rodriguez-Romo: Comparison Of Three Versions Of Whale Optimization Algorithm (WOA) On The Bbob Test Suite                                    |
++----------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| 14:30 - 14:55  | Armand Gissler\*: Evaluation of the impact of various modifications to CMA-ES that facilitate its theoretical analysis                                                                                                    |
++----------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| 14:55 - 15:20  | Jakub Kudela\*: Benchmarking State-of-the-art DIRECT-type Methods on the BBOB Noiseless Testbed                                                                                                                           |
++----------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| 15:20 - 15:30  | The BBOBies: The COCO data archive and This Year’s Results ([slides](./presentations/2023-GECCO/205_Dimo_bbob-2023-summary.pdf))                                                                                          |
++----------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| 15:30 - 15:50  | The BBOBies: Wrap-up and Open Discussion                                                                                                                                                                                  |
++----------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+</div>
+
+
 ## Updates and News
 
 Get updated about the latest news regarding the workshop and releases
