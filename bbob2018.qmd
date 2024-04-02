@@ -183,23 +183,23 @@ provided links to download the slides.
   **BBOB-2018**   
 
   09:30 - 09:45   The BBOBies: Introduction to Blackbox Optimization Benchmarking
-                  ([slides](https://numbbo.github.io/gforge/presentation-archive/2018-GECCO/01_Dimo_bbob-2018-intro.pdf))
+                  ([slides](./presentations/2018-GECCO/01_Dimo_bbob-2018-intro.pdf))
 
   09:45 - 10:05   Kouhei Nishida\* and Youhei Akimoto: Benchmarking the PSA-CMA-ES on the BBOB Noiseless Testbed
-                  ([slides](https://numbbo.github.io/gforge/presentation-archive/2018-GECCO/02_Kouhei_PSA.pdf))
+                  ([slides](./presentations/2018-GECCO/02_Kouhei_PSA.pdf))
 
   10:05 - 10:25   Duc Manh Nguyen\*: Benchmarking a Variant of the CMAES-APOP on the BBOB Noiseless Testbed
-                  ([slides](https://numbbo.github.io/gforge/presentation-archive/2018-GECCO/03_Manh_APOP.pdf))
+                  ([slides](./presentations/2018-GECCO/03_Manh_APOP.pdf))
 
   10:25 -- 10:40  Aurore Blelly, Matheus Felipe-Gomes, Anne Auger, and Dimo Brockhoff\*: Stopping Criteria, Initialization,
                   and Implementations of BFGS and their Effect on the BBOB Test Suite
-                  ([slides](https://numbbo.github.io/gforge/presentation-archive/2018-GECCO/04_Dimo_BFGS.pdf))
+                  ([slides](./presentations/2018-GECCO/04_Dimo_BFGS.pdf))
 
   10:40 - 11:00   Aljoša Vodopija, Tea Tušar\*, Bogdan Filipič: Comparing Black-Box Differential Evolution and Classic
                   Differential Evolution
 
   11:00 - 11:10   The BBOBies: Wrap-up and Discussion
-                  ([slides](https://numbbo.github.io/gforge/presentation-archive/2018-GECCO/06_Dimo_bbob-2018-wrapup.pdf))
+                  ([slides](./presentations/2018-GECCO/06_Dimo_bbob-2018-wrapup.pdf))
   --------------- ----------------------------------------------------------------------------------------------------------
 
 ## Important Dates

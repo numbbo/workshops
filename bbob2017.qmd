@@ -167,17 +167,17 @@ download the slides.
   I**         
 
   08:30 -     The BBOBies: Introduction to Blackbox Optimization Benchmarking
-  09:05       
+  09:05       ([slides](./presentations/2017-GECCO/01-Dimo_bbob-2017-intro.pdf))
 
   09:05 -     Simon Wessing\*: Benchmarking the SMS-EMOA with Self-adaptation on the bbob-biobj Test Suite
-  09:30       ([slides](https://numbbo.github.io/gforge/presentation-archive/2017-GECCO/02-Wessing-SMS-EMOA-SA.pdf))
+  09:30       ([slides](./presentations/2017-GECCO/02-Wessing-SMS-EMOA-SA.pdf))
 
   09:30 -     Mario García-Valdez\* and Juan-J. Merelo: Benchmarking a Pool-Based Execution with GA and PSO Workers on
   09:55       the BBOB Noiseless Testbed
 
   09:55 -     Zbynek Pitra\*, Lukas Bajer, Jakub Repicky, and Martin Holena: Comparison of Ordinal and Metric Gaussian
   10:20       Process Regression as Surrogate Models for CMA Evolution Strategy
-              ([slides](https://numbbo.github.io/gforge/presentation-archive/2017-GECCO/04-Pitra-DTS-CMA.pdf))
+              ([slides](./presentations/2017-GECCO/04-Pitra-DTS-CMA.pdf))
 
   **Session   
   II**        
@@ -187,17 +187,17 @@ download the slides.
 
   10:50 -     Dogan Aydin\* and Gurcan Yavuz: Self-adaptive Search Equation-Based Artificial Bee Colony Algorithm with
   11:15       CMA-ES on the Noiseless BBOB Testbed
-              ([slides](https://numbbo.github.io/gforge/presentation-archive/2017-GECCO/06-Aydin-SSEABC.pdf))
+              ([slides](./presentations/2017-GECCO/06-Aydin-SSEABC.pdf))
 
   11:15 -     Duc Manh Nguyen and Nikolaus Hansen\*: Benchmarking CMAES-APOP on the BBOB Noiseless Testbed
   11:40       
 
   11:40 -     Takahiro Yamaguchi and Youhei Akimoto\*: Benchmarking the Novel CMA-ES Restart Strategy Using the Search
   12:05       History on the BBOB Noiseless Testbed
-              ([slides](https://numbbo.github.io/gforge/presentation-archive/2017-GECCO/08-Akimoto-KL-CMA.pdf))
+              ([slides](./presentations/2017-GECCO/08-Akimoto-KL-CMA.pdf))
 
   12:05 -     The BBOBies: Wrap-up and Open Discussion
-  12:30       
+  12:30       ([slides](./presentations/2017-GECCO/09_Dimo_bbob-2017-wrapup.pdf))
   ----------- --------------------------------------------------------------------------------------------------------
 
 ## Important Dates
