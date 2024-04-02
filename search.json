@@ -1,0 +1,704 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Welcome to the BBOB workshop series!",
+    "section": "",
+    "text": "The Black-box Optimization Benchmarking (BBOB) workshop series provides an easy-to-use toolchain for benchmarking black-box optimization algorithms for continuous and mixed-integer domains and a place to present, compare, and discuss the performance of numerical black-box optimization algorithms. The former is realized through the Comparing Continuous Optimizers platform (Coco).\nSo far, twelve workshops have been held (in 2009, 2010, 2012, 2013, 2015, 2016, 2017, 2018, 2019, 2021, 2022, and in 2023 at GECCO and in 2015 at CEC).\nGenerally, seven benchmark suites are available:\n\nbbob containing 24 noiseless functions\nbbob-noisy containing 30 noisy functions\nbbob-biobj containing 55 noiseless, bi-objective functions, generated from the bbob suite\nbbob-largescale containing 24 noiseless functions in dimension 20 to 640\nbbob-mixint containing 24 noiseless mixed-integer functions\nbbob-biobj-mixint containing 92 noiseless, bi-objective, mixed-integer functions\nbbob-constrained containing 10 noiseless functions with varying number of constraints.\n\nNote that due to the rewriting of the Coco platform, the bbob-noisy test suite is not yet available in the new code from http://github.com/numbbo/coco . Please use the old code at https://numbbo.github.io/coco/oldcode/bboball15.03.tar.gz instead for running experiments on bbob-noisy.\n\n\nSince 2020, we also welcome submissions of data from benchmarking experiments on the above test suites throughout the year. Please open a submission issue at https://github.com/numbbo/coco/issues/new/choose .",
+    "crumbs": [
+      "Home"
+    ]
+  },
+  {
+    "objectID": "index.html#continuous-submission-of-benchmarking-data",
+    "href": "index.html#continuous-submission-of-benchmarking-data",
+    "title": "Welcome to the BBOB workshop series!",
+    "section": "",
+    "text": "Since 2020, we also welcome submissions of data from benchmarking experiments on the above test suites throughout the year. Please open a submission issue at https://github.com/numbbo/coco/issues/new/choose .",
+    "crumbs": [
+      "Home"
+    ]
+  },
+  {
+    "objectID": "bbob2023.html",
+    "href": "bbob2023.html",
+    "title": "GECCO Workshop on Black-Box Optimization Benchmarking (BBOB 2023)",
+    "section": "",
+    "text": "Welcome to the web page of the 12th GECCO Workshop on Black-Box Optimization Benchmarking (BBOB 2023) which took place during GECCO 2023.\n\nWORKSHOP ON BLACK-BOX OPTIMIZATION BENCHMARKING (BBOB 2023)\nheld as part of the\n\n2023 Genetic and Evolutionary Computation Conference (GECCO-2023)\nJuly 15--19, Lisbon, Portugal\nhttps://gecco-2023.sigevo.org\n\nSubmission opening: February 13, 2023\nSubmission deadline: April 17, 2023 AoE (not extendable, was: April 14)\nNotification: May 3, 2023\nCamera-ready: May 10, 2023\nPresenter mandatory registration: May 10, 2023\n\n\n\nregister for news\nCOCO quick start (scroll down a bit)\nlatest COCO release\n\n\n\n Benchmarking optimization algorithms is a crucial part in the design and application of them in practice. Since 2009, the Blackbox Optimization Benchmarking Workshop at GECCO has been a place to discuss general recent advances of benchmarking practices and the concrete results from actual benchmarking experiments with a large variety of (blackbox) optimizers.\nThe Comparing Continuous Optimizers platform (COCO1, https://github.com/numbbo/coco) has been developed in this context to support algorithm developers and practicioners alike by automating benchmarking experiments for blackbox optimization algorithms in single- and bi-objective, unconstrained continuous problems in exact and noisy, as well as expensive and non-expensive scenarios. A new bbob-constrained test suite has been released in 2022.\nFor the next BBOB 2023 edition of the workshop, we invite participants to discuss all kind of aspects of (blackbox) benchmarking but welcome in particular contributions related to constrained optimization. As in previous years, presenting benchmarking results on the supported test suites of COCO are a focus, but submissions are not limited to those topics:\n\nsingle-objective unconstrained problems (bbob)\nsingle-objective unconstrained problems with noise (bbob-noisy)\nbiobjective unconstrained problems (bbob-biobj)\nlarge-scale single-objective problems (bbob-largescale) and\nmixed-integer single- and bi-objective problems (bbob-mixint and bbob-biobj-mixint)\nconstrained optimization (bbob-constrained)\n\nWe encourage particularly submissions about algorithms from outside the evolutionary computation community and papers analyzing the large amount of already publicly available algorithm data of COCO (see https://numbbo.github.io/data-archive/). Like for the previous editions, we will provide source code in various languages (C/C++, Matlab/Octave, Java, and Python) to benchmark algorithms on the various test suites mentioned. Postprocessing data and comparing algorithm performance will be equally automatized with COCO (up to already prepared ACM-compliant LaTeX templates for writing papers).\nFor more details, please see below.\n\n\n\nDimo Brockhoff, Pascal Capetillo, Jonathan Hornewall, Raphael Walker: Benchmarking the Borg algorithm on the Biobjective bbob-biobj Testbed\nÓscar Espinoza, Katya Rodríguez-Vázquez, Carlos Ignacio Hernández-Castellanos, Suemi Rodriguez-Romo: Comparison Of Three Versions Of Whale Optimization Algorithm (WOA) On The Bbob Test Suite\nArmand Gissler: Evaluation of the impact of various modifications on CMA-ES for a theoretical perspective\nVictoria Johnson, João Duro, Visakan Kadirkamanathan, Robin Purshouse: A distributed multi-disciplinary design optimization benchmark test suite with constraints and multiple conflicting objectives\nJakub Kudela: Benchmarking State-of-the-art DIRECT-type Methods on the BBOB Noiseless Testbed\nTristan Marty, Yann Semet, Anne Auger, Sébastien Héron, Nikolaus Hansen: Benchmarking CMA-ES with Basic Integer Handling on a Mixed-Integer Test Problem Suite\n\n\n\n\nThe BBOB-2023 workshop got assigned the two middle slots on Saturday, July 15, 2024 at GECCO in which the talks were scheduled according to the tables below. For both slots, the room was Porto (F13). Speakers are highlighted with a star behind the name. Please click on the provided links to download the slides if available.\n\n\n\n\n\nSession I\n\n\n\n10:40 - 11:15\nThe BBOBies: Introduction to Blackbox Optimization Benchmarking (slides)\n\n\n11:15 - 11:40\nTristan Marty*, Yann Semet, Anne Auger, Sébastien Héron, Nikolaus Hansen: Benchmarking CMA-ES with Basic Integer Handling on a Mixed-Integer Test Problem Suite\n\n\n11:40 - 12:05\nDimo Brockhoff, Pascal Capetillo, Jonathan Hornewall*, Raphael Walker: Benchmarking the Borg algorithm on the Biobjective bbob-biobj Testbed (slides)\n\n\n12:05 - 12:30\nVictoria Johnson*, João Duro, Visakan Kadirkamanathan, Robin Purshouse: A Distributed Multi-Disciplinary Design Optimization Benchmark Test Suite with Constraints and Multiple Conflicting Objectives\n\n\n\n\n\n\n\n\nSession II\n\n\n\n14:00 - 14:05\nThe BBOBies: Introduction to Blackbox Optimization Benchmarking (slides)\n\n\n14:05 - 14:30\nÓscar Espinoza, Katya Rodríguez-Vázquez, Carlos Hernández-Castellanos, Suemi Rodriguez-Romo: Comparison Of Three Versions Of Whale Optimization Algorithm (WOA) On The Bbob Test Suite\n\n\n14:30 - 14:55\nArmand Gissler*: Evaluation of the impact of various modifications to CMA-ES that facilitate its theoretical analysis (slides)\n\n\n14:55 - 15:20\nJakub Kudela*: Benchmarking State-of-the-art DIRECT-type Methods on the BBOB Noiseless Testbed (slides)\n\n\n15:20 - 15:30\nThe BBOBies: The COCO data archive and This Year’s Results (slides)\n\n\n15:30 - 15:50\nThe BBOBies: Wrap-up and Open Discussion\n\n\n\n\n\n\n\nGet updated about the latest news regarding the workshop and releases and bugfixes of the supporting NumBBO/COCO platform, by registering at http://numbbo.github.io/register.\n\n\n\nWe encourage any submission that is concerned with black-box optimization benchmarking of continuous optimizers, for example papers that:\n\ndescribe and benchmark new or not-so-new algorithms on one of the above testbeds,\ncompare new or existing algorithms from the COCO/BBOB database2,\nanalyze the data obtained in previous editions of BBOB3, or\ndiscuss, compare, and improve upon any benchmarking methodology for continuous optimizers such as design of experiments, performance measures, presentation methods, benchmarking frameworks, test functions, ...\n\nPaper submissions are expected to be done through the official GECCO submission system at https://ssl.linklings.net/conferences/gecco/ until the deadline. ACM-compliant LaTeX templates are available in the github repository under code-postprocessing/latex-templates/.\nIn order to finalize your submission, we kindly ask you to submit your data files if this applies by clicking on \"Submit a COCO data set\" here: https://github.com/numbbo/coco/issues/new/choose. To upload your data to the web, you might want to use https://zenodo.org/ which offers uploads of data sets up to 50GB in size or any other provider of online data storage.\n\n\n\nThe basis of the workshop is the Comparing Continuous Optimizer platform (https://github.com/numbbo/coco), written in ANSI C with other languages calling the C code. Languages currently available are C, Java, MATLAB/Octave, and Python.\nMost likely, you want to read the COCO quick start (scroll down a bit). This page also provides the code for the benchmark functions4, for running the experiments in C, Java, Matlab, Octave, and Python, and for postprocessing the experiment data into plots, tables, html pages, and publisher-conform PDFs via provided LaTeX templates. Please refer to http://numbbo.github.io/coco-doc/experimental-setup/ for more details on the general experimental set-up for black-box optimization benchmarking.\nThe latest (hopefully) stable release of the COCO software can be downloaded as a whole here. Please use at least version v2.6.3 for running your benchmarking experiments in 2023.\nDocumentation of the functions used in the different test suites can be found here:\n\nbbob suite at https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf\nbbob-noisy suite at http://coco.lri.fr/downloads/download15.03/bbobdocnoisyfunctions.pdf\nbbob-biobj suite at https://numbbo.github.io/bbob-biobj/\nbbob-largescale suite at https://arxiv.org/pdf/1903.06396.pdf\nbbob-mixint and bbob-biobj-mixint suites at https://hal.inria.fr/hal-02067932/document and at https://numbbo.github.io/gforge/preliminary-bbob-mixint-documentation/bbob-mixint-doc.pdf\nbbob-constrained suite at: http://numbbo.github.io/coco-doc/bbob-constrained/\n\n\n\n\n\n2023-04-17 paper and data submission deadline (not extendable, was: April 14)\n2023-05-03 decision notification\n2023-05-10 deadline camera-ready papers\n2023-05-10 deadline author registration\n2023-07-15 or 2023-07-16 workshop\n\nAll dates are given in ISO 8601 format (yyyy-mm-dd).\n\n\n\n\nAnne Auger, Inria and CMAP, Ecole Polytechnique, Institut Polytechnique de Paris, France\nDimo Brockhoff, Inria and CMAP, Ecole Polytechnique, Institut Polytechnique de Paris, France\nPaul Dufossé, Inria and Thales Defense Mission Systems, France\nNikolaus Hansen, Inria and CMAP, Ecole Polytechnique, Institut Polytechnique de Paris, France\nOlaf Mersmann, TU Köln, Germany\nPetr Pošík, Czech Technical University, Czech Republic\nTea Tušar, Jozef Stefan Institute (JSI), Slovenia",
+    "crumbs": [
+      "Home",
+      "BBOB-2023"
+    ]
+  },
+  {
+    "objectID": "bbob2023.html#accepted-papers",
+    "href": "bbob2023.html#accepted-papers",
+    "title": "GECCO Workshop on Black-Box Optimization Benchmarking (BBOB 2023)",
+    "section": "",
+    "text": "Dimo Brockhoff, Pascal Capetillo, Jonathan Hornewall, Raphael Walker: Benchmarking the Borg algorithm on the Biobjective bbob-biobj Testbed\nÓscar Espinoza, Katya Rodríguez-Vázquez, Carlos Ignacio Hernández-Castellanos, Suemi Rodriguez-Romo: Comparison Of Three Versions Of Whale Optimization Algorithm (WOA) On The Bbob Test Suite\nArmand Gissler: Evaluation of the impact of various modifications on CMA-ES for a theoretical perspective\nVictoria Johnson, João Duro, Visakan Kadirkamanathan, Robin Purshouse: A distributed multi-disciplinary design optimization benchmark test suite with constraints and multiple conflicting objectives\nJakub Kudela: Benchmarking State-of-the-art DIRECT-type Methods on the BBOB Noiseless Testbed\nTristan Marty, Yann Semet, Anne Auger, Sébastien Héron, Nikolaus Hansen: Benchmarking CMA-ES with Basic Integer Handling on a Mixed-Integer Test Problem Suite",
+    "crumbs": [
+      "Home",
+      "BBOB-2023"
+    ]
+  },
+  {
+    "objectID": "bbob2023.html#schedule",
+    "href": "bbob2023.html#schedule",
+    "title": "GECCO Workshop on Black-Box Optimization Benchmarking (BBOB 2023)",
+    "section": "",
+    "text": "The BBOB-2023 workshop got assigned the two middle slots on Saturday, July 15, 2024 at GECCO in which the talks were scheduled according to the tables below. For both slots, the room was Porto (F13). Speakers are highlighted with a star behind the name. Please click on the provided links to download the slides if available.\n\n\n\n\n\nSession I\n\n\n\n10:40 - 11:15\nThe BBOBies: Introduction to Blackbox Optimization Benchmarking (slides)\n\n\n11:15 - 11:40\nTristan Marty*, Yann Semet, Anne Auger, Sébastien Héron, Nikolaus Hansen: Benchmarking CMA-ES with Basic Integer Handling on a Mixed-Integer Test Problem Suite\n\n\n11:40 - 12:05\nDimo Brockhoff, Pascal Capetillo, Jonathan Hornewall*, Raphael Walker: Benchmarking the Borg algorithm on the Biobjective bbob-biobj Testbed (slides)\n\n\n12:05 - 12:30\nVictoria Johnson*, João Duro, Visakan Kadirkamanathan, Robin Purshouse: A Distributed Multi-Disciplinary Design Optimization Benchmark Test Suite with Constraints and Multiple Conflicting Objectives\n\n\n\n\n\n\n\n\nSession II\n\n\n\n14:00 - 14:05\nThe BBOBies: Introduction to Blackbox Optimization Benchmarking (slides)\n\n\n14:05 - 14:30\nÓscar Espinoza, Katya Rodríguez-Vázquez, Carlos Hernández-Castellanos, Suemi Rodriguez-Romo: Comparison Of Three Versions Of Whale Optimization Algorithm (WOA) On The Bbob Test Suite\n\n\n14:30 - 14:55\nArmand Gissler*: Evaluation of the impact of various modifications to CMA-ES that facilitate its theoretical analysis (slides)\n\n\n14:55 - 15:20\nJakub Kudela*: Benchmarking State-of-the-art DIRECT-type Methods on the BBOB Noiseless Testbed (slides)\n\n\n15:20 - 15:30\nThe BBOBies: The COCO data archive and This Year’s Results (slides)\n\n\n15:30 - 15:50\nThe BBOBies: Wrap-up and Open Discussion",
+    "crumbs": [
+      "Home",
+      "BBOB-2023"
+    ]
+  },
+  {
+    "objectID": "bbob2023.html#updates-and-news",
+    "href": "bbob2023.html#updates-and-news",
+    "title": "GECCO Workshop on Black-Box Optimization Benchmarking (BBOB 2023)",
+    "section": "",
+    "text": "Get updated about the latest news regarding the workshop and releases and bugfixes of the supporting NumBBO/COCO platform, by registering at http://numbbo.github.io/register.",
+    "crumbs": [
+      "Home",
+      "BBOB-2023"
+    ]
+  },
+  {
+    "objectID": "bbob2023.html#submissions",
+    "href": "bbob2023.html#submissions",
+    "title": "GECCO Workshop on Black-Box Optimization Benchmarking (BBOB 2023)",
+    "section": "",
+    "text": "We encourage any submission that is concerned with black-box optimization benchmarking of continuous optimizers, for example papers that:\n\ndescribe and benchmark new or not-so-new algorithms on one of the above testbeds,\ncompare new or existing algorithms from the COCO/BBOB database2,\nanalyze the data obtained in previous editions of BBOB3, or\ndiscuss, compare, and improve upon any benchmarking methodology for continuous optimizers such as design of experiments, performance measures, presentation methods, benchmarking frameworks, test functions, ...\n\nPaper submissions are expected to be done through the official GECCO submission system at https://ssl.linklings.net/conferences/gecco/ until the deadline. ACM-compliant LaTeX templates are available in the github repository under code-postprocessing/latex-templates/.\nIn order to finalize your submission, we kindly ask you to submit your data files if this applies by clicking on \"Submit a COCO data set\" here: https://github.com/numbbo/coco/issues/new/choose. To upload your data to the web, you might want to use https://zenodo.org/ which offers uploads of data sets up to 50GB in size or any other provider of online data storage.",
+    "crumbs": [
+      "Home",
+      "BBOB-2023"
+    ]
+  },
+  {
+    "objectID": "bbob2023.html#supporting-material",
+    "href": "bbob2023.html#supporting-material",
+    "title": "GECCO Workshop on Black-Box Optimization Benchmarking (BBOB 2023)",
+    "section": "",
+    "text": "The basis of the workshop is the Comparing Continuous Optimizer platform (https://github.com/numbbo/coco), written in ANSI C with other languages calling the C code. Languages currently available are C, Java, MATLAB/Octave, and Python.\nMost likely, you want to read the COCO quick start (scroll down a bit). This page also provides the code for the benchmark functions4, for running the experiments in C, Java, Matlab, Octave, and Python, and for postprocessing the experiment data into plots, tables, html pages, and publisher-conform PDFs via provided LaTeX templates. Please refer to http://numbbo.github.io/coco-doc/experimental-setup/ for more details on the general experimental set-up for black-box optimization benchmarking.\nThe latest (hopefully) stable release of the COCO software can be downloaded as a whole here. Please use at least version v2.6.3 for running your benchmarking experiments in 2023.\nDocumentation of the functions used in the different test suites can be found here:\n\nbbob suite at https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf\nbbob-noisy suite at http://coco.lri.fr/downloads/download15.03/bbobdocnoisyfunctions.pdf\nbbob-biobj suite at https://numbbo.github.io/bbob-biobj/\nbbob-largescale suite at https://arxiv.org/pdf/1903.06396.pdf\nbbob-mixint and bbob-biobj-mixint suites at https://hal.inria.fr/hal-02067932/document and at https://numbbo.github.io/gforge/preliminary-bbob-mixint-documentation/bbob-mixint-doc.pdf\nbbob-constrained suite at: http://numbbo.github.io/coco-doc/bbob-constrained/",
+    "crumbs": [
+      "Home",
+      "BBOB-2023"
+    ]
+  },
+  {
+    "objectID": "bbob2023.html#important-dates",
+    "href": "bbob2023.html#important-dates",
+    "title": "GECCO Workshop on Black-Box Optimization Benchmarking (BBOB 2023)",
+    "section": "",
+    "text": "2023-04-17 paper and data submission deadline (not extendable, was: April 14)\n2023-05-03 decision notification\n2023-05-10 deadline camera-ready papers\n2023-05-10 deadline author registration\n2023-07-15 or 2023-07-16 workshop\n\nAll dates are given in ISO 8601 format (yyyy-mm-dd).",
+    "crumbs": [
+      "Home",
+      "BBOB-2023"
+    ]
+  },
+  {
+    "objectID": "bbob2023.html#organizers",
+    "href": "bbob2023.html#organizers",
+    "title": "GECCO Workshop on Black-Box Optimization Benchmarking (BBOB 2023)",
+    "section": "",
+    "text": "Anne Auger, Inria and CMAP, Ecole Polytechnique, Institut Polytechnique de Paris, France\nDimo Brockhoff, Inria and CMAP, Ecole Polytechnique, Institut Polytechnique de Paris, France\nPaul Dufossé, Inria and Thales Defense Mission Systems, France\nNikolaus Hansen, Inria and CMAP, Ecole Polytechnique, Institut Polytechnique de Paris, France\nOlaf Mersmann, TU Köln, Germany\nPetr Pošík, Czech Technical University, Czech Republic\nTea Tušar, Jozef Stefan Institute (JSI), Slovenia",
+    "crumbs": [
+      "Home",
+      "BBOB-2023"
+    ]
+  },
+  {
+    "objectID": "bbob2023.html#footnotes",
+    "href": "bbob2023.html#footnotes",
+    "title": "GECCO Workshop on Black-Box Optimization Benchmarking (BBOB 2023)",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nNikolaus Hansen, Anne Auger, Raymond Ros, Olaf Mersmann, Tea Tušar, and Dimo Brockhoff. \"COCO: A platform for comparing continuous optimizers in a black-box setting.\" Optimization Methods and Software (2020): 1-31.↩︎\nThe data of previously compared algorithms can be found at https://numbbo.github.io/data-archive and are easily accessible by name in the cocopp post-processing and from the python cocopp.archives module or in (fixed) html form at https://numbbo.github.io/ppdata-archive.↩︎\nThe data of previously compared algorithms can be found at https://numbbo.github.io/data-archive and are easily accessible by name in the cocopp post-processing and from the python cocopp.archives module or in (fixed) html form at https://numbbo.github.io/ppdata-archive.↩︎\nNote that the current release of the new COCO platform does not contain the original noisy BBOB testbed yet, such that you must use the old code at https://numbbo.github.io/coco/oldcode/bboball15.03.tar.gz for the time being if you want to compare your algorithm on the noisy testbed.↩︎",
+    "crumbs": [
+      "Home",
+      "BBOB-2023"
+    ]
+  },
+  {
+    "objectID": "bbob2021.html",
+    "href": "bbob2021.html",
+    "title": "GECCO Workshop on Black-Box Optimization Benchmarking (BBOB 2021) - focus on mixed-integer problems",
+    "section": "",
+    "text": "Welcome to the web page of the 10th GECCO Workshop on Black-Box Optimization Benchmarking (BBOB 2021) which took place online during GECCO 2021.\n\nWORKSHOP ON BLACK-BOX OPTIMIZATION BENCHMARKING (BBOB 2021)\nheld as part of the\n\n2021 Genetic and Evolutionary Computation Conference (GECCO-2021)\nJuly 10--14, Lille, France\nhttp://gecco-2021.sigevo.org\n\nSubmission opening: February 11, 2021\nSubmission deadline: April 12, 2021\nNotification: April 26, 2021\nCamera-ready: May 3, 2021\n\n\n\nregister for news\nCOCO quick start (scroll down a bit)\nlatest COCO release\n\n\n\n Benchmarking of optimization algorithms is a crucial part in their design and application in practice. The Comparing Continuous Optimizers platform (COCO, https://github.com/numbbo/coco) has been developed in the past decade to support algorithm developers and practitioners alike by automating benchmarking experiments for blackbox optimization algorithms in single- and bi-objective, unconstrained continuous problems in exact and noisy, as well as expensive and non-expensive scenarios.\nFor the 11th Blackbox Optimization Benchmarking workshop (BBOB 2021) and the 10th edition at GECCO (1 workshop was held at CEC), we plan to widen our focus towards mixed-integer benchmark problems. Concretely, we highly encourage submissions describing the benchmarking results from blackbox optimization algorithms on the single-objective bbob-mixint and the bi-objective bbob-biobj-mixint suites previously released at GECCO-2019.\nAny other submission discussing other aspects of (blackbox) benchmarking, especially on the other available bbob, bbob-noisy, bbob-biobj, and bbob-largescale test suites are welcome as well. We encourage particularly submissions about algorithms from outside the evolutionary computation community and papers analyzing the large amount of already publicly available algorithm data of COCO (see https://numbbo.github.io/data-archive/).\nLike for the previous editions of the workshop, we will provide source code in various languages (C/C++, Matlab/Octave, Java, and Python) to benchmark algorithms on the various test suites mentioned. Postprocessing data and comparing algorithm performance will be equally automatized with COCO (up to already prepared ACM-compliant LaTeX templates for writing papers).\nFor details, please see below.\n\n\nGet updated about the latest news regarding the workshop and releases and bugfixes of the supporting NumBBO/COCO platform, by registering at http://numbbo.github.io/register.\n\n\n\n\nDimo Brockhoff, Baptiste Plaquevent-Jourdain, Anne Auger, and Nikolaus Hansen: DMS and MultiGLODS: black-box optimization benchmarking of two direct search methods on the bbob-biobj test suite (paper)\nMichał Okulewicz and Mateusz Zaborski: Benchmarking SHADE algorithm enhanced with model based optimization on the BBOB noiseless testbed (paper)\n\n\n\n\nWe encourage any submission that is concerned with black-box optimization benchmarking of continuous optimizers, for example papers that:\n\ndescribe and benchmark new or not-so-new algorithms on one of the above testbeds,\ncompare new or existing algorithms from the COCO/BBOB database1,\nanalyze the data obtained in previous editions of BBOB2, or\ndiscuss, compare, and improve upon any benchmarking methodology for continuous optimizers such as design of experiments, performance measures, presentation methods, benchmarking frameworks, test functions, ...\n\nPaper submissions are expected to be done through the official GECCO submission system at https://ssl.linklings.net/conferences/gecco/ until the (extended) deadline on April 12, 2021. ACM-compliant LaTeX templates are available in the github repository under code-postprocessing/latex-templates/.\nIn order to finalize your submission, we kindly ask you to submit your data files if this applies by clicking on \"Submit a COCO data set\" here: https://github.com/numbbo/coco/issues/new/choose. To upload your data to the web, you might want to use https://zenodo.org/ which offers uploads of data sets up to 50GB in size or any other provider of online data storage.\n\n\n\nThe basis of the workshop is the Comparing Continuous Optimizer platform (https://github.com/numbbo/coco), written in ANSI C with other languages calling the C code. Languages currently available are C, Java, MATLAB/Octave, and Python.\nMost likely, you want to read the COCO quick start (scroll down a bit). This page also provides the code for the benchmark functions3, for running the experiments in C, Java, Matlab, Octave, and Python, and for postprocessing the experiment data into plots, tables, html pages, and publisher-conform PDFs via provided LaTeX templates. Please refer to http://numbbo.github.io/coco-doc/experimental-setup/ for more details on the general experimental set-up for black-box optimization benchmarking.\nThe latest (hopefully) stable release of the COCO software can be downloaded as a whole here. Please use at least version v2.4 for running your benchmarking experiments in 2021.\nDocumentation of the functions used in the different test suites can be found here:\n\nbbob suite at https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf\nbbob-noisy suite at https://numbbo.github.io/coco/oldcode/bbobdocnoisyfunctions.pdf\nbbob-biobj suite at http://numbbo.github.io/coco-doc/bbob-biobj/functions/\nbbob-largescale suite at http://numbbo.github.io/coco-doc/bbob-largescale/functions/\nbbob-mixint and bbob-biobj-mixint suites at https://hal.inria.fr/hal-02067932/document and at https://numbbo.github.io/gforge/preliminary-bbob-mixint-documentation/bbob-mixint-doc.pdf\n\n\n\n\n\n2020-12-15 release 2.4 of the COCO platform https://github.com/numbbo/coco/releases/\n2021-02-11 paper submission system opens\n2021-04-12 paper and data submission deadline\n2021-04-26 decision notification\n2021-05-03 deadline camera-ready papers\n2021-05-03 deadline author registration\n2021-07-10 or 2021-07-11 workshop\n\nAll dates are given in ISO 8601 format (yyyy-mm-dd).\n\n\n\n\nAnne Auger, Inria and CMAP, Ecole Polytechnique, Institut Polytechnique de Paris, France\nPeter A. N. Bosman, Centrum Wiskunde & Informatica (CWI) and TU Delft, The Netherlands\nDimo Brockhoff, Inria and CMAP, Ecole Polytechnique, Institut Polytechnique de Paris, France\nTobias Glasmachers, Ruhr-Universität Bochum, Germany\nNikolaus Hansen, Inria and CMAP, Ecole Polytechnique, Institut Polytechnique de Paris, France\nPetr Pošík, Czech Technical University, Czech Republic\nTea Tušar, Jozef Stefan Institute (JSI), Slovenia",
+    "crumbs": [
+      "Home",
+      "BBOB-2021 (mixed-integer)"
+    ]
+  },
+  {
+    "objectID": "bbob2021.html#updates-and-news",
+    "href": "bbob2021.html#updates-and-news",
+    "title": "GECCO Workshop on Black-Box Optimization Benchmarking (BBOB 2021) - focus on mixed-integer problems",
+    "section": "",
+    "text": "Get updated about the latest news regarding the workshop and releases and bugfixes of the supporting NumBBO/COCO platform, by registering at http://numbbo.github.io/register.",
+    "crumbs": [
+      "Home",
+      "BBOB-2021 (mixed-integer)"
+    ]
+  },
+  {
+    "objectID": "bbob2021.html#accepted-papers",
+    "href": "bbob2021.html#accepted-papers",
+    "title": "GECCO Workshop on Black-Box Optimization Benchmarking (BBOB 2021) - focus on mixed-integer problems",
+    "section": "",
+    "text": "Dimo Brockhoff, Baptiste Plaquevent-Jourdain, Anne Auger, and Nikolaus Hansen: DMS and MultiGLODS: black-box optimization benchmarking of two direct search methods on the bbob-biobj test suite (paper)\nMichał Okulewicz and Mateusz Zaborski: Benchmarking SHADE algorithm enhanced with model based optimization on the BBOB noiseless testbed (paper)",
+    "crumbs": [
+      "Home",
+      "BBOB-2021 (mixed-integer)"
+    ]
+  },
+  {
+    "objectID": "bbob2021.html#submissions",
+    "href": "bbob2021.html#submissions",
+    "title": "GECCO Workshop on Black-Box Optimization Benchmarking (BBOB 2021) - focus on mixed-integer problems",
+    "section": "",
+    "text": "We encourage any submission that is concerned with black-box optimization benchmarking of continuous optimizers, for example papers that:\n\ndescribe and benchmark new or not-so-new algorithms on one of the above testbeds,\ncompare new or existing algorithms from the COCO/BBOB database1,\nanalyze the data obtained in previous editions of BBOB2, or\ndiscuss, compare, and improve upon any benchmarking methodology for continuous optimizers such as design of experiments, performance measures, presentation methods, benchmarking frameworks, test functions, ...\n\nPaper submissions are expected to be done through the official GECCO submission system at https://ssl.linklings.net/conferences/gecco/ until the (extended) deadline on April 12, 2021. ACM-compliant LaTeX templates are available in the github repository under code-postprocessing/latex-templates/.\nIn order to finalize your submission, we kindly ask you to submit your data files if this applies by clicking on \"Submit a COCO data set\" here: https://github.com/numbbo/coco/issues/new/choose. To upload your data to the web, you might want to use https://zenodo.org/ which offers uploads of data sets up to 50GB in size or any other provider of online data storage.",
+    "crumbs": [
+      "Home",
+      "BBOB-2021 (mixed-integer)"
+    ]
+  },
+  {
+    "objectID": "bbob2021.html#supporting-material",
+    "href": "bbob2021.html#supporting-material",
+    "title": "GECCO Workshop on Black-Box Optimization Benchmarking (BBOB 2021) - focus on mixed-integer problems",
+    "section": "",
+    "text": "The basis of the workshop is the Comparing Continuous Optimizer platform (https://github.com/numbbo/coco), written in ANSI C with other languages calling the C code. Languages currently available are C, Java, MATLAB/Octave, and Python.\nMost likely, you want to read the COCO quick start (scroll down a bit). This page also provides the code for the benchmark functions3, for running the experiments in C, Java, Matlab, Octave, and Python, and for postprocessing the experiment data into plots, tables, html pages, and publisher-conform PDFs via provided LaTeX templates. Please refer to http://numbbo.github.io/coco-doc/experimental-setup/ for more details on the general experimental set-up for black-box optimization benchmarking.\nThe latest (hopefully) stable release of the COCO software can be downloaded as a whole here. Please use at least version v2.4 for running your benchmarking experiments in 2021.\nDocumentation of the functions used in the different test suites can be found here:\n\nbbob suite at https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf\nbbob-noisy suite at https://numbbo.github.io/coco/oldcode/bbobdocnoisyfunctions.pdf\nbbob-biobj suite at http://numbbo.github.io/coco-doc/bbob-biobj/functions/\nbbob-largescale suite at http://numbbo.github.io/coco-doc/bbob-largescale/functions/\nbbob-mixint and bbob-biobj-mixint suites at https://hal.inria.fr/hal-02067932/document and at https://numbbo.github.io/gforge/preliminary-bbob-mixint-documentation/bbob-mixint-doc.pdf",
+    "crumbs": [
+      "Home",
+      "BBOB-2021 (mixed-integer)"
+    ]
+  },
+  {
+    "objectID": "bbob2021.html#important-dates",
+    "href": "bbob2021.html#important-dates",
+    "title": "GECCO Workshop on Black-Box Optimization Benchmarking (BBOB 2021) - focus on mixed-integer problems",
+    "section": "",
+    "text": "2020-12-15 release 2.4 of the COCO platform https://github.com/numbbo/coco/releases/\n2021-02-11 paper submission system opens\n2021-04-12 paper and data submission deadline\n2021-04-26 decision notification\n2021-05-03 deadline camera-ready papers\n2021-05-03 deadline author registration\n2021-07-10 or 2021-07-11 workshop\n\nAll dates are given in ISO 8601 format (yyyy-mm-dd).",
+    "crumbs": [
+      "Home",
+      "BBOB-2021 (mixed-integer)"
+    ]
+  },
+  {
+    "objectID": "bbob2021.html#organizers",
+    "href": "bbob2021.html#organizers",
+    "title": "GECCO Workshop on Black-Box Optimization Benchmarking (BBOB 2021) - focus on mixed-integer problems",
+    "section": "",
+    "text": "Anne Auger, Inria and CMAP, Ecole Polytechnique, Institut Polytechnique de Paris, France\nPeter A. N. Bosman, Centrum Wiskunde & Informatica (CWI) and TU Delft, The Netherlands\nDimo Brockhoff, Inria and CMAP, Ecole Polytechnique, Institut Polytechnique de Paris, France\nTobias Glasmachers, Ruhr-Universität Bochum, Germany\nNikolaus Hansen, Inria and CMAP, Ecole Polytechnique, Institut Polytechnique de Paris, France\nPetr Pošík, Czech Technical University, Czech Republic\nTea Tušar, Jozef Stefan Institute (JSI), Slovenia",
+    "crumbs": [
+      "Home",
+      "BBOB-2021 (mixed-integer)"
+    ]
+  },
+  {
+    "objectID": "bbob2021.html#footnotes",
+    "href": "bbob2021.html#footnotes",
+    "title": "GECCO Workshop on Black-Box Optimization Benchmarking (BBOB 2021) - focus on mixed-integer problems",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nThe data of previously compared algorithms can be found at https://numbbo.github.io/data-archive/ and are easily accessible by name in the cocopp post-processing and from the python cocopp.archives module.↩︎\nThe data of previously compared algorithms can be found at https://numbbo.github.io/data-archive/ and are easily accessible by name in the cocopp post-processing and from the python cocopp.archives module.↩︎\nNote that the current release of the new COCO platform does not contain the original noisy BBOB testbed yet, such that you must use the old code at https://numbbo.github.io/coco/oldcode/bboball15.03.tar.gz for the time being if you want to compare your algorithm on the noisy testbed.↩︎",
+    "crumbs": [
+      "Home",
+      "BBOB-2021 (mixed-integer)"
+    ]
+  },
+  {
+    "objectID": "bbob2018.html",
+    "href": "bbob2018.html",
+    "title": "GECCO Workshop on Real-Parameter Black-Box Optimization Benchmarking (BBOB 2018)",
+    "section": "",
+    "text": "Welcome to the web page of the 8th GECCO Workshop on Real-Parameter Black-Box Optimization Benchmarking (BBOB 2018) which took place during GECCO 2018 in Kyoto, Japan.\n\nWORKSHOP ON REAL-PARAMETER BLACK-BOX OPTIMIZATION BENCHMARKING (BBOB 2018)\nheld as part of the\n\n2018 Genetic and Evolutionary Computation Conference (GECCO-2018)\nJuly 15--19, Kyoto, Japan\nhttp://gecco-2018.sigevo.org\n\nSubmission Deadline: Tuesday, March 27, 2018 (not extendable!)\n\n\n\n\nregister for news\nCOCO quick start (scroll down a bit)\nlatest COCO release\n\n\n\n Quantifying and comparing the performance of optimization algorithms is a difficult and tedious task to achieve. Yet, it is highly crucial in order to recommend algorithms performing well in practice. The Black-box Optimization Benchmarking workshop series aims at bringing together researchers from the optimization field to discuss the latest achievements in (blackbox) optimization benchmarking as well as at gathering and sharing data of extensive numerical benchmarking results.\nOpen to all topics around blackbox optimization benchmarking, a substantial portion of the workshops' past success can be attributed to the Comparing Continuous Optimization benchmarking platform (COCO, https://github.com/numbbo/coco ) that builds the basis for all BBOB workshops and that allows algorithms to be benchmarked and performance data to be visualized effortlessly. Up to now, the BBOB workshops have covered benchmarking of blackbox optimization algorithms for single- and bi-objective, unconstrained problems in exact and noisy, as well as expensive and non-expensive scenarios.\nLike for the previous editions of the workshop, we provide source code in various languages (C/C++, Matlab/Octave, Java, and Python) to benchmark algorithms on three different test suites (single-objective with and without noise a well as a noiseless bi-objective suite). Postprocessing data and comparing algorithm performance is equally automatized with COCO (up to already prepared LaTeX templates for writing papers). As a new feature for the 2018 edition, we provide significantly easier access to the already benchmarked data sets such that the analysis of already available COCO data becomes simple(r).\nAnalyzing the vast amount of available benchmarking data (from 200+ experiments collected throughout the years) will be therefore one special focus of BBOB-2018. Given that the field of (multiobjective) Bayesian optimization received renewed interest in the recent past, we would also like to re-focus our efforts towards benchmarking algorithms for expensive problems (aka surrogate-assisted algorithms developed for limited budgets). Moreover, several classical multiobjective optimization algorithms have not yet been benchmarked on the bbob-biobj test suite, provided since 2016, such that we encourage contributions on these three following topics in particular:\n\nexpensive/Bayesian/surrogate-assisted optimization\nmultiobjective optimization\nanalysis of existing benchmarking data\n\nInterested participants of the workshop are invited to submit any paper around the topic of (blackbox) optimization benchmarking. These contributions might or might not use the provided LaTeX templates to visualize the performance of unconstrained single- or multiobjective black-box optimization algorithms of their choice on any of the provided testbeds. We particularly encourage submissions about algorithms from outside the evolutionary computation community as well as any papers related to topics around optimization algorithm benchmarking.\nIf participants wish to contribute to the BBOB workshop by submitting data sets, obtained with COCO, the tasks are as usual: run your favorite single- or multiobjective black-box optimizer (old or new) by using the wrappers provided (in C/C++, Python, Java, and Matlab/Octave) and run the post-processing procedure (provided as well) that will generate automatically all the material for a workshop paper (ACM compliant LaTeX templates available). A description of the algorithm and the discussion of the results completes the paper writing.\nNote again that any other submission, related to black-box optimization benchmarking of continuous optimizers will be welcome as well. The submission section below gives a few examples of subjects of interest.\nDuring the workshop, algorithms, results, and discussions will be presented by the participants. An overall analysis and comparison of all submitted algorithm data is going to be accomplished by the organizers and the overall process will be critically reviewed.\n\n\nGet updated about the latest news regarding the workshop and releases and bugfixes of the supporting NumBBO/COCO platform, by registering at http://numbbo.github.io/register.\n\n\n\nBasis of the workshop is the Comparing Continuous Optimizer platform (https://github.com/numbbo/coco), now rewritten fully in ANSI C with other languages calling the C code. Languages currently available are C, Java, MATLAB/Octave, and Python.\nMost likely, you want to read the COCO quick start (scroll down a bit). This page also provides the code for the benchmark functions1, for running the experiments in C, Java, Matlab, Octave, and Python, and for postprocessing the experiment data into plots, tables, html pages, and publisher-conform PDFs via provided LaTeX templates. Please refer to http://numbbo.github.io/coco-doc/experimental-setup/ for more details on the general experimental set-up for black-box optimization benchmarking.\nThe latest (hopefully) stable release of the COCO software can be downloaded as a whole here. Please use at least version v2.2 for running your benchmarking experiments in 2018.\nDocumentation of the functions used in the bbob-biobj suite is provided at http://numbbo.github.io/coco-doc/bbob-biobj/functions/ .\n\n\n\nWe encourage any submission that is concerned with black-box optimization benchmarking of continuous optimizers, for example papers that:\n\ndescribe and benchmark new or not-so-new algorithms on one of the above testbeds,\ncompare new or existing algorithms from the COCO/BBOB database2,\nanalyze the data obtained in previous editions of BBOB3, or\ndiscuss, compare, and improve upon any benchmarking methodology for continuous optimizers such as design of experiments, performance measures, presentation methods, benchmarking frameworks, test functions, ...\n\nPaper submissions are expected to be done through the official GECCO submission system at https://ssl.linklings.net/conferences/gecco/ until the deadline on February 27, 2018.\nIn order to finalize your submission, we kindly ask you to fill in addition the form at http://numbbo.github.io/submit where you are supposed to provide a link to your data as well if this applies. To upload your data to the web, you might want to use https://zenodo.org/ which offers uploads of data sets up to 50GB in size or any other provider of online data storage. Please let us know briefly in the mandatory Data field, why you do not provide any data for example in case you submit a paper unrelated to the above BBOB test suites.\n\n\n\nOut of six submissions, the following four papers have been accepted after peer-review:\n\nKouhei Nishida and Youhei Akimoto: \"Benchmarking the PSA-CMA-ES on the BBOB Noiseless Testbed\"\nDuc Manh Nguyen: \"Benchmarking a Variant of the CMAES-APOP on the BBOB Noiseless Testbed\"\nAurore Blelly, Matheus Felipe-Gomes, Anne Auger, and Dimo Brockhoff: \"Stopping Criteria, Initialization, and Implementations of BFGS and their Effect on the BBOB Test Suite\"\nAljoša Vodopija, Tea Tušar, Bogdan Filipič: \"Comparing Black-Box Differential Evolution and Classic Differential Evolution\"\n\n\n\n\nThe data of all submitted experiments can be found in the list of data sets.\n\n\n\nThis year, the BBOB-2018 workshop got assigned a single session at GECCO in which the talks were scheduled according to the table below. Speakers are highlighted with a star behind the name. Please click on the provided links to download the slides.\n\n\n\nBBOB-2018\n\n\n\n09:30 - 09:45\nThe BBOBies: Introduction to Blackbox Optimization Benchmarking (slides)\n\n\n09:45 - 10:05\nKouhei Nishida* and Youhei Akimoto: Benchmarking the PSA-CMA-ES on the BBOB Noiseless Testbed (slides)\n\n\n10:05 - 10:25\nDuc Manh Nguyen*: Benchmarking a Variant of the CMAES-APOP on the BBOB Noiseless Testbed (slides)\n\n\n10:25 – 10:40\nAurore Blelly, Matheus Felipe-Gomes, Anne Auger, and Dimo Brockhoff*: Stopping Criteria, Initialization, and Implementations of BFGS and their Effect on the BBOB Test Suite (slides)\n\n\n10:40 - 11:00\nAljoša Vodopija, Tea Tušar*, Bogdan Filipič: Comparing Black-Box Differential Evolution and Classic Differential Evolution\n\n\n11:00 - 11:10\nThe BBOBies: Wrap-up and Discussion (slides)\n\n\n\n\n\n\n\n2018-02-27 paper submission system opened\n2018-03-01 release 2.2 of the COCO platform: https://github.com/numbbo/coco/releases/ (originally planned on 2018-01-05)\n2018-03-27 paper and data submission deadline (not extendable!)\n2018-04-10 decision notification\n2018-04-24 deadline camera-ready papers\n2018-07-15 workshop\n\nAll dates are given in ISO 8601 format (yyyy-mm-dd).\n\n\n\n\nAnne Auger, Inria Saclay - Ile-de-France, France\nJulien Bect, CentraleSupélec, France\nDimo Brockhoff, Inria Saclay - Ile-de-France, France\nNikolaus Hansen, Inria Saclay - Ile-de-France, France\nRodolphe Le Riche, Ecole Nationale Supérieure des Mines de Saint–Etienne, France\nVictor Picheny, INRA Occitanie-Toulouse, France\nTea Tušar, Jožef Stefan Institute, Ljubljana, Slovenia",
+    "crumbs": [
+      "Home",
+      "BBOB-2018"
+    ]
+  },
+  {
+    "objectID": "bbob2018.html#updates-and-news",
+    "href": "bbob2018.html#updates-and-news",
+    "title": "GECCO Workshop on Real-Parameter Black-Box Optimization Benchmarking (BBOB 2018)",
+    "section": "",
+    "text": "Get updated about the latest news regarding the workshop and releases and bugfixes of the supporting NumBBO/COCO platform, by registering at http://numbbo.github.io/register.",
+    "crumbs": [
+      "Home",
+      "BBOB-2018"
+    ]
+  },
+  {
+    "objectID": "bbob2018.html#supporting-material",
+    "href": "bbob2018.html#supporting-material",
+    "title": "GECCO Workshop on Real-Parameter Black-Box Optimization Benchmarking (BBOB 2018)",
+    "section": "",
+    "text": "Basis of the workshop is the Comparing Continuous Optimizer platform (https://github.com/numbbo/coco), now rewritten fully in ANSI C with other languages calling the C code. Languages currently available are C, Java, MATLAB/Octave, and Python.\nMost likely, you want to read the COCO quick start (scroll down a bit). This page also provides the code for the benchmark functions1, for running the experiments in C, Java, Matlab, Octave, and Python, and for postprocessing the experiment data into plots, tables, html pages, and publisher-conform PDFs via provided LaTeX templates. Please refer to http://numbbo.github.io/coco-doc/experimental-setup/ for more details on the general experimental set-up for black-box optimization benchmarking.\nThe latest (hopefully) stable release of the COCO software can be downloaded as a whole here. Please use at least version v2.2 for running your benchmarking experiments in 2018.\nDocumentation of the functions used in the bbob-biobj suite is provided at http://numbbo.github.io/coco-doc/bbob-biobj/functions/ .",
+    "crumbs": [
+      "Home",
+      "BBOB-2018"
+    ]
+  },
+  {
+    "objectID": "bbob2018.html#submissions",
+    "href": "bbob2018.html#submissions",
+    "title": "GECCO Workshop on Real-Parameter Black-Box Optimization Benchmarking (BBOB 2018)",
+    "section": "",
+    "text": "We encourage any submission that is concerned with black-box optimization benchmarking of continuous optimizers, for example papers that:\n\ndescribe and benchmark new or not-so-new algorithms on one of the above testbeds,\ncompare new or existing algorithms from the COCO/BBOB database2,\nanalyze the data obtained in previous editions of BBOB3, or\ndiscuss, compare, and improve upon any benchmarking methodology for continuous optimizers such as design of experiments, performance measures, presentation methods, benchmarking frameworks, test functions, ...\n\nPaper submissions are expected to be done through the official GECCO submission system at https://ssl.linklings.net/conferences/gecco/ until the deadline on February 27, 2018.\nIn order to finalize your submission, we kindly ask you to fill in addition the form at http://numbbo.github.io/submit where you are supposed to provide a link to your data as well if this applies. To upload your data to the web, you might want to use https://zenodo.org/ which offers uploads of data sets up to 50GB in size or any other provider of online data storage. Please let us know briefly in the mandatory Data field, why you do not provide any data for example in case you submit a paper unrelated to the above BBOB test suites.",
+    "crumbs": [
+      "Home",
+      "BBOB-2018"
+    ]
+  },
+  {
+    "objectID": "bbob2018.html#accepted-papers",
+    "href": "bbob2018.html#accepted-papers",
+    "title": "GECCO Workshop on Real-Parameter Black-Box Optimization Benchmarking (BBOB 2018)",
+    "section": "",
+    "text": "Out of six submissions, the following four papers have been accepted after peer-review:\n\nKouhei Nishida and Youhei Akimoto: \"Benchmarking the PSA-CMA-ES on the BBOB Noiseless Testbed\"\nDuc Manh Nguyen: \"Benchmarking a Variant of the CMAES-APOP on the BBOB Noiseless Testbed\"\nAurore Blelly, Matheus Felipe-Gomes, Anne Auger, and Dimo Brockhoff: \"Stopping Criteria, Initialization, and Implementations of BFGS and their Effect on the BBOB Test Suite\"\nAljoša Vodopija, Tea Tušar, Bogdan Filipič: \"Comparing Black-Box Differential Evolution and Classic Differential Evolution\"",
+    "crumbs": [
+      "Home",
+      "BBOB-2018"
+    ]
+  },
+  {
+    "objectID": "bbob2018.html#links-to-algorithm-data",
+    "href": "bbob2018.html#links-to-algorithm-data",
+    "title": "GECCO Workshop on Real-Parameter Black-Box Optimization Benchmarking (BBOB 2018)",
+    "section": "",
+    "text": "The data of all submitted experiments can be found in the list of data sets.",
+    "crumbs": [
+      "Home",
+      "BBOB-2018"
+    ]
+  },
+  {
+    "objectID": "bbob2018.html#schedule",
+    "href": "bbob2018.html#schedule",
+    "title": "GECCO Workshop on Real-Parameter Black-Box Optimization Benchmarking (BBOB 2018)",
+    "section": "",
+    "text": "This year, the BBOB-2018 workshop got assigned a single session at GECCO in which the talks were scheduled according to the table below. Speakers are highlighted with a star behind the name. Please click on the provided links to download the slides.\n\n\n\nBBOB-2018\n\n\n\n09:30 - 09:45\nThe BBOBies: Introduction to Blackbox Optimization Benchmarking (slides)\n\n\n09:45 - 10:05\nKouhei Nishida* and Youhei Akimoto: Benchmarking the PSA-CMA-ES on the BBOB Noiseless Testbed (slides)\n\n\n10:05 - 10:25\nDuc Manh Nguyen*: Benchmarking a Variant of the CMAES-APOP on the BBOB Noiseless Testbed (slides)\n\n\n10:25 – 10:40\nAurore Blelly, Matheus Felipe-Gomes, Anne Auger, and Dimo Brockhoff*: Stopping Criteria, Initialization, and Implementations of BFGS and their Effect on the BBOB Test Suite (slides)\n\n\n10:40 - 11:00\nAljoša Vodopija, Tea Tušar*, Bogdan Filipič: Comparing Black-Box Differential Evolution and Classic Differential Evolution\n\n\n11:00 - 11:10\nThe BBOBies: Wrap-up and Discussion (slides)",
+    "crumbs": [
+      "Home",
+      "BBOB-2018"
+    ]
+  },
+  {
+    "objectID": "bbob2018.html#important-dates",
+    "href": "bbob2018.html#important-dates",
+    "title": "GECCO Workshop on Real-Parameter Black-Box Optimization Benchmarking (BBOB 2018)",
+    "section": "",
+    "text": "2018-02-27 paper submission system opened\n2018-03-01 release 2.2 of the COCO platform: https://github.com/numbbo/coco/releases/ (originally planned on 2018-01-05)\n2018-03-27 paper and data submission deadline (not extendable!)\n2018-04-10 decision notification\n2018-04-24 deadline camera-ready papers\n2018-07-15 workshop\n\nAll dates are given in ISO 8601 format (yyyy-mm-dd).",
+    "crumbs": [
+      "Home",
+      "BBOB-2018"
+    ]
+  },
+  {
+    "objectID": "bbob2018.html#organizers",
+    "href": "bbob2018.html#organizers",
+    "title": "GECCO Workshop on Real-Parameter Black-Box Optimization Benchmarking (BBOB 2018)",
+    "section": "",
+    "text": "Anne Auger, Inria Saclay - Ile-de-France, France\nJulien Bect, CentraleSupélec, France\nDimo Brockhoff, Inria Saclay - Ile-de-France, France\nNikolaus Hansen, Inria Saclay - Ile-de-France, France\nRodolphe Le Riche, Ecole Nationale Supérieure des Mines de Saint–Etienne, France\nVictor Picheny, INRA Occitanie-Toulouse, France\nTea Tušar, Jožef Stefan Institute, Ljubljana, Slovenia",
+    "crumbs": [
+      "Home",
+      "BBOB-2018"
+    ]
+  },
+  {
+    "objectID": "bbob2018.html#footnotes",
+    "href": "bbob2018.html#footnotes",
+    "title": "GECCO Workshop on Real-Parameter Black-Box Optimization Benchmarking (BBOB 2018)",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nNote that the current release of the new COCO platform does not contain the original noisy BBOB testbed yet, such that you must use the old code at https://numbbo.github.io/coco/oldcode/bboball15.03.tar.gz for the time being if you want to compare your algorithm on the noisy testbed.↩︎\nThe data of previously compared algorithms can be found at https://numbbo.github.io/data-archive/ and is easily accessible from the python cocopp module via its data_archive sub-module.↩︎\nThe data of previously compared algorithms can be found at https://numbbo.github.io/data-archive/ and is easily accessible from the python cocopp module via its data_archive sub-module.↩︎",
+    "crumbs": [
+      "Home",
+      "BBOB-2018"
+    ]
+  },
+  {
+    "objectID": "bbob2016.html",
+    "href": "bbob2016.html",
+    "title": "GECCO Workshop on Real-Parameter Black-Box Optimization Benchmarking (BBOB 2016) - focus on multi-objective problems",
+    "section": "",
+    "text": "Welcome to the web page of the 6th GECCO Workshop on Real-Parameter Black-Box Optimization Benchmarking (BBOB 2016) with focus on multi-objective problems with two objective functions which took place during GECCO 2016.\n\nWORKSHOP ON REAL-PARAMETER BLACK-BOX OPTIMIZATION BENCHMARKING (BBOB 2016) - with a new focus on multi-objective problems\nhold as part of the\n\n2016 Genetic and Evolutionary Computation Conference (GECCO-2016)\nJuly 20-24, Denver, CO, USA\nhttp://gecco-2016.sigevo.org/\n\nSubmission Deadline: extended to Sunday, April 17, 2016 (from Saturday, April 3, 2016)\n\n\n\n\nregister for news\nCoco quick start (scroll down a bit)\nlatest Coco release\n\n\n\n Quantifying and comparing the performance of optimization algorithms is a difficult and tedious task to achieve. Previously, the Coco platform has provided tools to ease this process for single-objective problems by: (1) an implemented, well-motivated benchmark function testbed, (2) a simple and sound experimental set-up, (3) the generation of output data and (4) the post-processing and presentation of the results in graphs and tables. For the first time, this year, we provide(d) an extension of the Coco platform towards a multi-objective testbed (with two objective functions) and with nearly the same procedure as in previous BBOB workshops.\nThe remaining tasks for participants were therefore: run your favorite multi-objective black-box optimizer (old or new) by using the wrappers provided and run the post-processing procedure (provided as well) that will generate automatically all the material for a workshop paper (LaTeX templates are provided). A description of the algorithm and the discussion of the results completes the paper writing.\nWe encourage(d) particularly submissions related to multi-objective algorithms for expensive optimization (with a limited budget) and also algorithms from outside the evolutionary computation community. Please note that submissions related to the existing single-objective BBOB testbeds (noiseless and noisy) were still welcome although the focus was on the new bi-objective testbed.\nDuring the workshop, algorithms and results were presented by the participants. An overall analysis and comparison was accomplished by the organizers and the overall process was critically reviewed.\n\n\nGet updated about the latest news regarding the workshop and releases and bugfixes of the supporting NumBBO/Coco plateform, by registering at http://numbbo.github.io/register.\n\n\n\nMost likely, you want to read the Coco quick start (scroll down a bit). This page also provides the code for the benchmark functions, for running the experiments in C, Java, Matlab, Octave, and Python, and for postprocessing the experiment data into plots, tables, html pages, and publisher-conform PDFs via provided LaTeX templates. Please refer to http://numbbo.github.io/coco-doc/experimental-setup/ for more details on the general experimental set-up for black-box optimization benchmarking.\nThe latest (hopefully) stable release of the Coco software can be downloaded as a whole here. Please use at least version v1.0 for running your benchmarking experiments.\nDocumentation of the functions used in the bbob-biobj suite for BBOB 2016 are provided at http://numbbo.github.io/coco-doc/bbob-biobj/functions/ .\nNote that the current release of the new Coco platform does not contain the original noisy BBOB testbed, such that you must use the old code at https://numbbo.github.io/coco/oldcode/bboball15.03.tar.gz for the time being if you want to compare your algorithm on the noisy testbed.\n\n\n\nSubmissions of benchmarking results of new or existing numerical optimization algorithms in terms of bi-objective or single-objective optimization were welcome and should have been done through the following form at http://numbbo.github.io/submit.\nEventually, the following papers have been accepted:\n\nIlya Loshchilov and Tobias Glasmachers: Anytime Bi-Objective Optimization with a Hybrid Multi-Objective CMA-ES (HMO-CMA-ES)\nOswin Krause, Tobias Glasmachers, Nikolaus Hansen, and Christian Igel: Unbounded Population MO-CMA-ES for the Bi-Objective BBOB Test Suite\nKouhei Nishida and Youhei Akimoto: Evaluating the Population Size Adaptation Mechanism for CMA-ES on the BBOB Noiseless Testbed\nKouhei Nishida and Youhei Akimoto: Evaluating the Population Size Adaptation Mechanism for CMA-ES on the BBOB Noisy Testbed\nCheryl Wong, Abdullah Al-Dujaili, and Suresh Sundaram: Hypervolume-based DIRECT for Multi-Objective Optimisation\nAbdullah Al-Dujaili and Suresh Sundaram: A MATLAB Toolbox for Surrogate-Assisted Multi-Objective Optimization: A Preliminary Study\nAnne Auger, Dimo Brockhoff, Nikolaus Hansen, Dejan Tušar, Tea Tušar, and Tobias Wagner: Benchmarking the Pure Random Search on the Bi-objective BBOB-2016 Testbed\nAnne Auger, Dimo Brockhoff, Nikolaus Hansen, Dejan Tušar, Tea Tušar, and Tobias Wagner: The Impact of Variation Operators on the Performance of SMS-EMOA on the Bi-objective BBOB-2016 Test Suite\nAnne Auger, Dimo Brockhoff, Nikolaus Hansen, Dejan Tušar, Tea Tušar, and Tobias Wagner: Benchmarking MATLAB's gamultiobj (NSGA-II) on the Bi-objective BBOB-2016 Test Suite\nAnne Auger, Dimo Brockhoff, Nikolaus Hansen, Dejan Tušar, Tea Tušar, and Tobias Wagner: Benchmarking RM-MEDA on the Bi-objective BBOB-2016 Test Suite\nTea Tušar and Bogdan Filipič: Performance of the DEMO algorithm on the bi-objective BBOB test suite\nAnne Auger, Dimo Brockhoff, Nikolaus Hansen, Dejan Tušar, Tea Tušar, and Tobias Wagner: The Impact of Search Volume on the Performance of RANDOMSEARCH on the Bi-objective BBOB-2016 Test Suite\n\n\n\n\nThe data sets of all submitted algorithms can be found at https://numbbo.github.io/data-archive/bbob-biobj/ for the bbob-biobj test suite and at https://numbbo.github.io/data-archive/bbob and https://numbbo.github.io/data-archive/bbob-noisy/ for the bbob and bbob-noisy test suites respectively.\n\n\n\nAll BBOB-2016 sessions took place on the first day of GECCO (July 20, 2016) in the Wind Star B room. Speakers are highlighted with a star behind the name. Please click on the provided links to download the slides.\n\n\n\nSession I\n\n\n\n08:30 - 09:30\nThe BBOBies: Introduction to Blackbox Optimization Benchmarking (slides)\n\n\n09:30 - 09:55\nTea Tušar*, Bogdan Filipič: Performance of the DEMO algorithm on the bi-objective BBOB test suite (slides)\n\n\n09:55 - 10:20\nIlya Loshchilov, Tobias Glasmachers*: Anytime Bi-Objective Optimization with a Hybrid Multi-Objective CMA-ES (HMO-CMA-ES) (slides)\n\n\nSession II\n\n\n\n10:40 - 10:55\nThe BBOBies: Session Introduction (slides)\n\n\n10:55 - 11:20\nCheryl Wong*, Abdullah Al-Dujaili, and Suresh Sundaram: Hypervolume-based DIRECT for Multi-Objective Optimisation (slides)\n\n\n11:20 - 11:45\nAbdullah Al-Dujaili and Suresh Sundaram (speaker: Cheryl Wong): A MATLAB Toolbox for Surrogate-Assisted Multi-Objective Optimization: A Preliminary Study (slides)\n\n\n11:45 - 12:10\nOswin Krause*, Tobias Glasmachers, Nikolaus Hansen, and Christian Igel: Unbounded Population MO-CMA-ES for the Bi-Objective BBOB Test Suite (slides)\n\n\n12:10 - 12:30\nThe BBOBies: Session Wrap-up (slides)\n\n\nSession III\n\n\n\n14:00 - 14:15\nThe BBOBies: Session Introduction (slides)\n\n\n14:15 - 14:40\nKouhei Nishida* and Youhei Akimoto: Evaluating the Population Size Adaptation Mechanism for CMA-ES (slides)\n\n\n14:40 - 15:05\nThe BBOBies: Wrap-up of all BBOB-2016 Results (slides)\n\n\n15:05 - 15:30\nThomas Weise*: optimizationBenchmarking.org: An Introduction\n\n\n15:30 - 15:50\nOpen Discussion\n\n\n\n\n\n\n\n01/20/2016 first version of the new Coco platform released as 0.5-beta\n01/30/2016 (planned: 01/29/2016) release 0.7-beta of the Coco software with the main functionality to run experiments\n(planned: 02/12/2016, replaced by 7 intermediate releases) first complete release 0.9 of the software\n03/29/2016 (planned: 03/18/2016) final release 1.0 for producing the papers\n04/17/2016 new paper and data submission deadline (extended from 04/02/2016)\n04/20/2016 decision notification\n05/04/2016 deadline camera-ready papers\n07/20/2016 workshop\n\n\n\n\n\nAnne Auger, Inria Saclay - Ile-de-France\nDimo Brockhoff, Inria Lille - Nord Euruope\nNikolaus Hansen, Inria Saclay - Ile-de-France\nDejan Tušar, Inria Lille - Nord Europe\nTea Tušar, Inria Lille - Nord Europe\nTobias Wagner, TU Dortmund University",
+    "crumbs": [
+      "Home",
+      "BBOB-2016 (bi-objective)"
+    ]
+  },
+  {
+    "objectID": "bbob2016.html#updates-and-news",
+    "href": "bbob2016.html#updates-and-news",
+    "title": "GECCO Workshop on Real-Parameter Black-Box Optimization Benchmarking (BBOB 2016) - focus on multi-objective problems",
+    "section": "",
+    "text": "Get updated about the latest news regarding the workshop and releases and bugfixes of the supporting NumBBO/Coco plateform, by registering at http://numbbo.github.io/register.",
+    "crumbs": [
+      "Home",
+      "BBOB-2016 (bi-objective)"
+    ]
+  },
+  {
+    "objectID": "bbob2016.html#supporting-material",
+    "href": "bbob2016.html#supporting-material",
+    "title": "GECCO Workshop on Real-Parameter Black-Box Optimization Benchmarking (BBOB 2016) - focus on multi-objective problems",
+    "section": "",
+    "text": "Most likely, you want to read the Coco quick start (scroll down a bit). This page also provides the code for the benchmark functions, for running the experiments in C, Java, Matlab, Octave, and Python, and for postprocessing the experiment data into plots, tables, html pages, and publisher-conform PDFs via provided LaTeX templates. Please refer to http://numbbo.github.io/coco-doc/experimental-setup/ for more details on the general experimental set-up for black-box optimization benchmarking.\nThe latest (hopefully) stable release of the Coco software can be downloaded as a whole here. Please use at least version v1.0 for running your benchmarking experiments.\nDocumentation of the functions used in the bbob-biobj suite for BBOB 2016 are provided at http://numbbo.github.io/coco-doc/bbob-biobj/functions/ .\nNote that the current release of the new Coco platform does not contain the original noisy BBOB testbed, such that you must use the old code at https://numbbo.github.io/coco/oldcode/bboball15.03.tar.gz for the time being if you want to compare your algorithm on the noisy testbed.",
+    "crumbs": [
+      "Home",
+      "BBOB-2016 (bi-objective)"
+    ]
+  },
+  {
+    "objectID": "bbob2016.html#submissions",
+    "href": "bbob2016.html#submissions",
+    "title": "GECCO Workshop on Real-Parameter Black-Box Optimization Benchmarking (BBOB 2016) - focus on multi-objective problems",
+    "section": "",
+    "text": "Submissions of benchmarking results of new or existing numerical optimization algorithms in terms of bi-objective or single-objective optimization were welcome and should have been done through the following form at http://numbbo.github.io/submit.\nEventually, the following papers have been accepted:\n\nIlya Loshchilov and Tobias Glasmachers: Anytime Bi-Objective Optimization with a Hybrid Multi-Objective CMA-ES (HMO-CMA-ES)\nOswin Krause, Tobias Glasmachers, Nikolaus Hansen, and Christian Igel: Unbounded Population MO-CMA-ES for the Bi-Objective BBOB Test Suite\nKouhei Nishida and Youhei Akimoto: Evaluating the Population Size Adaptation Mechanism for CMA-ES on the BBOB Noiseless Testbed\nKouhei Nishida and Youhei Akimoto: Evaluating the Population Size Adaptation Mechanism for CMA-ES on the BBOB Noisy Testbed\nCheryl Wong, Abdullah Al-Dujaili, and Suresh Sundaram: Hypervolume-based DIRECT for Multi-Objective Optimisation\nAbdullah Al-Dujaili and Suresh Sundaram: A MATLAB Toolbox for Surrogate-Assisted Multi-Objective Optimization: A Preliminary Study\nAnne Auger, Dimo Brockhoff, Nikolaus Hansen, Dejan Tušar, Tea Tušar, and Tobias Wagner: Benchmarking the Pure Random Search on the Bi-objective BBOB-2016 Testbed\nAnne Auger, Dimo Brockhoff, Nikolaus Hansen, Dejan Tušar, Tea Tušar, and Tobias Wagner: The Impact of Variation Operators on the Performance of SMS-EMOA on the Bi-objective BBOB-2016 Test Suite\nAnne Auger, Dimo Brockhoff, Nikolaus Hansen, Dejan Tušar, Tea Tušar, and Tobias Wagner: Benchmarking MATLAB's gamultiobj (NSGA-II) on the Bi-objective BBOB-2016 Test Suite\nAnne Auger, Dimo Brockhoff, Nikolaus Hansen, Dejan Tušar, Tea Tušar, and Tobias Wagner: Benchmarking RM-MEDA on the Bi-objective BBOB-2016 Test Suite\nTea Tušar and Bogdan Filipič: Performance of the DEMO algorithm on the bi-objective BBOB test suite\nAnne Auger, Dimo Brockhoff, Nikolaus Hansen, Dejan Tušar, Tea Tušar, and Tobias Wagner: The Impact of Search Volume on the Performance of RANDOMSEARCH on the Bi-objective BBOB-2016 Test Suite",
+    "crumbs": [
+      "Home",
+      "BBOB-2016 (bi-objective)"
+    ]
+  },
+  {
+    "objectID": "bbob2016.html#data",
+    "href": "bbob2016.html#data",
+    "title": "GECCO Workshop on Real-Parameter Black-Box Optimization Benchmarking (BBOB 2016) - focus on multi-objective problems",
+    "section": "",
+    "text": "The data sets of all submitted algorithms can be found at https://numbbo.github.io/data-archive/bbob-biobj/ for the bbob-biobj test suite and at https://numbbo.github.io/data-archive/bbob and https://numbbo.github.io/data-archive/bbob-noisy/ for the bbob and bbob-noisy test suites respectively.",
+    "crumbs": [
+      "Home",
+      "BBOB-2016 (bi-objective)"
+    ]
+  },
+  {
+    "objectID": "bbob2016.html#workshop-schedule",
+    "href": "bbob2016.html#workshop-schedule",
+    "title": "GECCO Workshop on Real-Parameter Black-Box Optimization Benchmarking (BBOB 2016) - focus on multi-objective problems",
+    "section": "",
+    "text": "All BBOB-2016 sessions took place on the first day of GECCO (July 20, 2016) in the Wind Star B room. Speakers are highlighted with a star behind the name. Please click on the provided links to download the slides.\n\n\n\nSession I\n\n\n\n08:30 - 09:30\nThe BBOBies: Introduction to Blackbox Optimization Benchmarking (slides)\n\n\n09:30 - 09:55\nTea Tušar*, Bogdan Filipič: Performance of the DEMO algorithm on the bi-objective BBOB test suite (slides)\n\n\n09:55 - 10:20\nIlya Loshchilov, Tobias Glasmachers*: Anytime Bi-Objective Optimization with a Hybrid Multi-Objective CMA-ES (HMO-CMA-ES) (slides)\n\n\nSession II\n\n\n\n10:40 - 10:55\nThe BBOBies: Session Introduction (slides)\n\n\n10:55 - 11:20\nCheryl Wong*, Abdullah Al-Dujaili, and Suresh Sundaram: Hypervolume-based DIRECT for Multi-Objective Optimisation (slides)\n\n\n11:20 - 11:45\nAbdullah Al-Dujaili and Suresh Sundaram (speaker: Cheryl Wong): A MATLAB Toolbox for Surrogate-Assisted Multi-Objective Optimization: A Preliminary Study (slides)\n\n\n11:45 - 12:10\nOswin Krause*, Tobias Glasmachers, Nikolaus Hansen, and Christian Igel: Unbounded Population MO-CMA-ES for the Bi-Objective BBOB Test Suite (slides)\n\n\n12:10 - 12:30\nThe BBOBies: Session Wrap-up (slides)\n\n\nSession III\n\n\n\n14:00 - 14:15\nThe BBOBies: Session Introduction (slides)\n\n\n14:15 - 14:40\nKouhei Nishida* and Youhei Akimoto: Evaluating the Population Size Adaptation Mechanism for CMA-ES (slides)\n\n\n14:40 - 15:05\nThe BBOBies: Wrap-up of all BBOB-2016 Results (slides)\n\n\n15:05 - 15:30\nThomas Weise*: optimizationBenchmarking.org: An Introduction\n\n\n15:30 - 15:50\nOpen Discussion",
+    "crumbs": [
+      "Home",
+      "BBOB-2016 (bi-objective)"
+    ]
+  },
+  {
+    "objectID": "bbob2016.html#important-dates",
+    "href": "bbob2016.html#important-dates",
+    "title": "GECCO Workshop on Real-Parameter Black-Box Optimization Benchmarking (BBOB 2016) - focus on multi-objective problems",
+    "section": "",
+    "text": "01/20/2016 first version of the new Coco platform released as 0.5-beta\n01/30/2016 (planned: 01/29/2016) release 0.7-beta of the Coco software with the main functionality to run experiments\n(planned: 02/12/2016, replaced by 7 intermediate releases) first complete release 0.9 of the software\n03/29/2016 (planned: 03/18/2016) final release 1.0 for producing the papers\n04/17/2016 new paper and data submission deadline (extended from 04/02/2016)\n04/20/2016 decision notification\n05/04/2016 deadline camera-ready papers\n07/20/2016 workshop",
+    "crumbs": [
+      "Home",
+      "BBOB-2016 (bi-objective)"
+    ]
+  },
+  {
+    "objectID": "bbob2016.html#organizers",
+    "href": "bbob2016.html#organizers",
+    "title": "GECCO Workshop on Real-Parameter Black-Box Optimization Benchmarking (BBOB 2016) - focus on multi-objective problems",
+    "section": "",
+    "text": "Anne Auger, Inria Saclay - Ile-de-France\nDimo Brockhoff, Inria Lille - Nord Euruope\nNikolaus Hansen, Inria Saclay - Ile-de-France\nDejan Tušar, Inria Lille - Nord Europe\nTea Tušar, Inria Lille - Nord Europe\nTobias Wagner, TU Dortmund University",
+    "crumbs": [
+      "Home",
+      "BBOB-2016 (bi-objective)"
+    ]
+  },
+  {
+    "objectID": "bbob2017.html",
+    "href": "bbob2017.html",
+    "title": "GECCO Workshop on Real-Parameter Black-Box Optimization Benchmarking (BBOB 2017)",
+    "section": "",
+    "text": "Welcome to the web page of the 7th GECCO Workshop on Real-Parameter Black-Box Optimization Benchmarking (BBOB 2017) with a continued focus on bi-objective problems and which took place during GECCO 2017.\n\nWORKSHOP ON REAL-PARAMETER BLACK-BOX OPTIMIZATION BENCHMARKING (BBOB 2017)\nheld as part of the\n\n2017 Genetic and Evolutionary Computation Conference (GECCO-2017)\nJuly 15--19, Berlin, Germany\nhttp://gecco-2017.sigevo.org\n\nSubmission Deadline: extended to Tuesday, April 11, 2017 (from Friday, March 31, 2017)\n\n\n\n\nregister for news\nCoco quick start (scroll down a bit)\nlatest Coco release\n\n\n\n Quantifying and comparing the performance of optimization algorithms is a difficult and tedious task to achieve. The Coco platform provides tools to ease this process for single-objective noiseless and noisy problems and for bi-objective noiseless problems by: (1) an implemented, well-motivated benchmark function testbed, (2) a simple and sound experimental set-up, (3) the generation of output data and (4) the post-processing and presentation of the results in graphs and tables.\nOverall, we provide the following test suites:\n\nbbob containing 24 noiseless functions,\nbbob-noisy containing 30 noisy functions [^1],\nbbob-biobj containing 55 noiseless, bi-objective functions, and\n\nNote that the previously announced extended version of the bbob-biobj test suite has unfortunately not been fully supported early enough in 2017 but that we will make it available later on this summer.\nThe tasks for participants are as usual: run your favorite single- or multiobjective black-box optimizer (old or new) by using the wrappers provided (in C/C++, Python, Java, and Matlab/Octave) and run the post-processing procedure (provided as well) that will generate automatically all the material for a workshop paper (ACM compliant LaTeX templates available). A description of the algorithm and the discussion of the results completes the paper writing.\nWe encourage particularly submissions on algorithms from outside the evolutionary computation community. Please note that any other submission, related to black-box optimization benchmarking of continuous optimizers will be welcome as well. The submission section below gives a few examples of subjects of interest.\nDuring the workshop, algorithms, results, and discussions will be presented by the participants. An overall analysis and comparison of all submitted algorithm data is going to be accomplished by the organizers and the overall process will be critically reviewed.\n\n\nGet updated about the latest news regarding the workshop and releases and bugfixes of the supporting NumBBO/Coco platform, by registering at http://numbbo.github.io/register.\n\n\n\nBasis of the workshop is the Comparing Continuous Optimizer platform (https://github.com/numbbo/coco), now rewritten fully in ANSI C with other languages calling the C code. Languages currently available are C, Java, MATLAB/Octave, and Python.\nMost likely, you want to read the Coco quick start (scroll down a bit). This page also provides the code for the benchmark functions, for running the experiments in C, Java, Matlab, Octave, and Python, and for postprocessing the experiment data into plots, tables, html pages, and publisher-conform PDFs via provided LaTeX templates. Please refer to http://numbbo.github.io/coco-doc/experimental-setup/ for more details on the general experimental set-up for black-box optimization benchmarking.\nThe latest (hopefully) stable release of the Coco software can be downloaded as a whole here. Please use at least version v2.0 for running your benchmarking experiments in 2017.\nDocumentation of the functions used in the bbob-biobj and bbob-biobj-ext suites are provided at http://numbbo.github.io/coco-doc/bbob-biobj/functions/ .\n[^1] Note that the current release of the new Coco platform does not contain the original noisy BBOB testbed yet, such that you must use the old code at https://numbbo.github.io/coco/oldcode/bboball15.03.tar.gz for the time being if you want to compare your algorithm on the noisy testbed.\n\n\n\nWe encourage any submission that is concerned with black-box optimization benchmarking of continuous optimizers, for example papers that:\n\ndescribe and benchmark new or not-so-new algorithms on one of the above testbeds,\ncompare new or existing algorithms from the COCO/BBOB database[^2],\nanalyze the data obtained in previous editions of BBOB[^2], or\ndiscuss, compare, and improve upon any benchmarking methodology for continuous optimizers such as design of experiments, performance measures, presentation methods, benchmarking frameworks, test functions, ...\n\nSubmissions are expected to be done through the submission form at: http://numbbo.github.io/submit.\nTo upload your data, you might want to use https://zenodo.org/ which offers uploads of data sets up to 50GB in size or any other provider of online data storage. Please let us know briefly in the mandatory Data field, why you do not provide any data in case you submit a paper unrelated to the above BBOB test suites.\n[^2] The data of previously compared algorithms can be found at https://numbbo.github.io/data-archive/bbob-biobj/ for the bbob-biobj test suite and at https://numbbo.github.io/data-archive/bbob/ and https://numbbo.github.io/data-archive/bbob-noisy/ for the bbob and bbob-noisy test suites respectively.\n\n\n\n\nMario García-Valdez and Juan-J. Merelo: Benchmarking a Pool-Based Execution with GA and PSO Workers on the BBOB Noiseless Testbed\nDuc Manh Nguyen and Nikolaus Hansen: Benchmarking CMAES-APOP on the BBOB Noiseless Testbed\nTakahiro Yamaguchi and Youhei Akimoto: Benchmarking the Novel CMA-ES Restart Strategy Using the Search History on the BBOB Noiseless Testbed\nSimon Wessing: Benchmarking the SMS-EMOA with Self-adaptation on the bbob-biobj Test Suite\nZbynek Pitra, Lukas Bajer, Jakub Repicky, and Martin Holena: Comparison of Ordinal and Metric Gaussian Process Regression as Surrogate Models for CMA Evolution Strategy\nDogan Aydin and Gurcan Yavuz: Self-adaptive Search Equation-Based Artificial Bee Colony Algorithm with CMA-ES on the Noiseless BBOB Testbed\n\n\n\n\nThe data of Simon's self-adaptive SMS-EMOA can be found in the list of biobjective data sets and all other single-objective data sets at the list of bbob data sets.\n\n\n\nBoth BBOB-2017 sessions took place on the second day of GECCO (Sunday July 16, 2017) in the Amethyst room. Speakers are highlighted with a star behind the name if known. Please click on the provided links to download the slides.\n\n\n\nSession I\n\n\n\n08:30 - 09:05\nThe BBOBies: Introduction to Blackbox Optimization Benchmarking (slides)\n\n\n09:05 - 09:30\nSimon Wessing*: Benchmarking the SMS-EMOA with Self-adaptation on the bbob-biobj Test Suite (slides)\n\n\n09:30 - 09:55\nMario García-Valdez* and Juan-J. Merelo: Benchmarking a Pool-Based Execution with GA and PSO Workers on the BBOB Noiseless Testbed\n\n\n09:55 - 10:20\nZbynek Pitra*, Lukas Bajer, Jakub Repicky, and Martin Holena: Comparison of Ordinal and Metric Gaussian Process Regression as Surrogate Models for CMA Evolution Strategy (slides)\n\n\nSession II\n\n\n\n10:40 - 10:50\nThe BBOBies: Session Introduction\n\n\n10:50 - 11:15\nDogan Aydin* and Gurcan Yavuz: Self-adaptive Search Equation-Based Artificial Bee Colony Algorithm with CMA-ES on the Noiseless BBOB Testbed (slides)\n\n\n11:15 - 11:40\nDuc Manh Nguyen and Nikolaus Hansen*: Benchmarking CMAES-APOP on the BBOB Noiseless Testbed\n\n\n11:40 - 12:05\nTakahiro Yamaguchi and Youhei Akimoto*: Benchmarking the Novel CMA-ES Restart Strategy Using the Search History on the BBOB Noiseless Testbed (slides)\n\n\n12:05 - 12:30\nThe BBOBies: Wrap-up and Open Discussion (slides)\n\n\n\n\n\n\n\n01/28/2017 release 2.0 of the Coco platform for first tests: https://github.com/numbbo/coco/releases/\n03/07/2017 expected release of the Coco software with the final functionality to run experiments\n04/11/2017 paper and data submission deadline (extended from 03/31/2017)\n04/17/2017 decision notification\n04/27/2017 deadline camera-ready papers (extended from 04/24/2017)\n07/16/2017 workshop\n\n\n\n\n\nAnne Auger, Inria Saclay - Ile-de-France, France\nDimo Brockhoff, Inria Saclay - Ile-de-France, France\nNikolaus Hansen, Inria Saclay - Ile-de-France, France\nDejan Tušar, Inria Saclay - Ile-de-France, France\nTea Tušar, Jozef Stefan Institute, Ljublana, Slovenia",
+    "crumbs": [
+      "Home",
+      "BBOB-2017"
+    ]
+  },
+  {
+    "objectID": "bbob2017.html#updates-and-news",
+    "href": "bbob2017.html#updates-and-news",
+    "title": "GECCO Workshop on Real-Parameter Black-Box Optimization Benchmarking (BBOB 2017)",
+    "section": "",
+    "text": "Get updated about the latest news regarding the workshop and releases and bugfixes of the supporting NumBBO/Coco platform, by registering at http://numbbo.github.io/register.",
+    "crumbs": [
+      "Home",
+      "BBOB-2017"
+    ]
+  },
+  {
+    "objectID": "bbob2017.html#supporting-material",
+    "href": "bbob2017.html#supporting-material",
+    "title": "GECCO Workshop on Real-Parameter Black-Box Optimization Benchmarking (BBOB 2017)",
+    "section": "",
+    "text": "Basis of the workshop is the Comparing Continuous Optimizer platform (https://github.com/numbbo/coco), now rewritten fully in ANSI C with other languages calling the C code. Languages currently available are C, Java, MATLAB/Octave, and Python.\nMost likely, you want to read the Coco quick start (scroll down a bit). This page also provides the code for the benchmark functions, for running the experiments in C, Java, Matlab, Octave, and Python, and for postprocessing the experiment data into plots, tables, html pages, and publisher-conform PDFs via provided LaTeX templates. Please refer to http://numbbo.github.io/coco-doc/experimental-setup/ for more details on the general experimental set-up for black-box optimization benchmarking.\nThe latest (hopefully) stable release of the Coco software can be downloaded as a whole here. Please use at least version v2.0 for running your benchmarking experiments in 2017.\nDocumentation of the functions used in the bbob-biobj and bbob-biobj-ext suites are provided at http://numbbo.github.io/coco-doc/bbob-biobj/functions/ .\n[^1] Note that the current release of the new Coco platform does not contain the original noisy BBOB testbed yet, such that you must use the old code at https://numbbo.github.io/coco/oldcode/bboball15.03.tar.gz for the time being if you want to compare your algorithm on the noisy testbed.",
+    "crumbs": [
+      "Home",
+      "BBOB-2017"
+    ]
+  },
+  {
+    "objectID": "bbob2017.html#submissions",
+    "href": "bbob2017.html#submissions",
+    "title": "GECCO Workshop on Real-Parameter Black-Box Optimization Benchmarking (BBOB 2017)",
+    "section": "",
+    "text": "We encourage any submission that is concerned with black-box optimization benchmarking of continuous optimizers, for example papers that:\n\ndescribe and benchmark new or not-so-new algorithms on one of the above testbeds,\ncompare new or existing algorithms from the COCO/BBOB database[^2],\nanalyze the data obtained in previous editions of BBOB[^2], or\ndiscuss, compare, and improve upon any benchmarking methodology for continuous optimizers such as design of experiments, performance measures, presentation methods, benchmarking frameworks, test functions, ...\n\nSubmissions are expected to be done through the submission form at: http://numbbo.github.io/submit.\nTo upload your data, you might want to use https://zenodo.org/ which offers uploads of data sets up to 50GB in size or any other provider of online data storage. Please let us know briefly in the mandatory Data field, why you do not provide any data in case you submit a paper unrelated to the above BBOB test suites.\n[^2] The data of previously compared algorithms can be found at https://numbbo.github.io/data-archive/bbob-biobj/ for the bbob-biobj test suite and at https://numbbo.github.io/data-archive/bbob/ and https://numbbo.github.io/data-archive/bbob-noisy/ for the bbob and bbob-noisy test suites respectively.",
+    "crumbs": [
+      "Home",
+      "BBOB-2017"
+    ]
+  },
+  {
+    "objectID": "bbob2017.html#accepted-papers",
+    "href": "bbob2017.html#accepted-papers",
+    "title": "GECCO Workshop on Real-Parameter Black-Box Optimization Benchmarking (BBOB 2017)",
+    "section": "",
+    "text": "Mario García-Valdez and Juan-J. Merelo: Benchmarking a Pool-Based Execution with GA and PSO Workers on the BBOB Noiseless Testbed\nDuc Manh Nguyen and Nikolaus Hansen: Benchmarking CMAES-APOP on the BBOB Noiseless Testbed\nTakahiro Yamaguchi and Youhei Akimoto: Benchmarking the Novel CMA-ES Restart Strategy Using the Search History on the BBOB Noiseless Testbed\nSimon Wessing: Benchmarking the SMS-EMOA with Self-adaptation on the bbob-biobj Test Suite\nZbynek Pitra, Lukas Bajer, Jakub Repicky, and Martin Holena: Comparison of Ordinal and Metric Gaussian Process Regression as Surrogate Models for CMA Evolution Strategy\nDogan Aydin and Gurcan Yavuz: Self-adaptive Search Equation-Based Artificial Bee Colony Algorithm with CMA-ES on the Noiseless BBOB Testbed",
+    "crumbs": [
+      "Home",
+      "BBOB-2017"
+    ]
+  },
+  {
+    "objectID": "bbob2017.html#links-to-algorithm-data",
+    "href": "bbob2017.html#links-to-algorithm-data",
+    "title": "GECCO Workshop on Real-Parameter Black-Box Optimization Benchmarking (BBOB 2017)",
+    "section": "",
+    "text": "The data of Simon's self-adaptive SMS-EMOA can be found in the list of biobjective data sets and all other single-objective data sets at the list of bbob data sets.",
+    "crumbs": [
+      "Home",
+      "BBOB-2017"
+    ]
+  },
+  {
+    "objectID": "bbob2017.html#schedule",
+    "href": "bbob2017.html#schedule",
+    "title": "GECCO Workshop on Real-Parameter Black-Box Optimization Benchmarking (BBOB 2017)",
+    "section": "",
+    "text": "Both BBOB-2017 sessions took place on the second day of GECCO (Sunday July 16, 2017) in the Amethyst room. Speakers are highlighted with a star behind the name if known. Please click on the provided links to download the slides.\n\n\n\nSession I\n\n\n\n08:30 - 09:05\nThe BBOBies: Introduction to Blackbox Optimization Benchmarking (slides)\n\n\n09:05 - 09:30\nSimon Wessing*: Benchmarking the SMS-EMOA with Self-adaptation on the bbob-biobj Test Suite (slides)\n\n\n09:30 - 09:55\nMario García-Valdez* and Juan-J. Merelo: Benchmarking a Pool-Based Execution with GA and PSO Workers on the BBOB Noiseless Testbed\n\n\n09:55 - 10:20\nZbynek Pitra*, Lukas Bajer, Jakub Repicky, and Martin Holena: Comparison of Ordinal and Metric Gaussian Process Regression as Surrogate Models for CMA Evolution Strategy (slides)\n\n\nSession II\n\n\n\n10:40 - 10:50\nThe BBOBies: Session Introduction\n\n\n10:50 - 11:15\nDogan Aydin* and Gurcan Yavuz: Self-adaptive Search Equation-Based Artificial Bee Colony Algorithm with CMA-ES on the Noiseless BBOB Testbed (slides)\n\n\n11:15 - 11:40\nDuc Manh Nguyen and Nikolaus Hansen*: Benchmarking CMAES-APOP on the BBOB Noiseless Testbed\n\n\n11:40 - 12:05\nTakahiro Yamaguchi and Youhei Akimoto*: Benchmarking the Novel CMA-ES Restart Strategy Using the Search History on the BBOB Noiseless Testbed (slides)\n\n\n12:05 - 12:30\nThe BBOBies: Wrap-up and Open Discussion (slides)",
+    "crumbs": [
+      "Home",
+      "BBOB-2017"
+    ]
+  },
+  {
+    "objectID": "bbob2017.html#important-dates",
+    "href": "bbob2017.html#important-dates",
+    "title": "GECCO Workshop on Real-Parameter Black-Box Optimization Benchmarking (BBOB 2017)",
+    "section": "",
+    "text": "01/28/2017 release 2.0 of the Coco platform for first tests: https://github.com/numbbo/coco/releases/\n03/07/2017 expected release of the Coco software with the final functionality to run experiments\n04/11/2017 paper and data submission deadline (extended from 03/31/2017)\n04/17/2017 decision notification\n04/27/2017 deadline camera-ready papers (extended from 04/24/2017)\n07/16/2017 workshop",
+    "crumbs": [
+      "Home",
+      "BBOB-2017"
+    ]
+  },
+  {
+    "objectID": "bbob2017.html#organizers",
+    "href": "bbob2017.html#organizers",
+    "title": "GECCO Workshop on Real-Parameter Black-Box Optimization Benchmarking (BBOB 2017)",
+    "section": "",
+    "text": "Anne Auger, Inria Saclay - Ile-de-France, France\nDimo Brockhoff, Inria Saclay - Ile-de-France, France\nNikolaus Hansen, Inria Saclay - Ile-de-France, France\nDejan Tušar, Inria Saclay - Ile-de-France, France\nTea Tušar, Jozef Stefan Institute, Ljublana, Slovenia",
+    "crumbs": [
+      "Home",
+      "BBOB-2017"
+    ]
+  },
+  {
+    "objectID": "bbob2019.html",
+    "href": "bbob2019.html",
+    "title": "GECCO Workshop on Real-Parameter Black-Box Optimization Benchmarking (BBOB 2019)",
+    "section": "",
+    "text": "Welcome to the web page of the 9th GECCO Workshop on Real-Parameter Black-Box Optimization Benchmarking (BBOB 2019) which took place during GECCO 2019 in Prague.\n\nWORKSHOP ON REAL-PARAMETER BLACK-BOX OPTIMIZATION BENCHMARKING (BBOB 2019)\nheld as part of the\n\n2019 Genetic and Evolutionary Computation Conference (GECCO-2019)\nJuly 13--17, Prague, Czech Republic\nhttp://gecco-2019.sigevo.org\n\nSubmission Deadline: extended to Wednesday, April 10, 2019 (was: April 3, 2019)\n\n\n\n\nregister for news\nCOCO quick start (scroll down a bit)\nlatest COCO release\n\n\n\n Quantifying and comparing the performance of optimization algorithms is a difficult and tedious task. Yet, it is highly crucial in order to recommend algorithms performing well in practice. The Black-box Optimization Benchmarking workshop series aims at bringing together researchers from the optimization field to discuss the latest achievements in (blackbox) optimization benchmarking as well as at gathering and sharing data of extensive numerical benchmarking results.\nOpen to all topics around blackbox optimization benchmarking, a substantial portion of the workshops' past success can be attributed to the Comparing Continuous Optimization benchmarking platform (COCO, https://github.com/numbbo/coco ) that builds the basis for all BBOB workshops and that allows algorithms to be benchmarked and performance data to be visualized effortlessly. Up to now, the BBOB workshops have covered benchmarking of blackbox optimization algorithms for single- and bi-objective, unconstrained problems in exact and noisy, as well as expensive and non-expensive scenarios.\nCelebrating the tenth year anniversary of the first BBOB workshop this year, we plan a few extensions of COCO for 2019, in particular in terms of new test suites:\n\n\nA large-scale test suite will provide the classical 24 BBOB functions in dimensions up to 640.\nA mixed integer (single-objective) test suite will allow to test algorithms on versions of the classical BBOB test functions with some of the variables discretized.\nA bi-objective mixed integer test suite which is a discretized version of the previously introduced bbob-biobj suite.\n\n\nLike for the previous editions of the workshop, we will provide source code in various languages (C/C++, Matlab/Octave, Java, and Python) to benchmark algorithms on the various COCO test suites (besides the above, also the previously introduced single-objective suites with and without noise as well as a noiseless bi-objective suite). Postprocessing data and comparing algorithm performance will be equally automatized with COCO (up to already prepared LaTeX templates for writing papers).\nAnalyzing the vast amount of available benchmarking data (from 200+ experiments collected throughout the years) will be again a special focus of BBOB-2019. As always, we encourage contributions on all kinds of benchmarking aspects, in particular:\n\nbenchmarking expensive/Bayesian/surrogate-assisted optimization\ncomparisons between deterministic and stochastic approaches\nbenchmarking of multiobjective optimization algorithms\nanalysis of existing benchmarking data\nthe suggestion and analysis of new test functions\n\nInterested participants of the workshop are invited to submit a paper which might or might not use the provided LaTeX templates to visualize the performance of unconstrained single- or multiobjective black-box optimization algorithms of their choice on any of the provided test suites. We encourage particularly submissions about algorithms from outside the evolutionary computation community as well as any papers related to topics around optimization algorithm benchmarking.\nIf participants wish to contribute to the BBOB workshop by submitting data sets, obtained with COCO, the tasks are as usual: run your favorite single- or multiobjective black-box optimizer (old or new) by using the wrappers provided (in C/C++, Python, Java, and Matlab/Octave) and run the post-processing procedure (provided as well) that will generate automatically all the material for a workshop paper (ACM compliant LaTeX templates available). A description of the algorithm and the discussion of the results completes the paper writing.\nNote again that any other submission, related to black-box optimization benchmarking will be welcome as well. The submission section below gives a few examples of subjects of interest.\nDuring the workshop, algorithms, results, and discussions will be presented by the participants. An overall analysis and comparison of all submitted algorithm data is going to be accomplished by the organizers and the overall process will be critically reviewed.\n\n\nGet updated about the latest news regarding the workshop and releases and bugfixes of the supporting NumBBO/COCO platform, by registering at http://numbbo.github.io/register.\n\n\n\nOut of nice submissions, the following seven papers have been accepted after peer-review:\n\nBenjamin Bodner: \"Benchmarking the ATM Algorithm on the BBOB 2009 Noiseless Function Testbed\"\nLouis Faury, Clément Calauzènes, and Olivier Fercoq: \"Benchmarking GNN-CMA-ES on the BBOB noiseless testbed\"\nKonstantinos Varelas and Marie-Ange Dahito: \"Benchmarking Multivariate Solvers of SciPy on the Noiseless Testbed\"\nPaul Dufossé and Cheikh Touré: \"Benchmarking MO-CMA-ES and COMO-CMA-ES on the Bi-objective bbob-biobj Testbed\"\nKonstantinos Varelas: \"Benchmarking Large Scale Variants of CMA-ES and L-BFGS-B on the bbob-largescale Testbed\"\nDimo Brockhoff and Nikolaus Hansen: \"The Impact of Sample Volume in Random Search on the bbob Test Suite\"\nDimo Brockhoff and Tea Tušar: \"Benchmarking Algorithms from the platypus Framework on the Biobjective bbob-biobj Testbed\"\n\n\n\n\nThis year, the BBOB-2019 workshop got assigned the very first two sessions at GECCO (on July 13, 2019) in which the talks are scheduled according to the table below. The room is called \"Club A\". Speakers are highlighted with a star behind the name. Please click on the provided links to download the slides if available.\n\n\n\n\n\nBBOB-2019 Session I: Introduction, large-scale and multiobjective optimization\n\n\n08:30 - 09:15\nThe BBOBies: Introduction to Blackbox Optimization Benchmarking (slides)\n\n\n09:15 - 09:40\nKonstantinos Varelas*: Benchmarking Large Scale Variants of CMA-ES and L-BFGS-B on the bbob-largescale Testbed\n\n\n09:40 - 10:05\nPaul Dufossé* and Cheikh Touré: Benchmarking MO-CMA-ES and COMO-CMA-ES on the Bi-objective bbob-biobj Testbed\n\n\n10:05 - 10:20\nDimo Brockhoff* and Tea Tušar: Benchmarking Algorithms from the platypus Framework on the Biobjective bbob-biobj Testbed (slides)\n\n\n\n\n\n\n\n\n\nBBOB-2019 Session II: noiseless, unconstrained optimization\n\n\n10:40 - 10:45\nThe BBOBies: Introduction to Blackbox Optimization Benchmarking (slides)\n\n\n10:45 - 10:55\nDimo Brockhoff* and Nikolaus Hansen: The Impact of Sample Volume in Random Search on the bbob Test Suite (slides)\n\n\n10:55 - 11:20\nBenjamin Bodner*: Benchmarking the ATM Algorithm on the BBOB 2009 Noiseless Function Testbed (slides)\n\n\n11:20 - 11:45\nLouis Faury*, Clément Calauzènes, and Olivier Fercoq: Benchmarking GNN-CMA-ES on the BBOB noiseless testbed\n\n\n11:45 - 12:10\nKonstantinos Varelas and Marie-Ange Dahito*: Benchmarking Multivariate Solvers of SciPy on the Noiseless Testbed\n\n\n12:10 - 12:20\nNikolaus Hansen*: The COCO data archive and This Year’s Results\n\n\n12:20 - 12:30\nThe BBOBies: Wrap-up and Open Discussion\n\n\n\n\n\n\n\nThe basis of the workshop is the Comparing Continuous Optimizer platform (https://github.com/numbbo/coco), now rewritten fully in ANSI C with other languages calling the C code. Languages currently available are C, Java, MATLAB/Octave, and Python.\nMost likely, you want to read the COCO quick start (scroll down a bit). This page also provides the code for the benchmark functions1, for running the experiments in C, Java, Matlab, Octave, and Python, and for postprocessing the experiment data into plots, tables, html pages, and publisher-conform PDFs via provided LaTeX templates. Please refer to http://numbbo.github.io/coco-doc/experimental-setup/ for more details on the general experimental set-up for black-box optimization benchmarking.\nThe latest (hopefully) stable release of the COCO software can be downloaded as a whole here. Please use at least version v2.2.2 for running your benchmarking experiments in 2019.\nDocumentation of the functions used in the bbob-biobj suite is provided at http://numbbo.github.io/coco-doc/bbob-biobj/functions/ .\n\n\n\nWe encourage any submission that is concerned with black-box optimization benchmarking of continuous optimizers, for example papers that:\n\ndescribe and benchmark new or not-so-new algorithms on one of the above testbeds,\ncompare new or existing algorithms from the COCO/BBOB database2,\nanalyze the data obtained in previous editions of BBOB3, or\ndiscuss, compare, and improve upon any benchmarking methodology for continuous optimizers such as design of experiments, performance measures, presentation methods, benchmarking frameworks, test functions, ...\n\nPaper submissions are expected to be done through the official GECCO submission system at https://ssl.linklings.net/conferences/gecco/ until the (extended) deadline on April 10, 2019. ACM-compliant LaTeX templates are available in the github repository under code-postprocessing/latex-templates/.\nIn order to finalize your submission, we kindly ask you to fill in addition the form at http://numbbo.github.io/submit where you are supposed to provide a link to your data as well if this applies. To upload your data to the web, you might want to use https://zenodo.org/ which offers uploads of data sets up to 50GB in size or any other provider of online data storage. Please let us know briefly in the mandatory Data field, why you do not provide any data for example in case you submit a paper unrelated to the above BBOB test suites.\n\n\n\n\n2019-02-27 paper submission system opens\n2019-03-15 release 2.3 of the COCO platform with the new large-scale and mixed integer suites: https://github.com/numbbo/coco/releases/ (originally planned on 2019-03-06)\n2019-04-10 paper and data submission deadline (not extendable, was: April 3)\n2019-04-17 decision notification\n2019-04-24 deadline camera-ready papers\n2019-04-24 deadline author registration\n2019-07-13 workshop\n\nAll dates are given in ISO 8601 format (yyyy-mm-dd).\n\n\n\n\nAnne Auger, Inria and CMAP, Ecole Polytechnique, Institut Polytechnique de Paris, France\nDimo Brockhoff, Inria and CMAP, Ecole Polytechnique, Institut Polytechnique de Paris, France\nNikolaus Hansen, Inria and CMAP, Ecole Polytechnique, Institut Polytechnique de Paris, France\nTea Tušar, Jožef Stefan Institute, Ljubljana, Slovenia\nKonstantinos Varelas, Thales LAS France SAS - Limours and Inria and CMAP, Ecole Polytechnique, Institut Polytechnique de Paris",
+    "crumbs": [
+      "Home",
+      "BBOB-2019"
+    ]
+  },
+  {
+    "objectID": "bbob2019.html#updates-and-news",
+    "href": "bbob2019.html#updates-and-news",
+    "title": "GECCO Workshop on Real-Parameter Black-Box Optimization Benchmarking (BBOB 2019)",
+    "section": "",
+    "text": "Get updated about the latest news regarding the workshop and releases and bugfixes of the supporting NumBBO/COCO platform, by registering at http://numbbo.github.io/register.",
+    "crumbs": [
+      "Home",
+      "BBOB-2019"
+    ]
+  },
+  {
+    "objectID": "bbob2019.html#accepted-papers",
+    "href": "bbob2019.html#accepted-papers",
+    "title": "GECCO Workshop on Real-Parameter Black-Box Optimization Benchmarking (BBOB 2019)",
+    "section": "",
+    "text": "Out of nice submissions, the following seven papers have been accepted after peer-review:\n\nBenjamin Bodner: \"Benchmarking the ATM Algorithm on the BBOB 2009 Noiseless Function Testbed\"\nLouis Faury, Clément Calauzènes, and Olivier Fercoq: \"Benchmarking GNN-CMA-ES on the BBOB noiseless testbed\"\nKonstantinos Varelas and Marie-Ange Dahito: \"Benchmarking Multivariate Solvers of SciPy on the Noiseless Testbed\"\nPaul Dufossé and Cheikh Touré: \"Benchmarking MO-CMA-ES and COMO-CMA-ES on the Bi-objective bbob-biobj Testbed\"\nKonstantinos Varelas: \"Benchmarking Large Scale Variants of CMA-ES and L-BFGS-B on the bbob-largescale Testbed\"\nDimo Brockhoff and Nikolaus Hansen: \"The Impact of Sample Volume in Random Search on the bbob Test Suite\"\nDimo Brockhoff and Tea Tušar: \"Benchmarking Algorithms from the platypus Framework on the Biobjective bbob-biobj Testbed\"",
+    "crumbs": [
+      "Home",
+      "BBOB-2019"
+    ]
+  },
+  {
+    "objectID": "bbob2019.html#schedule",
+    "href": "bbob2019.html#schedule",
+    "title": "GECCO Workshop on Real-Parameter Black-Box Optimization Benchmarking (BBOB 2019)",
+    "section": "",
+    "text": "This year, the BBOB-2019 workshop got assigned the very first two sessions at GECCO (on July 13, 2019) in which the talks are scheduled according to the table below. The room is called \"Club A\". Speakers are highlighted with a star behind the name. Please click on the provided links to download the slides if available.\n\n\n\n\n\nBBOB-2019 Session I: Introduction, large-scale and multiobjective optimization\n\n\n08:30 - 09:15\nThe BBOBies: Introduction to Blackbox Optimization Benchmarking (slides)\n\n\n09:15 - 09:40\nKonstantinos Varelas*: Benchmarking Large Scale Variants of CMA-ES and L-BFGS-B on the bbob-largescale Testbed\n\n\n09:40 - 10:05\nPaul Dufossé* and Cheikh Touré: Benchmarking MO-CMA-ES and COMO-CMA-ES on the Bi-objective bbob-biobj Testbed\n\n\n10:05 - 10:20\nDimo Brockhoff* and Tea Tušar: Benchmarking Algorithms from the platypus Framework on the Biobjective bbob-biobj Testbed (slides)\n\n\n\n\n\n\n\n\n\nBBOB-2019 Session II: noiseless, unconstrained optimization\n\n\n10:40 - 10:45\nThe BBOBies: Introduction to Blackbox Optimization Benchmarking (slides)\n\n\n10:45 - 10:55\nDimo Brockhoff* and Nikolaus Hansen: The Impact of Sample Volume in Random Search on the bbob Test Suite (slides)\n\n\n10:55 - 11:20\nBenjamin Bodner*: Benchmarking the ATM Algorithm on the BBOB 2009 Noiseless Function Testbed (slides)\n\n\n11:20 - 11:45\nLouis Faury*, Clément Calauzènes, and Olivier Fercoq: Benchmarking GNN-CMA-ES on the BBOB noiseless testbed\n\n\n11:45 - 12:10\nKonstantinos Varelas and Marie-Ange Dahito*: Benchmarking Multivariate Solvers of SciPy on the Noiseless Testbed\n\n\n12:10 - 12:20\nNikolaus Hansen*: The COCO data archive and This Year’s Results\n\n\n12:20 - 12:30\nThe BBOBies: Wrap-up and Open Discussion",
+    "crumbs": [
+      "Home",
+      "BBOB-2019"
+    ]
+  },
+  {
+    "objectID": "bbob2019.html#supporting-material",
+    "href": "bbob2019.html#supporting-material",
+    "title": "GECCO Workshop on Real-Parameter Black-Box Optimization Benchmarking (BBOB 2019)",
+    "section": "",
+    "text": "The basis of the workshop is the Comparing Continuous Optimizer platform (https://github.com/numbbo/coco), now rewritten fully in ANSI C with other languages calling the C code. Languages currently available are C, Java, MATLAB/Octave, and Python.\nMost likely, you want to read the COCO quick start (scroll down a bit). This page also provides the code for the benchmark functions1, for running the experiments in C, Java, Matlab, Octave, and Python, and for postprocessing the experiment data into plots, tables, html pages, and publisher-conform PDFs via provided LaTeX templates. Please refer to http://numbbo.github.io/coco-doc/experimental-setup/ for more details on the general experimental set-up for black-box optimization benchmarking.\nThe latest (hopefully) stable release of the COCO software can be downloaded as a whole here. Please use at least version v2.2.2 for running your benchmarking experiments in 2019.\nDocumentation of the functions used in the bbob-biobj suite is provided at http://numbbo.github.io/coco-doc/bbob-biobj/functions/ .",
+    "crumbs": [
+      "Home",
+      "BBOB-2019"
+    ]
+  },
+  {
+    "objectID": "bbob2019.html#submissions",
+    "href": "bbob2019.html#submissions",
+    "title": "GECCO Workshop on Real-Parameter Black-Box Optimization Benchmarking (BBOB 2019)",
+    "section": "",
+    "text": "We encourage any submission that is concerned with black-box optimization benchmarking of continuous optimizers, for example papers that:\n\ndescribe and benchmark new or not-so-new algorithms on one of the above testbeds,\ncompare new or existing algorithms from the COCO/BBOB database2,\nanalyze the data obtained in previous editions of BBOB3, or\ndiscuss, compare, and improve upon any benchmarking methodology for continuous optimizers such as design of experiments, performance measures, presentation methods, benchmarking frameworks, test functions, ...\n\nPaper submissions are expected to be done through the official GECCO submission system at https://ssl.linklings.net/conferences/gecco/ until the (extended) deadline on April 10, 2019. ACM-compliant LaTeX templates are available in the github repository under code-postprocessing/latex-templates/.\nIn order to finalize your submission, we kindly ask you to fill in addition the form at http://numbbo.github.io/submit where you are supposed to provide a link to your data as well if this applies. To upload your data to the web, you might want to use https://zenodo.org/ which offers uploads of data sets up to 50GB in size or any other provider of online data storage. Please let us know briefly in the mandatory Data field, why you do not provide any data for example in case you submit a paper unrelated to the above BBOB test suites.",
+    "crumbs": [
+      "Home",
+      "BBOB-2019"
+    ]
+  },
+  {
+    "objectID": "bbob2019.html#important-dates",
+    "href": "bbob2019.html#important-dates",
+    "title": "GECCO Workshop on Real-Parameter Black-Box Optimization Benchmarking (BBOB 2019)",
+    "section": "",
+    "text": "2019-02-27 paper submission system opens\n2019-03-15 release 2.3 of the COCO platform with the new large-scale and mixed integer suites: https://github.com/numbbo/coco/releases/ (originally planned on 2019-03-06)\n2019-04-10 paper and data submission deadline (not extendable, was: April 3)\n2019-04-17 decision notification\n2019-04-24 deadline camera-ready papers\n2019-04-24 deadline author registration\n2019-07-13 workshop\n\nAll dates are given in ISO 8601 format (yyyy-mm-dd).",
+    "crumbs": [
+      "Home",
+      "BBOB-2019"
+    ]
+  },
+  {
+    "objectID": "bbob2019.html#organizers",
+    "href": "bbob2019.html#organizers",
+    "title": "GECCO Workshop on Real-Parameter Black-Box Optimization Benchmarking (BBOB 2019)",
+    "section": "",
+    "text": "Anne Auger, Inria and CMAP, Ecole Polytechnique, Institut Polytechnique de Paris, France\nDimo Brockhoff, Inria and CMAP, Ecole Polytechnique, Institut Polytechnique de Paris, France\nNikolaus Hansen, Inria and CMAP, Ecole Polytechnique, Institut Polytechnique de Paris, France\nTea Tušar, Jožef Stefan Institute, Ljubljana, Slovenia\nKonstantinos Varelas, Thales LAS France SAS - Limours and Inria and CMAP, Ecole Polytechnique, Institut Polytechnique de Paris",
+    "crumbs": [
+      "Home",
+      "BBOB-2019"
+    ]
+  },
+  {
+    "objectID": "bbob2019.html#footnotes",
+    "href": "bbob2019.html#footnotes",
+    "title": "GECCO Workshop on Real-Parameter Black-Box Optimization Benchmarking (BBOB 2019)",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nNote that the current release of the new COCO platform does not contain the original noisy BBOB testbed yet, such that you must use the old code at https://numbbo.github.io/coco/oldcode/bboball15.03.tar.gz for the time being if you want to compare your algorithm on the noisy testbed.↩︎\nThe data of previously compared algorithms can be found at https://numbbo.github.io/data-archive/ and are easily accessible by name in the cocopp post-processing and from the python cocopp.archives module.↩︎\nThe data of previously compared algorithms can be found at https://numbbo.github.io/data-archive/ and are easily accessible by name in the cocopp post-processing and from the python cocopp.archives module.↩︎",
+    "crumbs": [
+      "Home",
+      "BBOB-2019"
+    ]
+  },
+  {
+    "objectID": "bbob2022.html",
+    "href": "bbob2022.html",
+    "title": "GECCO Workshop on Black-Box Optimization Benchmarking (BBOB 2022)",
+    "section": "",
+    "text": "Welcome to the web page of the 11th GECCO Workshop on Black-Box Optimization Benchmarking (BBOB 2022) which took place during GECCO 2022.\n\nWORKSHOP ON BLACK-BOX OPTIMIZATION BENCHMARKING (BBOB 2022)\nheld as part of the\n\n2022 Genetic and Evolutionary Computation Conference (GECCO-2022)\nJuly 9--13, Boston, MA, USA\nhttp://gecco-2022.sigevo.org\n\nSubmission opening: February 11, 2022\nSubmission deadline: April 11, 2022\nNotification: April 25, 2022\nCamera-ready: May 2, 2022\nPresenter mandatory registration: May 2, 2022\n\n\n\nregister for news\nCOCO quick start (scroll down a bit)\nlatest COCO release\n\n\n\n Benchmarking optimization algorithms is a crucial part in the design and application of them in practice. Since 2009, the Blackbox Optimization Benchmarking Workshop at GECCO has been a place to discuss general recent advances of benchmarking practices and the concrete results from actual benchmarking experiments with a large variety of (blackbox) optimizers.\nThe Comparing Continuous Optimizers platform (COCO1, https://github.com/numbbo/coco) has been developed in this context to support algorithm developers and practicioners alike by automating benchmarking experiments for blackbox optimization algorithms in single- and bi-objective, unconstrained continuous problems in exact and noisy, as well as expensive and non-expensive scenarios. In 2022, we plan to provide, for the first time, a new bbob-constrained test suite (work still in progress).\nFor the next BBOB 2022 edition of the workshop, we invite participants to discuss all kind of aspects of (blackbox) benchmarking but welcome in particular contributions related to constrained optimization. As in previous years, presenting benchmarking results on the supported test suites of COCO are a focus, but submissions are not limited to those topics:\n\nsingle-objective unconstrained problems (bbob)\nsingle-objective unconstrained problems with noise (bbob-noisy)\nbiobjective unconstrained problems (bbob-biobj)\nlarge-scale single-objective problems (bbob-largescale) and\nmixed-integer single- and bi-objective problems (bbob-mixint and bbob-biobj-mixint)\nconstrained optimization (bbob-constrained)\n\nWe encourage particularly submissions about algorithms from outside the evolutionary computation community and papers analyzing the large amount of already publicly available algorithm data of COCO (see https://numbbo.github.io/data-archive/). Like for the previous editions, we will provide source code in various languages (C/C++, Matlab/Octave, Java, and Python) to benchmark algorithms on the various test suites mentioned. Postprocessing data and comparing algorithm performance will be equally automatized with COCO (up to already prepared ACM-compliant LaTeX templates for writing papers).\nFor more details, please see below.\n\n\nGet updated about the latest news regarding the workshop and releases and bugfixes of the supporting NumBBO/COCO platform, by registering at http://numbbo.github.io/register.\n\n\n\n\nCharles Audet, Sébastien Le Digabel, Ludovic Salomon, Christophe Tribes: Constrained blackbox optimization with the NOMAD solver on the COCO constrained test suite (paper)\nPaul Dufossé, Asma Atamna: Benchmarking several strategies to update the penalty parameters in AL-CMA-ES on the bbob-constrained testbed (paper)\nMohamed Gharafi: Benchmarking of two implementations of CMA-ES with diagonal decoding on the bbob test suite (paper)\nRyoki Hamano, Shota Saito, Masahiro Nomura, Shinichi Shirakawa: Benchmarking CMA-ES with margin on the bbob-mixint testbed (paper)\nMichael Hellwig, Hans-Georg Beyer: Benchmarking ϵMAg-ES and BP-ϵMAg-ES on the bbob-constrained testbed (paper)\nZachary Hoffman, Steve Huntsman: Benchmarking an algorithm for expensive high-dimensional objectives on the bbob and bbob-largescale testbeds (paper)\nDuc Manh Nguyen: Benchmarking some variants of the CMAES-APOP using keeping search points and mirrored sampling combined with active CMA on the BBOB noiseless testbed (paper)\nRyoji Tanabe: Benchmarking the hooke-jeeves method, MTS-LS1, and BSrr on the large-scale BBOB function set (paper &lt;https://doi.org/10.1145/3520304.3533951&gt;)\n\n\n\n\nWe encourage any submission that is concerned with black-box optimization benchmarking of continuous optimizers, for example papers that:\n\ndescribe and benchmark new or not-so-new algorithms on one of the above testbeds,\ncompare new or existing algorithms from the COCO/BBOB database2,\nanalyze the data obtained in previous editions of BBOB3, or\ndiscuss, compare, and improve upon any benchmarking methodology for continuous optimizers such as design of experiments, performance measures, presentation methods, benchmarking frameworks, test functions, ...\n\nPaper submissions are expected to be done through the official GECCO submission system at https://ssl.linklings.net/conferences/gecco/ until the deadline. ACM-compliant LaTeX templates are available in the github repository under code-postprocessing/latex-templates/.\nIn order to finalize your submission, we kindly ask you to submit your data files if this applies by clicking on \"Submit a COCO data set\" here: https://github.com/numbbo/coco/issues/new/choose. To upload your data to the web, you might want to use https://zenodo.org/ which offers uploads of data sets up to 50GB in size or any other provider of online data storage.\n\n\n\nThe basis of the workshop is the Comparing Continuous Optimizer platform (https://github.com/numbbo/coco), written in ANSI C with other languages calling the C code. Languages currently available are C, Java, MATLAB/Octave, and Python.\nMost likely, you want to read the COCO quick start (scroll down a bit). This page also provides the code for the benchmark functions4, for running the experiments in C, Java, Matlab, Octave, and Python, and for postprocessing the experiment data into plots, tables, html pages, and publisher-conform PDFs via provided LaTeX templates. Please refer to http://numbbo.github.io/coco-doc/experimental-setup/ for more details on the general experimental set-up for black-box optimization benchmarking.\nThe latest (hopefully) stable release of the COCO software can be downloaded as a whole here. Please use at least version v2.5 for running your benchmarking experiments in 2022.\nDocumentation of the functions used in the different test suites can be found here:\n\nbbob suite at https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf\nbbob-noisy suite at http://coco.lri.fr/downloads/download15.03/bbobdocnoisyfunctions.pdf\nbbob-biobj suite at https://numbbo.github.io/bbob-biobj/\nbbob-largescale suite at https://arxiv.org/pdf/1903.06396.pdf\nbbob-mixint and bbob-biobj-mixint suites at https://hal.inria.fr/hal-02067932/document and at https://numbbo.github.io/gforge/preliminary-bbob-mixint-documentation/bbob-mixint-doc.pdf\nbbob-constrained suite at: http://numbbo.github.io/coco-doc/bbob-constrained/\n\n\n\n\n\n2022-04-11 paper and data submission deadline\n2022-04-25 decision notification\n2022-05-02 deadline camera-ready papers\n2022-05-02 deadline author registration\n2022-07-09 or 2022-07-10 workshop\n\nAll dates are given in ISO 8601 format (yyyy-mm-dd).\n\n\n\n\nAnne Auger, Inria and CMAP, Ecole Polytechnique, Institut Polytechnique de Paris, France\nDimo Brockhoff, Inria and CMAP, Ecole Polytechnique, Institut Polytechnique de Paris, France\nKonstantin Dietrich, TU Köln, Germany\nPaul Dufossé, Inria and Thales Defense Mission Systems, France\nTobias Glasmachers, Ruhr-Universität Bochum, Germany\nNikolaus Hansen, Inria and CMAP, Ecole Polytechnique, Institut Polytechnique de Paris, France\nOlaf Mersmann, TU Köln, Germany\nPetr Pošík, Czech Technical University, Czech Republic\nTea Tušar, Jozef Stefan Institute (JSI), Slovenia",
+    "crumbs": [
+      "Home",
+      "BBOB-2022"
+    ]
+  },
+  {
+    "objectID": "bbob2022.html#updates-and-news",
+    "href": "bbob2022.html#updates-and-news",
+    "title": "GECCO Workshop on Black-Box Optimization Benchmarking (BBOB 2022)",
+    "section": "",
+    "text": "Get updated about the latest news regarding the workshop and releases and bugfixes of the supporting NumBBO/COCO platform, by registering at http://numbbo.github.io/register.",
+    "crumbs": [
+      "Home",
+      "BBOB-2022"
+    ]
+  },
+  {
+    "objectID": "bbob2022.html#accepted-papers",
+    "href": "bbob2022.html#accepted-papers",
+    "title": "GECCO Workshop on Black-Box Optimization Benchmarking (BBOB 2022)",
+    "section": "",
+    "text": "Charles Audet, Sébastien Le Digabel, Ludovic Salomon, Christophe Tribes: Constrained blackbox optimization with the NOMAD solver on the COCO constrained test suite (paper)\nPaul Dufossé, Asma Atamna: Benchmarking several strategies to update the penalty parameters in AL-CMA-ES on the bbob-constrained testbed (paper)\nMohamed Gharafi: Benchmarking of two implementations of CMA-ES with diagonal decoding on the bbob test suite (paper)\nRyoki Hamano, Shota Saito, Masahiro Nomura, Shinichi Shirakawa: Benchmarking CMA-ES with margin on the bbob-mixint testbed (paper)\nMichael Hellwig, Hans-Georg Beyer: Benchmarking ϵMAg-ES and BP-ϵMAg-ES on the bbob-constrained testbed (paper)\nZachary Hoffman, Steve Huntsman: Benchmarking an algorithm for expensive high-dimensional objectives on the bbob and bbob-largescale testbeds (paper)\nDuc Manh Nguyen: Benchmarking some variants of the CMAES-APOP using keeping search points and mirrored sampling combined with active CMA on the BBOB noiseless testbed (paper)\nRyoji Tanabe: Benchmarking the hooke-jeeves method, MTS-LS1, and BSrr on the large-scale BBOB function set (paper &lt;https://doi.org/10.1145/3520304.3533951&gt;)",
+    "crumbs": [
+      "Home",
+      "BBOB-2022"
+    ]
+  },
+  {
+    "objectID": "bbob2022.html#submissions",
+    "href": "bbob2022.html#submissions",
+    "title": "GECCO Workshop on Black-Box Optimization Benchmarking (BBOB 2022)",
+    "section": "",
+    "text": "We encourage any submission that is concerned with black-box optimization benchmarking of continuous optimizers, for example papers that:\n\ndescribe and benchmark new or not-so-new algorithms on one of the above testbeds,\ncompare new or existing algorithms from the COCO/BBOB database2,\nanalyze the data obtained in previous editions of BBOB3, or\ndiscuss, compare, and improve upon any benchmarking methodology for continuous optimizers such as design of experiments, performance measures, presentation methods, benchmarking frameworks, test functions, ...\n\nPaper submissions are expected to be done through the official GECCO submission system at https://ssl.linklings.net/conferences/gecco/ until the deadline. ACM-compliant LaTeX templates are available in the github repository under code-postprocessing/latex-templates/.\nIn order to finalize your submission, we kindly ask you to submit your data files if this applies by clicking on \"Submit a COCO data set\" here: https://github.com/numbbo/coco/issues/new/choose. To upload your data to the web, you might want to use https://zenodo.org/ which offers uploads of data sets up to 50GB in size or any other provider of online data storage.",
+    "crumbs": [
+      "Home",
+      "BBOB-2022"
+    ]
+  },
+  {
+    "objectID": "bbob2022.html#supporting-material",
+    "href": "bbob2022.html#supporting-material",
+    "title": "GECCO Workshop on Black-Box Optimization Benchmarking (BBOB 2022)",
+    "section": "",
+    "text": "The basis of the workshop is the Comparing Continuous Optimizer platform (https://github.com/numbbo/coco), written in ANSI C with other languages calling the C code. Languages currently available are C, Java, MATLAB/Octave, and Python.\nMost likely, you want to read the COCO quick start (scroll down a bit). This page also provides the code for the benchmark functions4, for running the experiments in C, Java, Matlab, Octave, and Python, and for postprocessing the experiment data into plots, tables, html pages, and publisher-conform PDFs via provided LaTeX templates. Please refer to http://numbbo.github.io/coco-doc/experimental-setup/ for more details on the general experimental set-up for black-box optimization benchmarking.\nThe latest (hopefully) stable release of the COCO software can be downloaded as a whole here. Please use at least version v2.5 for running your benchmarking experiments in 2022.\nDocumentation of the functions used in the different test suites can be found here:\n\nbbob suite at https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf\nbbob-noisy suite at http://coco.lri.fr/downloads/download15.03/bbobdocnoisyfunctions.pdf\nbbob-biobj suite at https://numbbo.github.io/bbob-biobj/\nbbob-largescale suite at https://arxiv.org/pdf/1903.06396.pdf\nbbob-mixint and bbob-biobj-mixint suites at https://hal.inria.fr/hal-02067932/document and at https://numbbo.github.io/gforge/preliminary-bbob-mixint-documentation/bbob-mixint-doc.pdf\nbbob-constrained suite at: http://numbbo.github.io/coco-doc/bbob-constrained/",
+    "crumbs": [
+      "Home",
+      "BBOB-2022"
+    ]
+  },
+  {
+    "objectID": "bbob2022.html#important-dates",
+    "href": "bbob2022.html#important-dates",
+    "title": "GECCO Workshop on Black-Box Optimization Benchmarking (BBOB 2022)",
+    "section": "",
+    "text": "2022-04-11 paper and data submission deadline\n2022-04-25 decision notification\n2022-05-02 deadline camera-ready papers\n2022-05-02 deadline author registration\n2022-07-09 or 2022-07-10 workshop\n\nAll dates are given in ISO 8601 format (yyyy-mm-dd).",
+    "crumbs": [
+      "Home",
+      "BBOB-2022"
+    ]
+  },
+  {
+    "objectID": "bbob2022.html#organizers",
+    "href": "bbob2022.html#organizers",
+    "title": "GECCO Workshop on Black-Box Optimization Benchmarking (BBOB 2022)",
+    "section": "",
+    "text": "Anne Auger, Inria and CMAP, Ecole Polytechnique, Institut Polytechnique de Paris, France\nDimo Brockhoff, Inria and CMAP, Ecole Polytechnique, Institut Polytechnique de Paris, France\nKonstantin Dietrich, TU Köln, Germany\nPaul Dufossé, Inria and Thales Defense Mission Systems, France\nTobias Glasmachers, Ruhr-Universität Bochum, Germany\nNikolaus Hansen, Inria and CMAP, Ecole Polytechnique, Institut Polytechnique de Paris, France\nOlaf Mersmann, TU Köln, Germany\nPetr Pošík, Czech Technical University, Czech Republic\nTea Tušar, Jozef Stefan Institute (JSI), Slovenia",
+    "crumbs": [
+      "Home",
+      "BBOB-2022"
+    ]
+  },
+  {
+    "objectID": "bbob2022.html#footnotes",
+    "href": "bbob2022.html#footnotes",
+    "title": "GECCO Workshop on Black-Box Optimization Benchmarking (BBOB 2022)",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nNikolaus Hansen, Anne Auger, Raymond Ros, Olaf Mersmann, Tea Tušar, and Dimo Brockhoff. \"COCO: A platform for comparing continuous optimizers in a black-box setting.\" Optimization Methods and Software (2020): 1-31.↩︎\nThe data of previously compared algorithms can be found at https://numbbo.github.io/data-archive and are easily accessible by name in the cocopp post-processing and from the python cocopp.archives module or in (fixed) html form at https://numbbo.github.io/ppdata-archive.↩︎\nThe data of previously compared algorithms can be found at https://numbbo.github.io/data-archive and are easily accessible by name in the cocopp post-processing and from the python cocopp.archives module or in (fixed) html form at https://numbbo.github.io/ppdata-archive.↩︎\nNote that the current release of the new COCO platform does not contain the original noisy BBOB testbed yet, such that you must use the old code at https://numbbo.github.io/coco/oldcode/bboball15.03.tar.gz for the time being if you want to compare your algorithm on the noisy testbed.↩︎",
+    "crumbs": [
+      "Home",
+      "BBOB-2022"
+    ]
+  },
+  {
+    "objectID": "before2016.html",
+    "href": "before2016.html",
+    "title": "BBOB workshops before 2016",
+    "section": "",
+    "text": "BBOB workshops before 2016\nThe Black-Box-Optimization-Benchmarking (BBOB) workshop series goes back to the first edition at GECCO 2009 and has been taking place subsequently during the GECCO conference in 2010, 2012, 2013, 2015 and later years. There has been also a special session on the same topic at the IEEE Congress on Evolutionary Computation (CEC'2015) in Sendai, Japan.\nTo access the webpages from those previous editions we refer to the Internet Archive.",
+    "crumbs": [
+      "Home",
+      "BBOB before 2016"
+    ]
+  }
+]
