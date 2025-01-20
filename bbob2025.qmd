@@ -1,0 +1,179 @@
+# GECCO Workshop on Black-Box Optimization Benchmarking (BBOB 2025) {#bbob2025page}
+
+Welcome to the web page of the 12th GECCO Workshop on Black-Box
+Optimization Benchmarking (BBOB 2023) which took place during GECCO 2025.
+
+> **WORKSHOP ON BLACK-BOX OPTIMIZATION BENCHMARKING (BBOB 2025)**
+>
+> | held as part of the
+> | 
+> | **2025 Genetic and Evolutionary Computation Conference
+>   (GECCO-2025)**
+> | July 14\--18, Malaga, Spain
+> | <https://gecco-2025.sigevo.org>
+
+| Submission opening: tba
+| Submission deadline: end of March/beginning of April (tba)
+| Notification: tba
+| Camera-ready: tba
+| Presenter mandatory registration: tba
+
+  ------------------------------------------------------- ------------------------------------------------------------------------ -----------------------------------------------------------------
+  [register for news](http://numbbo.github.io/register)   [COCO quick start (scroll down a bit)](https://github.com/numbbo/coco)   [latest COCO release](https://github.com/numbbo/coco/releases/)
+  ------------------------------------------------------- ------------------------------------------------------------------------ -----------------------------------------------------------------
+
+<br /><br />
+Benchmarking optimization algorithms is a crucial aspect for their design and
+practical application. Since 2009, the Black Box Optimization Benchmarking 
+Workshop has served as a place for discussing general recent advances in 
+benchmarking practices and concrete results from benchmarking experiments 
+with a large variety of (black box) optimizers.
+
+The Comparing Continuous Optimizers platform (COCO[^1],
+<https://github.com/numbbo/coco>) has been developed in this context to
+support algorithm developers and practitioners alike by automating 
+benchmarking experiments for black box optimization algorithms in single- 
+and bi-objective, unconstrained and constrained, continuous and mixed-integer
+problems in exact and noisy, as well as expensive and non-expensive scenarios.
+
+We welcome *all contributions to black box optimization benchmarking*
+for the 2025 edition of the workshop, although we would like to put a particular 
+emphasis on:
+
+1) Benchmarking algorithms for problems with underexplored properties (for
+   example mixed integer, noisy, constrained, multiobjective, ...). In the case
+   of noise, we provide a new functionality with COCO to sweep over parameters
+   of a frozen noise/outlier model, added to the default "bbob" suite
+   (in python only, see the new [example_experiment_parameter_sweep.py](https://github.com/numbbo/coco-experiment/blob/parameter-sweep/build/python/example/example_experiment_parameter_sweep.py)).
+2) Reproducing previous benchmarking results as well as examining performance 
+   improvements or degradations in algorithm implementations over time 
+   (for example with the help of results from earlier BBOB submissions).
+
+Submissions are not limited to the test suites provided by COCO. 
+For convenience, the source code in various languages (C/C++,
+Matlab/Octave, Java, Python, and Rust) together with all data sets from 
+previous BBOB contributions are provided as an automatized benchmarking
+pipeline to reduce the time spent for producing the results for:
+
+- single-objective unconstrained problems (the "bbob" test suite)
+- single-objective unconstrained problems with noise ("bbob-noisy")
+- biobjective unconstrained problems ("bbob-biobj")
+- large-scale single-objective problems ("bbob-largescale")
+- mixed-integer single- and bi-objective problems ("bbob-mixint" and 
+  "bbob-biobj-mixint")
+- almost linearly constrained single-objective problems ("bbob-constrained")
+- box-constrained problems ("sbox-cost")
+
+We especially encourage submissions exploring algorithms from beyond the 
+evolutionary computation community, as well as papers analyzing COCO’s 
+extensive, publicly available algorithm datasets (see
+https://numbbo.github.io/data-archive/).
+
+
+[1] Nikolaus Hansen, Anne Auger, Raymond Ros, Olaf Mersmann, Tea Tušar,
+    and Dimo Brockhoff. "COCO: A platform for comparing continuous
+	optimizers in a black-box setting." Optimization Methods and 
+	Software (2020): 1-31.
+
+
+
+
+## Updates and News
+
+Get updated about the latest news regarding the workshop and releases
+and bugfixes of the supporting NumBBO/COCO platform, by registering at
+<http://numbbo.github.io/register>.
+
+## Submissions
+
+We encourage any submission that is concerned with black-box
+optimization benchmarking of continuous optimizers, for example papers
+that:
+
+-   describe and benchmark new or not-so-new algorithms on one of the
+    above testbeds,
+-   compare new or existing algorithms from the COCO/BBOB database[^2],
+-   analyze the data obtained in previous editions of BBOB[^3], or
+-   discuss, compare, and improve upon any benchmarking methodology for
+    continuous optimizers such as design of experiments, performance
+    measures, presentation methods, benchmarking frameworks, test
+    functions, \...
+
+Paper submissions are expected to be done through the official GECCO
+submission system at <https://ssl.linklings.net/conferences/gecco/>
+until the deadline. ACM-compliant LaTeX templates are available in the
+`coco-postprocess` github repository under
+[latex-templates/](https://github.com/numbbo/coco-postprocess/tree/main/latex-templates).
+
+In order to finalize your submission, we kindly ask you to submit your
+data files if this applies by clicking on \"Submit a COCO data set\"
+here: <https://github.com/numbbo/data-archive/issues/new?template=submit-a-coco-data-set.md>. To upload your
+data to the web, you might want to use <https://zenodo.org/> which
+offers uploads of data sets up to 50GB in size or any other provider of
+online data storage.
+
+## Supporting material
+
+The basis of the workshop is the Comparing Continuous Optimizer platform
+(https://coco-platform.org/), written in ANSI C with other
+languages calling the C code. Languages currently available are C, Java,
+MATLAB/Octave, and Python.
+
+Most likely, you want to read the [Getting Started](https://coco-platform.org/getting-started/)
+page. This page
+also provides the links to the benchmark functions, for running the
+experiments in C, Java, Matlab, Octave, and Python, and for
+postprocessing the experiment data into plots, tables, html pages, and
+publisher-conform PDFs via provided LaTeX templates.
+
+Documentation of the functions used in the different test suites can be
+found here:
+
+-   `bbob` suite at
+    <https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf>
+-   `bbob-noisy` suite at
+    <http://coco.lri.fr/downloads/download15.03/bbobdocnoisyfunctions.pdf>
+-   `bbob-biobj` suite at <https://numbbo.github.io/bbob-biobj/>
+-   `bbob-largescale` suite at <https://arxiv.org/pdf/1903.06396.pdf>
+-   `bbob-mixint` and `bbob-biobj-mixint` suites at
+    <https://hal.inria.fr/hal-02067932/document> and at
+    <https://numbbo.github.io/gforge/preliminary-bbob-mixint-documentation/bbob-mixint-doc.pdf>
+-   `bbob-constrained` suite at:
+    <http://numbbo.github.io/coco-doc/bbob-constrained/>
+
+## Important Dates
+
+-   **2025-03-xx** *paper and data submission deadline* (tba)
+-   **2025-05-xx** decision notification (tba)
+-   **2025-05-xx** deadline camera-ready papers (tba)
+-   **2025-05-xx** deadline author registration (tba)
+-   **2025-07-14** or **2023-07-15** workshop (tba)
+
+All dates are given in ISO 8601 format (yyyy-mm-dd).
+
+## Organizers
+
+-   Anne Auger, Inria and CMAP, Ecole Polytechnique, Institut
+    Polytechnique de Paris, France
+-   Dimo Brockhoff, Inria and CMAP, Ecole Polytechnique, Institut
+    Polytechnique de Paris, France
+-   Tobias Glasmachers, Ruhr-Universität Bochum, Germany
+-   Nikolaus Hansen, Inria and CMAP, Ecole Polytechnique, Institut
+    Polytechnique de Paris, France
+-   Olaf Mersmann, TU Köln, Germany
+-   Tea Tušar, Jozef Stefan Institute (JSI), Slovenia
+
+[^1]: Nikolaus Hansen, Anne Auger, Raymond Ros, Olaf Mersmann, Tea
+    Tušar, and Dimo Brockhoff. \"COCO: A platform for comparing
+    continuous optimizers in a black-box setting.\" Optimization Methods
+    and Software (2020): 1-31.
+
+[^2]: The data of previously compared algorithms can be found at
+    <https://coco-platform.org/data-archive/> and are easily accessible by
+    name in the `cocopp` post-processing and from the python
+    `cocopp.archives` module.
+
+[^3]: The data of previously compared algorithms can be found at
+    <https://coco-platform.org/data-archive/> and are easily accessible by
+    name in the `cocopp` post-processing and from the python
+    `cocopp.archives` module.
