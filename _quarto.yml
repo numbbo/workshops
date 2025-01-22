@@ -42,6 +42,8 @@ website:
     contents:
       - text: "Home"
         href: index.qmd
+      - text: "BBOB-2025"
+        href: bbob2025.qmd
       - text: "BBOB-2023"
         href: bbob2023.qmd
       - text: "BBOB-2022"
