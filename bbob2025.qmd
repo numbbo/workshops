@@ -12,11 +12,11 @@ Optimization Benchmarking (BBOB 2025) which will take place during GECCO 2025.
 > | July 14\--18, Malaga, Spain
 > | <https://gecco-2025.sigevo.org>
 
-| Submission opening: tba
-| Submission deadline: end of March/beginning of April (tba)
-| Notification: tba
-| Camera-ready: tba
-| Presenter mandatory registration: tba
+| Submission opening: February 10, 2025
+| Submission deadline: March 26, 2025
+| Notification: April 28, 2025
+| Camera-ready: May 5, 2025
+| Presenter mandatory registration: May 8, 2025
 
   ------------------------------------------------------- ------------------------------------------------------------------------ -----------------------------------------------------------------
   [register for news](http://numbbo.github.io/register)   [COCO quick start](https://coco-platform.org/getting-started/)           [COCO homepage](https://coco-platform.org/)
