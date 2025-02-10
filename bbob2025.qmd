@@ -1,7 +1,7 @@
 # GECCO Workshop on Black-Box Optimization Benchmarking (BBOB 2025) {#bbob2025page}
 
-Welcome to the web page of the 12th GECCO Workshop on Black-Box
-Optimization Benchmarking (BBOB 2023) which took place during GECCO 2025.
+Welcome to the web page of the 13th GECCO Workshop on Black-Box
+Optimization Benchmarking (BBOB 2025) which will take place during GECCO 2025.
 
 > **WORKSHOP ON BLACK-BOX OPTIMIZATION BENCHMARKING (BBOB 2025)**
 >
@@ -19,7 +19,7 @@ Optimization Benchmarking (BBOB 2023) which took place during GECCO 2025.
 | Presenter mandatory registration: tba
 
   ------------------------------------------------------- ------------------------------------------------------------------------ -----------------------------------------------------------------
-  [register for news](http://numbbo.github.io/register)   [COCO quick start (scroll down a bit)](https://github.com/numbbo/coco)   [latest COCO release](https://github.com/numbbo/coco/releases/)
+  [register for news](http://numbbo.github.io/register)   [COCO quick start](https://coco-platform.org/getting-started/)           [COCO homepage](https://coco-platform.org/)
   ------------------------------------------------------- ------------------------------------------------------------------------ -----------------------------------------------------------------
 
 <br /><br />
