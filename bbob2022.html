@@ -1,0 +1,767 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.4.551">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>BBOB Workshop Series</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<link href="./images/favicon.png" rel="icon" type="image/png">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="assets/css/custom.css">
+<meta property="og:title" content="BBOB Workshop Series">
+<meta property="og:description" content="">
+<meta property="og:site_name" content="BBOB Workshop Series">
+</head>
+
+<body class="nav-sidebar docked nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a href="./index.html" class="navbar-brand navbar-brand-logo">
+    <img src="./images/favicon.png" alt="" class="navbar-logo">
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link active" href="./index.html" aria-current="page"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="https://github.com/numbbo/coco"> 
+<span class="menu-text">COCO code</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="https://numbbo.github.io/data-archive/"> 
+<span class="menu-text">Data archive</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="https://numbbo.github.io/ppdata-archive/"> 
+<span class="menu-text">Postprocessed data</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="http://numbbo.github.io/coco/"> 
+<span class="menu-text">COCO home</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+          <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./bbob2022.html">BBOB-2022</a></li></ol></nav>
+        <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Home</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./bbob2025.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">BBOB-2025</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./bbob2023.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">BBOB-2023</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./bbob2022.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">BBOB-2022</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./bbob2021.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">BBOB-2021 (mixed-integer)</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./bbob2019.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">BBOB-2019</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./bbob2018.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">BBOB-2018</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./bbob2017.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">BBOB-2017</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./bbob2016.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">BBOB-2016 (bi-objective)</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./before2016.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">BBOB before 2016</span></a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#bbob2022page" id="toc-bbob2022page" class="nav-link active" data-scroll-target="#bbob2022page">GECCO Workshop on Black-Box Optimization Benchmarking (BBOB 2022)</a>
+  <ul class="collapse">
+  <li><a href="#updates-and-news" id="toc-updates-and-news" class="nav-link" data-scroll-target="#updates-and-news">Updates and News</a></li>
+  <li><a href="#accepted-papers" id="toc-accepted-papers" class="nav-link" data-scroll-target="#accepted-papers">Accepted papers</a></li>
+  <li><a href="#submissions" id="toc-submissions" class="nav-link" data-scroll-target="#submissions">Submissions</a></li>
+  <li><a href="#supporting-material" id="toc-supporting-material" class="nav-link" data-scroll-target="#supporting-material">Supporting material</a></li>
+  <li><a href="#important-dates" id="toc-important-dates" class="nav-link" data-scroll-target="#important-dates">Important Dates</a></li>
+  <li><a href="#organizers" id="toc-organizers" class="nav-link" data-scroll-target="#organizers">Organizers</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+
+
+
+<section id="bbob2022page" class="level1">
+<h1>GECCO Workshop on Black-Box Optimization Benchmarking (BBOB 2022)</h1>
+<p>Welcome to the web page of the 11th GECCO Workshop on Black-Box Optimization Benchmarking (BBOB 2022) which took place during GECCO 2022.</p>
+<blockquote class="blockquote">
+<p><strong>WORKSHOP ON BLACK-BOX OPTIMIZATION BENCHMARKING (BBOB 2022)</strong></p>
+<div class="line-block">held as part of the<br>
+<br>
+<strong>2022 Genetic and Evolutionary Computation Conference (GECCO-2022)</strong><br>
+July 9--13, Boston, MA, USA<br>
+<a href="http://gecco-2022.sigevo.org" class="uri">http://gecco-2022.sigevo.org</a></div>
+</blockquote>
+<div class="line-block">Submission opening: February 11, 2022<br>
+Submission deadline: April 11, 2022<br>
+Notification: April 25, 2022<br>
+Camera-ready: May 2, 2022<br>
+Presenter mandatory registration: May 2, 2022</div>
+<table class="table">
+<tbody>
+<tr class="odd">
+<td style="text-align: left;"><a href="http://numbbo.github.io/register">register for news</a></td>
+<td style="text-align: left;"><a href="https://github.com/numbbo/coco">COCO quick start (scroll down a bit)</a></td>
+<td style="text-align: left;"><a href="https://github.com/numbbo/coco/releases/">latest COCO release</a></td>
+</tr>
+</tbody>
+</table>
+<p><br><br> Benchmarking optimization algorithms is a crucial part in the design and application of them in practice. Since 2009, the Blackbox Optimization Benchmarking Workshop at GECCO has been a place to discuss general recent advances of benchmarking practices and the concrete results from actual benchmarking experiments with a large variety of (blackbox) optimizers.</p>
+<p>The Comparing Continuous Optimizers platform (COCO<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a>, <a href="https://github.com/numbbo/coco" class="uri">https://github.com/numbbo/coco</a>) has been developed in this context to support algorithm developers and practicioners alike by automating benchmarking experiments for blackbox optimization algorithms in single- and bi-objective, unconstrained continuous problems in exact and noisy, as well as expensive and non-expensive scenarios. In 2022, we plan to provide, for the first time, a new bbob-constrained test suite (work still in progress).</p>
+<p>For the next BBOB 2022 edition of the workshop, we invite participants to discuss all kind of aspects of (blackbox) benchmarking but welcome in particular contributions related to constrained optimization. As in previous years, presenting benchmarking results on the supported test suites of COCO are a focus, but submissions are not limited to those topics:</p>
+<ul>
+<li>single-objective unconstrained problems (bbob)</li>
+<li>single-objective unconstrained problems with noise (bbob-noisy)</li>
+<li>biobjective unconstrained problems (bbob-biobj)</li>
+<li>large-scale single-objective problems (bbob-largescale) and</li>
+<li>mixed-integer single- and bi-objective problems (bbob-mixint and bbob-biobj-mixint)</li>
+<li>constrained optimization (bbob-constrained)</li>
+</ul>
+<p>We encourage particularly submissions about algorithms from outside the evolutionary computation community and papers analyzing the large amount of already publicly available algorithm data of COCO (see <a href="https://numbbo.github.io/data-archive/" class="uri">https://numbbo.github.io/data-archive/</a>). Like for the previous editions, we will provide source code in various languages (C/C++, Matlab/Octave, Java, and Python) to benchmark algorithms on the various test suites mentioned. Postprocessing data and comparing algorithm performance will be equally automatized with COCO (up to already prepared ACM-compliant LaTeX templates for writing papers).</p>
+<p>For more details, please see below.</p>
+<section id="updates-and-news" class="level2">
+<h2 class="anchored" data-anchor-id="updates-and-news">Updates and News</h2>
+<p>Get updated about the latest news regarding the workshop and releases and bugfixes of the supporting NumBBO/COCO platform, by registering at <a href="http://numbbo.github.io/register" class="uri">http://numbbo.github.io/register</a>.</p>
+</section>
+<section id="accepted-papers" class="level2">
+<h2 class="anchored" data-anchor-id="accepted-papers">Accepted papers</h2>
+<ul>
+<li>Charles Audet, Sébastien Le Digabel, Ludovic Salomon, Christophe Tribes: Constrained blackbox optimization with the NOMAD solver on the COCO constrained test suite (<a href="https://doi.org/10.1145/3520304.3534019">paper</a>)</li>
+<li>Paul Dufossé, Asma Atamna: Benchmarking several strategies to update the penalty parameters in AL-CMA-ES on the bbob-constrained testbed (<a href="https://doi.org/10.1145/3520304.3534014">paper</a>)</li>
+<li>Mohamed Gharafi: Benchmarking of two implementations of CMA-ES with diagonal decoding on the bbob test suite (<a href="https://doi.org/10.1145/3520304.3534011">paper</a>)</li>
+<li>Ryoki Hamano, Shota Saito, Masahiro Nomura, Shinichi Shirakawa: Benchmarking CMA-ES with margin on the bbob-mixint testbed (<a href="https://doi.org/10.1145/3520304.3534043">paper</a>)</li>
+<li>Michael Hellwig, Hans-Georg Beyer: Benchmarking ϵMAg-ES and BP-ϵMAg-ES on the bbob-constrained testbed (<a href="https://doi.org/10.1145/3520304.3534010">paper</a>)</li>
+<li>Zachary Hoffman, Steve Huntsman: Benchmarking an algorithm for expensive high-dimensional objectives on the bbob and bbob-largescale testbeds (<a href="https://doi.org/10.1145/3520304.3534006">paper</a>)</li>
+<li>Duc Manh Nguyen: Benchmarking some variants of the CMAES-APOP using keeping search points and mirrored sampling combined with active CMA on the BBOB noiseless testbed (<a href="https://doi.org/10.1145/3520304.3534001">paper</a>)</li>
+<li>Ryoji Tanabe: Benchmarking the hooke-jeeves method, MTS-LS1, and BSrr on the large-scale BBOB function set (<span class="title-ref">paper &lt;https://doi.org/10.1145/3520304.3533951&gt;</span>)</li>
+</ul>
+</section>
+<section id="submissions" class="level2">
+<h2 class="anchored" data-anchor-id="submissions">Submissions</h2>
+<p>We encourage any submission that is concerned with black-box optimization benchmarking of continuous optimizers, for example papers that:</p>
+<ul>
+<li>describe and benchmark new or not-so-new algorithms on one of the above testbeds,</li>
+<li>compare new or existing algorithms from the COCO/BBOB database<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a>,</li>
+<li>analyze the data obtained in previous editions of BBOB<a href="#fn3" class="footnote-ref" id="fnref3" role="doc-noteref"><sup>3</sup></a>, or</li>
+<li>discuss, compare, and improve upon any benchmarking methodology for continuous optimizers such as design of experiments, performance measures, presentation methods, benchmarking frameworks, test functions, ...</li>
+</ul>
+<p>Paper submissions are expected to be done through the official GECCO submission system at <a href="https://ssl.linklings.net/conferences/gecco/" class="uri">https://ssl.linklings.net/conferences/gecco/</a> until the deadline. ACM-compliant LaTeX templates are available in the github repository under <a href="https://github.com/numbbo/coco/tree/master/code-postprocessing/latex-templates">code-postprocessing/latex-templates/</a>.</p>
+<p>In order to finalize your submission, we kindly ask you to submit your data files if this applies by clicking on "Submit a COCO data set" here: <a href="https://github.com/numbbo/coco/issues/new/choose" class="uri">https://github.com/numbbo/coco/issues/new/choose</a>. To upload your data to the web, you might want to use <a href="https://zenodo.org/" class="uri">https://zenodo.org/</a> which offers uploads of data sets up to 50GB in size or any other provider of online data storage.</p>
+</section>
+<section id="supporting-material" class="level2">
+<h2 class="anchored" data-anchor-id="supporting-material">Supporting material</h2>
+<p>The basis of the workshop is the Comparing Continuous Optimizer platform (<a href="https://github.com/numbbo/coco" class="uri">https://github.com/numbbo/coco</a>), written in ANSI C with other languages calling the C code. Languages currently available are C, Java, MATLAB/Octave, and Python.</p>
+<p>Most likely, you want to read the <a href="https://github.com/numbbo/coco">COCO quick start</a> (scroll down a bit). This page also provides the code for the benchmark functions<a href="#fn4" class="footnote-ref" id="fnref4" role="doc-noteref"><sup>4</sup></a>, for running the experiments in C, Java, Matlab, Octave, and Python, and for postprocessing the experiment data into plots, tables, html pages, and publisher-conform PDFs via provided LaTeX templates. Please refer to <a href="http://numbbo.github.io/coco-doc/experimental-setup/" class="uri">http://numbbo.github.io/coco-doc/experimental-setup/</a> for more details on the general experimental set-up for black-box optimization benchmarking.</p>
+<p>The latest (hopefully) stable release of the COCO software can be downloaded as a whole <a href="https://github.com/numbbo/coco/releases/">here</a>. Please use at least version v2.5 for running your benchmarking experiments in 2022.</p>
+<p>Documentation of the functions used in the different test suites can be found here:</p>
+<ul>
+<li><code>bbob</code> suite at <a href="https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf" class="uri">https://numbbo.github.io/gforge/downloads/download16.00/bbobdocfunctions.pdf</a></li>
+<li><code>bbob-noisy</code> suite at <a href="http://coco.lri.fr/downloads/download15.03/bbobdocnoisyfunctions.pdf" class="uri">http://coco.lri.fr/downloads/download15.03/bbobdocnoisyfunctions.pdf</a></li>
+<li><code>bbob-biobj</code> suite at <a href="https://numbbo.github.io/bbob-biobj/" class="uri">https://numbbo.github.io/bbob-biobj/</a></li>
+<li><code>bbob-largescale</code> suite at <a href="https://arxiv.org/pdf/1903.06396.pdf" class="uri">https://arxiv.org/pdf/1903.06396.pdf</a></li>
+<li><code>bbob-mixint</code> and <code>bbob-biobj-mixint</code> suites at <a href="https://hal.inria.fr/hal-02067932/document" class="uri">https://hal.inria.fr/hal-02067932/document</a> and at <a href="https://numbbo.github.io/gforge/preliminary-bbob-mixint-documentation/bbob-mixint-doc.pdf" class="uri">https://numbbo.github.io/gforge/preliminary-bbob-mixint-documentation/bbob-mixint-doc.pdf</a></li>
+<li><code>bbob-constrained</code> suite at: <a href="http://numbbo.github.io/coco-doc/bbob-constrained/" class="uri">http://numbbo.github.io/coco-doc/bbob-constrained/</a></li>
+</ul>
+</section>
+<section id="important-dates" class="level2">
+<h2 class="anchored" data-anchor-id="important-dates">Important Dates</h2>
+<ul>
+<li><strong>2022-04-11</strong> <em>paper and data submission deadline</em></li>
+<li><strong>2022-04-25</strong> decision notification</li>
+<li><strong>2022-05-02</strong> deadline camera-ready papers</li>
+<li><strong>2022-05-02</strong> deadline author registration</li>
+<li><strong>2022-07-09</strong> or <strong>2022-07-10</strong> workshop</li>
+</ul>
+<p>All dates are given in ISO 8601 format (yyyy-mm-dd).</p>
+</section>
+<section id="organizers" class="level2">
+<h2 class="anchored" data-anchor-id="organizers">Organizers</h2>
+<ul>
+<li>Anne Auger, Inria and CMAP, Ecole Polytechnique, Institut Polytechnique de Paris, France</li>
+<li>Dimo Brockhoff, Inria and CMAP, Ecole Polytechnique, Institut Polytechnique de Paris, France</li>
+<li>Konstantin Dietrich, TU Köln, Germany</li>
+<li>Paul Dufossé, Inria and Thales Defense Mission Systems, France</li>
+<li>Tobias Glasmachers, Ruhr-Universität Bochum, Germany</li>
+<li>Nikolaus Hansen, Inria and CMAP, Ecole Polytechnique, Institut Polytechnique de Paris, France</li>
+<li>Olaf Mersmann, TU Köln, Germany</li>
+<li>Petr Pošík, Czech Technical University, Czech Republic</li>
+<li>Tea Tušar, Jozef Stefan Institute (JSI), Slovenia</li>
+</ul>
+
+
+</section>
+</section>
+
+
+<div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
+
+<ol>
+<li id="fn1"><p>Nikolaus Hansen, Anne Auger, Raymond Ros, Olaf Mersmann, Tea Tušar, and Dimo Brockhoff. "COCO: A platform for comparing continuous optimizers in a black-box setting." Optimization Methods and Software (2020): 1-31.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn2"><p>The data of previously compared algorithms can be found at <a href="https://numbbo.github.io/data-archive" class="uri">https://numbbo.github.io/data-archive</a> and are easily accessible by name in the <code>cocopp</code> post-processing and from the python <code>cocopp.archives</code> module or in (fixed) html form at <a href="https://numbbo.github.io/ppdata-archive" class="uri">https://numbbo.github.io/ppdata-archive</a>.<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn3"><p>The data of previously compared algorithms can be found at <a href="https://numbbo.github.io/data-archive" class="uri">https://numbbo.github.io/data-archive</a> and are easily accessible by name in the <code>cocopp</code> post-processing and from the python <code>cocopp.archives</code> module or in (fixed) html form at <a href="https://numbbo.github.io/ppdata-archive" class="uri">https://numbbo.github.io/ppdata-archive</a>.<a href="#fnref3" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn4"><p>Note that the current release of the new COCO platform does not contain the original noisy BBOB testbed yet, such that you must use the old code at <a href="https://numbbo.github.io/coco/oldcode/bboball15.03.tar.gz" class="uri">https://numbbo.github.io/coco/oldcode/bboball15.03.tar.gz</a> for the time being if you want to compare your algorithm on the noisy testbed.<a href="#fnref4" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section></div></main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+          // target, if specified
+          link.setAttribute("target", "_blank");
+          if (link.getAttribute("rel") === null) {
+            link.setAttribute("rel", "noopener");
+          }
+          // default icon
+          link.classList.add("external");
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>
